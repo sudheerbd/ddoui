@@ -1,0 +1,200 @@
+.ddo-projectsummary-box {
+    height: auto;
+    padding: 27px;
+    max-height: 300px;
+    background-color: $color-white;
+    @include box-shadow($ddo-profile-box-shadow);
+    @include border-radius($ddo-profile-border-radius);
+}
+.ddo-projectsummary-box::-webkit-scrollbar {
+    width: 0px !important;
+}
+.ddo-project-summmary-header {
+	color: #8f8f8f;
+    font-weight: 600;
+    padding: 0 0px 14px 0px;
+    font-size: 16px !important;
+    border-bottom: 1px solid #dcdcdc;
+}
+.ddo-project-summary-columns {
+    width: 100%;
+    color: #fab82e;
+    text-align:left;
+    font-weight: 600;
+	display: inline-block;
+    padding: 3px 0px 3px 0px;
+    font-size: 12px !important;
+    border-bottom: 1px solid #dcdcdc;
+}
+.ddo-project-summary-name-text,
+.ddo-project-summary-role-text,
+.ddo-project-summary-allocation-text {
+    width: 36%; 
+	display: inline-block;
+}
+.ddo-project-summary-allocation-text {
+	width:28%;
+    display: inline-block;
+}
+.ddo-project-summary-details {
+	text-align:left;
+}
+.project-summary-inner-scroll {
+    height: auto !important;
+    overflow-y: auto !important;
+    max-height:215px !important;
+}
+.project-summary-inner-scroll::-webkit-scrollbar {
+    width: 0px !important;
+}
+.ddo-project-summary-name,
+.ddo-project-summary-role,
+.ddo-project-summary-allocation {
+    color: #9a9a9a;
+    font-weight: 400;
+    overflow: hidden;
+    line-height: 25px;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 12px !important;
+}
+.ddo-project-summary-name,
+.ddo-project-summary-role {
+    width:36%;
+	padding: 0px 5px 0px 0px;
+}
+.ddo-project-summary-allocation {
+	width:28%;
+    text-align:center;
+}
+.ddo-project-summary-name {
+	/* cursor: pointer; */
+}
+.ddo-pro-summary-empty-text {
+    color: #aeaeae;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 0px 0px 0px;
+}
+
+ .ddo-app-summary-owner{
+    color: #9a9a9a;
+    font-weight: 400;
+    overflow: hidden;
+    line-height: 25px;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 12px !important;
+    width:60%; 
+    display: inline-block;
+    padding: 0px 5px 0px 0px;
+    vertical-align: middle;
+}
+.ddo-app-summary-details {
+    text-align:left;
+    margin: 3px 0px 5px 0px;
+}
+
+.ddo-app-summary-name{
+    color: #fab82e;
+    padding: 21px 0 0;
+    line-height: 25px;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+.ddo-app-summary-role-text{
+     color: #9a9a9a;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 25px;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 14px !important;
+    width:36%; 
+    display: inline-block;
+    padding: 0px 5px 0px 0px;
+    vertical-align: middle;
+}
+
+.ddo-project-summary-start-date-text,
+.ddo-project-summary-end-date-text,
+.ddo-project-summary-project-text,
+.ddo-project-summary-requestby-text{
+    width:25%; 
+	display: inline-block;
+}
+
+.ddo-project-summary-start-date,
+.ddo-project-summary-end-date,
+.ddo-project-summary-project,
+.ddo-project-summary-requestby{
+    width: 25%;
+    display: inline-block;
+}
+.sendresignation-cls{
+   // margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+.ddo-project-summary-pname-text,
+.ddo-project-summary-prole-text,
+.ddo-project-summary-pallocation-text,
+.ddo-project-summary-start-text,
+.ddo-project-summary-end-text{
+    width: 120px !important; 
+    display: inline-block;
+    text-align: center;
+    font-size: 14px !important;
+}
+.ddo-project-psummary-columns {
+    width: 100%;
+    color: #fab82e;
+    text-align: center;
+    font-weight: 600;
+	display: inline-block;
+    padding: 3px 0px 3px 0px;
+    font-size: 12px !important;
+    border-bottom: 1px solid #dcdcdc;
+}
+.ddo-project-psummary-details {
+	text-align: left;
+}
+.ddo-project-psummary-name,
+.ddo-project-psummary-role,
+.ddo-project-psummary-allocation,
+.ddo-project-psummary-start-date,
+.ddo-project-psummary-end-date {
+    width: 97px !important; 
+    color: #9a9a9a;
+    font-weight: 300;
+    overflow: hidden;
+    line-height: 25px;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 13px !important;
+ 
+}
+.ddo-project-psummary-name,
+.ddo-project-psummary-role {
+    width:18%;
+    padding: 0px 5px 0px 0px;
+  
+}
+.ddo-project-psummary-allocation {
+	width:18%;
+    text-align:center;
+}
+.ddo-project-psummary-name {
+    margin-left: 50px !important;
+}
+.ddo-project-psummary-role{
+    margin-left: 18px !important; 
+}
+.ddo-project-psummary-end-date,
+.ddo-project-psummary-start-date{
+    margin-left: 30px !important;
+}

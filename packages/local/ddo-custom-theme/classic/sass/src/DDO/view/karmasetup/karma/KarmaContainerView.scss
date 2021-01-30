@@ -1,0 +1,49 @@
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+.rulebased-num-cls{
+     @include border-radius(4px);
+	border: 1px solid #000;
+	overflow:hidden !important;
+	 width: 67px !important;
+}
+.rulebased-uploadicon{
+background:#fff;
+padding: 0px !important;
+@include border-radius(4px);
+@include box-shadow(2px 2px 2px 0px #C9C7C8);
+    
+}
+.rulebased-name {
+    text-align: center;
+    color: #c6c6c6;
+    width: 65px;
+    padding: 10px 0px 2px 0px;
+    background: transparent;
+}
+
+.karma-imgsView-save-btn{
+    border: none !important;
+    background-color: #fcba1a !important;
+    border-radius: 0px !important;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    left: 55% !important;
+}
+
+.karma-imgsView-cancel-btn{
+    background-color: #000 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    left: 23% !important;
+}
+.karma-tooltip{
+    max-width: 60px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

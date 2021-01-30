@@ -1,0 +1,385 @@
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+
+.ddo-adv-karma-search-form,.karmaScoreview-cls{
+    background:transparent; 
+}
+
+/* KarmaScoreSearchView styles */
+
+.ddo-adv-karma-search-view {
+    .x-dataview-item {
+        display: inline-block;
+        cursor: pointer;
+        vertical-align: top;
+        margin: 8px;
+        @include border-radius(4px);
+        @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24));
+        @include transition(all 0.3s cubic-bezier(.25, .8, .25, 1));
+        &:hover {
+            @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+        }
+    }
+    .ddo-adv-design-search-item {
+        display: inline-block;
+        background:#fff;
+        width: 30%;
+        //width: 274px !important;
+        margin: 8px;
+        @include border-radius(4px);
+        @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24));
+        @include transition(all 0.3s cubic-bezier(.25, .8, .25, 1));
+        &:hover {
+            @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+        }
+    }
+    .ddo-adv-karma-search-item {
+        //width: 30%;
+        width: 100% !important;
+        display: table;
+        background:#fff;
+        @include border-radius(4px);
+    }
+    .profile-adv-img-wrap {
+        float: left;
+        display: table-cell;
+        width: 15% !important;
+        vertical-align: middle;
+        position: relative;
+        top: 3px !important;
+        .profileImage-adv-cls {
+            float: left;
+            height: 45px;
+            width: 45px;
+            @include border-radius(50%);
+            @include box-shadow(none);
+        }
+    }
+    .name-adv-wrapper {
+        
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 15px;
+        text-align: left;
+        width: 59% !important;
+        position: relative;
+        left: 17px;
+        top: 8px;
+        .scorerName-cls{
+           padding-left: 0;
+            width: 100% !important;
+           //width: 145px !important;
+           //max-width: 145px !important;
+           overflow: hidden;
+           white-space: nowrap;
+           text-overflow: ellipsis;
+           
+        }
+        .profession-cls {
+            padding-left: 0;
+            //width: 145px !important;
+            //max-width: 145px !important;
+            width: 90% !important;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            
+        }
+    }
+    .score-adv-wrapper {
+        display: inline-block;
+        width: 20% !important;
+        vertical-align: middle;
+        float: right;
+        padding-right: 3px;
+        position: relative;
+        left: 4px;
+        top: 3px;
+        .score-adv-cls {
+            height: 50px;
+            width: 50px;
+            float: right;
+            top: 0;
+            right: 0;
+            padding-top: 16px;
+            color: $color-black;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            background: -webkit-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: -moz-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: -ms-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: -o-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            @include border-radius(50%);
+        }
+    }
+}
+.ddo-adv-karma-search-empty {
+    text-align:center;
+    color:#aeaeae;
+    font-size: 25px;
+    margin-top: 14%;
+}
+.ddo-adv-karma-search-view .x-dataview-item{
+      width: 30.2% !important;
+      //width: 274px !important;
+}
+.karmascore-search-field{
+    border:1px solid #d0d0d0;
+    padding: 0px 0px 0px 27px;
+    background-color: #fff !important;
+    left:0px !important;
+}
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');    
+    font-style: normal;
+}
+
+.karmascore-lable-cls {
+    padding: 10px 20px 10px 28px;
+    background: #f8bb13;
+    @include border-radius(6px);
+}
+.karmascore-search-icon-field.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 17px !important;
+    left: 2% !important;
+    width: 21px !important;
+    height: 21px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    //@include bgImgShorthand($imgpath: '/resources/images/todo/search-icon.png', $size: cover, $important: true);
+}
+.karmascore-search-icon-field.x-btn-default-small{
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+} 
+.karmascore-search-icon-field.x-btn-default-small:before{
+    content: '\0041' !important;
+    font-size: 90%;
+    position: relative;
+    font-weight: 500;
+    right: 10px;
+    bottom: 4px;            
+}
+.karmascore-icon-field.x-btn-default-small {
+    border-color: #f8bb13 !important;
+    background-color: #f8bb13 !important;
+    @include border-radius(2px !important);
+    cursor: default;
+    left: 340px !important;
+}
+.groupby-cls .x-form-text-default,
+.groupby-cls .x-form-trigger-default{
+    background:#4caf50 !important;
+    color:#f0f0f0 !important;
+}
+.groupby-cls .x-form-trigger-wrap.x-form-trigger-wrap-default {
+    padding: 0px 3px 0px 3px;
+}
+.groupby-empty-cls{
+     color:#f0f0f0 !important;
+      -webkit-text-fill-color: #fff !important;
+}
+.groupby-cls .x-form-text-default{
+    @include border-radius(1px 0px 0px 1px);
+}
+.groupby-cls .x-form-trigger-default{
+    @include border-radius(0px 1px 1px 0px);
+}
+.karmascore-list-cls{
+     border:none !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);  
+    .x-boundlist-selected {
+        color: #fac500;
+        background: #fff;
+        font-weight: 600;
+        border: 0px solid #d0d0d0 !important;
+    }
+    .x-boundlist-selected.x-boundlist-item-over {
+        color: #fac500;
+        background: #fff;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(208, 208, 208, 0.42) !important;
+    }
+    .x-boundlist-item-over {
+        color: #fff;
+        background: #000;
+        border: 0px solid #d0d0d0 !important;
+    }
+}
+
+.karmascorefilterview-cls .x-panel-body-default,
+.ddo-adv-karma-search-form .x-panel-body-default{
+    background-color: #f6f6f6 !important;
+}
+.daterange-cls{
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 14px;  
+}
+.ddo-adv-karma-search-form{
+    border-bottom: 1px solid #EBEBEB !important;
+    margin-left: 1%;
+    margin-right: 5.1%;
+}
+.design-karma-ind-cls,
+.supervisor-div-cls {
+    width: 94%;
+    height: 90px;
+    display: table;
+    cursor: pointer;
+    background: #fff;
+    padding: 0px 50px;
+    position: relative;
+    margin:8px;
+    border: 2px solid #49af63;
+    @include border-radius(7px);
+}
+.count-people-cls {
+    top: 6px;
+    text-align: center;
+    position: relative;
+    border-collapse: collapse;
+}
+.td-design-cls {
+    padding: 0px 10px;
+    border-right: 1px solid #eaeae9;
+    &:last-child {
+        border-right: 0px solid #eaeae9;
+    }
+}
+.td-design-avg-cls {
+    min-width: 150px;
+    padding: 0px 10px;
+    border-right: 1px solid #eaeae9;
+    &:last-child {
+        border-right: 0px solid #eaeae9;
+    }
+}
+
+//when filters visible
+.deisgn-div-filter-visible-cls {
+    width: 225px !important;
+}
+
+//when filters not visible
+.design-div-cls {
+    //width: 30%;
+    width:274px;
+    color: #bab9b9;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.karma-usersicon-cls{
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+    top: 32px;
+    right: 1%;
+    position: absolute;
+}
+.karma-usersicon-cls:before {
+    content: '\0075' !important;   
+    font-size: 27px; 
+    position: relative;
+}
+.extra-line-cls {
+    border-top: 1px solid #eaeae9;
+    margin-left: 1%;
+    margin-right: 6%;
+}
+.people-count-block-cls {
+    color: #fff;
+    background: #000;
+    padding: 19px 12px;
+    text-align: center;
+    border: 1px solid #000;
+    @include border-radius(5px);
+}
+.design-score-cls {
+    color: #fff;
+    width: 86px;
+    padding: 10px;
+    background: #f8bb15;
+    display: inline-block;
+    @include border-radius(5px);
+    &:before {
+        content: '\0032' !important;
+        font-family: 'WtcFontResource' !important;
+        padding: 0px 5px 0px 0px;
+        font-size: 21px;
+    }
+}
+
+.cancel-cls {
+   color:   #FF0000;
+    &:before {
+        content: '\006D' !important;
+        font-family: 'WtcFontResource' !important;
+        font-size: 29px;
+    }
+}
+.cancel-cls{
+    width: 20px !important;
+}
+.karmascorefilterview-cls  .x-form-text-default {
+    padding:5px 5px 4px !important;
+}
+
+.karma-score-search-icon-cls{
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+.karma-score-search-icon-cls:before {
+    content: '\0032' !important;   
+    font-size: 27px; 
+    position: relative;
+    bottom: 4px !important;
+    right: 2px;
+}
+.ddo-adv-design-search-item {
+    cursor: pointer;
+}
+.rule-form-cls .formWindow-cls {
+    top: 81%!important;
+}
+.sharable-cls{
+   padding-top: 5px; 
+}
+.add-wallet-btn-cls.x-btn-default-small {
+    border-radius: 4px !important;
+    -webkit-box-shadow: 2px 2px 2px 0px #aeaeae;
+    -moz-box-shadow: 2px 2px 2px 0px #aeaeae;
+    box-shadow: 2px 2px 2px 0px #aeaeae;
+}
+.add-wallet-btn-cls.x-btn-default-small {
+    font-size: 35px;
+    position: relative;
+    font-family: 'WtcFontResource' !important;
+}
+.add-wallet-btn-cls.x-btn-default-small:before {
+    content: '\0058' !important;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 500;
+    bottom: 6px;
+    right: 81%;
+    color: #fff;
+}
+.karmanominatebutton.x-btn-default-small {
+    background-color: #31a950 !important;
+    border-color: #31a950!important;
+    border-radius: 6px !important;
+}
+.karmanominatebutton .x-btn-inner-default-small {
+    font-weight: 700 !important;
+    color: #ffffff;
+}
+.download-btn.x-btn-default-small{
+    background-color:#31a950 !important;
+    border-color:#31a950 !important;
+}

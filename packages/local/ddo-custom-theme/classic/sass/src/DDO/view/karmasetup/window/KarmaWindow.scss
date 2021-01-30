@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');    
+    font-style: normal;
+}
+
+.karma-name-cls {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11) !important;
+    width: 87% !important;
+}
+.karma-desc-cls {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11) !important;
+    width: 87% !important;
+}
+.rating-check-cls {
+    left: 35% !important;
+}
+.approval-check-cls {
+    left: 35% !important;
+    top: 6px !important;
+}
+
+.plus-new-icon-cls{
+    font-family: 'WtcFontResource' !important;
+    font-size: 15px;
+}
+.plus-new-icon-cls:before {
+    content: '\0058' !important;
+    position: relative;
+    font-weight: 500;
+    bottom:6px;
+    right: 4px;
+    left: 0px;
+    color: #000 !important;
+}
+.plus-cross-icon-cls{
+    font-family: 'WtcFontResource' !important;
+    font-size: 15px;
+}
+.plus-cross-icon-cls:before {
+    content: '\0066' !important;
+    position: relative;
+    font-weight: 500;
+    bottom:6px;
+    right: 4px;
+    left: 0px;
+    color: #000 !important;
+}
+.karmapoints-num-cls{
+  border-bottom: 1px solid #dcdcdc;
+}

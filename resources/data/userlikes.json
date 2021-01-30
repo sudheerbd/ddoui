@@ -1,0 +1,70 @@
+{
+  "data": {
+   
+      "total_count": 5,
+      "Sad_count": 1,
+      "Ok_count": 1,
+      "Like_count": 1,
+      "Great_count": 1,
+      "Love_count": 1,
+    "likes_data": [
+      {
+        "c_bpartner_id": "1001027",
+        "c_year_id": "1000006",
+        "email": "apoorva@walkingtree.in",
+        "employee": "Apoorva Gupta",
+        "employee_code": "14030076",
+        "hr_designation": "HR Generalist",
+        "hr_designation_id": "1000256",
+        "likeType": "Like",
+        "user_profile_pic_url": ""
+      },
+      {
+        "c_bpartner_id": "1001070",
+        "c_year_id": "1000006",
+        "email": "srinivas.nadendla@walkingtree.in",
+        "employee": "Srinivas Nadendla",
+        "employee_code": "14090106",
+        "hr_designation": "Associate Software Engineer",
+        "hr_designation_id": "1000250",
+        "likeType": "Great",
+        "user_profile_pic_url": ""
+      },
+      {
+        "c_bpartner_id": "1001064",
+        "c_year_id": "1000006",
+        "email": "venugopal.vellepu@walkingtree.in",
+        "employee": "Venu Gopal Reddy",
+        "employee_code": "14080089",
+        "likeType": "Ok",
+        "hr_designation": "Quality Analyst",
+        "hr_designation_id": "1000265",
+        "user_profile_pic_url": ""
+      },
+      {
+        "c_bpartner_id": "1000873",
+        "c_year_id": "1000006",
+        "email": "ravindar.thummarajula@walkingtree.in",
+        "employee": "Ravindar Thummarajula",
+        "likeType": "Sad",
+        "employee_code": "10060010",
+        "hr_designation": "Senior Software Engineer",
+        "hr_designation_id": "6921051",
+        "user_profile_pic_url": ""
+      },
+      {
+        "c_bpartner_id": "1000887",
+        "c_year_id": "1000006",
+        "email": "prakash.lavania@walkingtree.in",
+        "employee": "Prakash Lavania",
+        "employee_code": "11080030",
+        "hr_designation": "Quality Consultant",
+        "hr_designation_id": "6921052",
+        "karmapoints": "520",
+        "likeType": "Love",
+        "totalcount": "225",
+        "user_profile_pic_url": ""
+      }
+    ]
+  }
+}

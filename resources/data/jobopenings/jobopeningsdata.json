@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "ddo_jobopening_id":"1",
+            "title": "Intern - UI Development",
+            "creator": "Ranjit",
+            "experience":2,
+            "ddo_joblocation_id":1,
+            "location":"Hyderabad",
+            "skils":"Java",
+            "status":"Apporved",
+            "ddo_jobopeningstatus_id":"1",
+            "noOfPositions":"2",
+            "jobdesc":"We are seeking applications of fresh engineering graduates who are looking for a jump start of their carrier"
+
+        },
+        {
+            "ddo_jobopening_id":"2",
+            "title": "Growth Hacker - Marketing",
+            "creator": "Arvind",
+            "experience":2,
+            "location":"Hyderabad",
+            "ddo_joblocation_id":1,
+            "skils":"Java",
+            "status":"Waiting",
+            "ddo_jobopeningstatus_id":"2",
+            "noOfPositions":"6",
+            "jobdesc":"We are seeking applications of fresh engineering graduates who are looking for a jump start of their carrier"
+
+        },
+        {
+            "ddo_jobopening_id":"3",
+            "title": "Core Java Developer",
+            "creator": "Ranjit",
+            "experience":2,
+            "location":"Hyderabad",
+            "ddo_joblocation_id":2,
+            "skils":"Java",
+            "status":"Apporved",
+            "noOfPositions":"12",
+            "ddo_jobopeningstatus_id":"1",
+            "jobdesc":"We are seeking applications of fresh engineering graduates who are looking for a jump start of their carrier"
+
+        }
+    ]
+}

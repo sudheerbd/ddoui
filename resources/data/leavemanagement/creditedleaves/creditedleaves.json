@@ -1,0 +1,23 @@
+{
+    "data": [{
+        "no_of_leaves": "05",
+        "crediteddate": "2017-01-22",
+        "leavetype": "Earned Leave"
+    }, {
+        "no_of_leaves": "03",
+        "crediteddate": "2017-02-01",
+        "leavetype": "Casual Leave"
+    }, {
+        "no_of_leaves": "01",
+        "crediteddate": "2017-03-09",
+        "leavetype": "Sick Leave"
+    },{
+        "no_of_leaves": "02",
+        "crediteddate": "2017-01-22",
+        "leavetype": "Maternity Leave"
+    },{
+        "no_of_leaves": "02",
+        "crediteddate": "2017-01-22",
+        "leavetype": "Comp off"
+    }]
+}

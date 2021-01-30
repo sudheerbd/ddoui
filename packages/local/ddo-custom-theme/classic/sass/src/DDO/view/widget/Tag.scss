@@ -1,0 +1,22 @@
+.tagMenu-img:before {
+    content: '\0056' !important;
+    font-size: 28px;
+    position: relative;
+    font-weight: 500;
+    top: 5px;
+    right: 3px;
+    color: grey !important;
+}
+
+.menuTags {
+    padding-right: 22px !important;
+    float: right;
+}
+.feedTags{
+    padding-right: 40px !important;
+    float: right !important;
+    position: relative !important;
+    right: 0 !important;
+    left: 0 !important;
+    padding-top:4px;
+}

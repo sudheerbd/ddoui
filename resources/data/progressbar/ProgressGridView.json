@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name" : "Delivery", 
+            "actual" : 200,
+            "potential" : 500
+        },
+        { "name" : "Organization Development",
+            "actual" : 250,
+            "potential" : 500
+        },
+        { "name" : "Pre Sales",
+            "actual" : 300,
+            "potential" : 500
+        },
+        { "name" : "Technical/Functional Positioning ",
+            "actual" : 350,
+            "potential" : 500
+        },
+        { "name" : "Revenue Realization",
+            "actual" : 400,
+            "potential" : 500
+        }
+    ]
+}

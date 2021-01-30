@@ -1,0 +1,53 @@
+.redeemgrid-cls {
+    .x-column-header {
+        border-right: 0px !important;
+        color: #fff;
+        outline: 0;
+        background-color: #000;
+    }
+    .x-grid-header-ct {
+        background-color: #000 !important;
+    }
+    .x-grid-cell {
+        position: relative;
+        padding: 3px;
+    }
+    .x-column-header-over {
+        color: #FFF !important;
+        background-color: #000 !important;
+        border: none;
+    }
+    .x-column-header .x-column-header-open {
+        background-color: #000 !important;
+    }
+    .x-column-header-trigger {
+        background: none;
+        background-color: #000 !important;
+    }
+    .x-column-header-align-left {
+        text-align: center !important;
+    }
+    .x-grid-item-focused {
+        .x-grid-cell-inner:before {
+            border: none !important;
+        }
+    }
+    .x-grid-row .x-grid-cell {
+        border-bottom: none !important;
+        border-top: none !important;
+        border-right: 1px solid rgba(115, 109, 109, 0.09);
+    }
+    .x-grid-with-row-lines .x-grid-item {
+        border-width: 0px !important;
+    }
+    .x-grid-dirty-cell > .x-grid-cell-inner:after {
+        content: "" !important
+    }
+}
+.redeemgrid-cls .x-grid-cell-inner {
+    text-align: left !important;
+}
+.redeemgrid-cls .x-grid-empty{
+    text-align: center;
+    font-size: 14px;
+}

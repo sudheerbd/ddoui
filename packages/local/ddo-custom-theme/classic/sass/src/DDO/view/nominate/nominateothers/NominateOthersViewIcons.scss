@@ -1,0 +1,53 @@
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+.nominatesetup-main-cls {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+
+.ddo-nominatesetup-uploadicon {
+    background: #fff;
+    text-align: center;
+    padding-top: 10%;
+    @include border-radius(4px);
+    @include box-shadow(2px 2px 2px 0px #C9C7C8);
+    width: 75px;
+    height: 75px;
+}
+
+.ddo-nominatesetup-over {
+    color: #000 !important;
+}
+
+.ddo-nominatesetup-name {
+    text-align: center;
+    color: #c6c6c6;
+    width: 75px;
+    padding: 10px 0px 2px 0px;
+    border: none;
+    background: transparent;
+}
+
+
+.ddo-nominatesetup-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    opacity: 0.5 !important;
+}
+
+.ddo-nominatesetup-icon.x-item-selected {
+    opacity: 1 !important;
+}
+
+.upload-button-cls.x-btn-default-small {
+    background: #fff !important;
+    border: 2px solid #797979 !important;
+    @include border-radius(4px !important);
+}
+
+.nominatesetup-feed-form .x-panel-body-default {
+    background: transparent !important;
+}

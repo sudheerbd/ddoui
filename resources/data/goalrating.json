@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+
+            "imagepath":"http://ddo.walkingtree.in/resources/images/Logo_head.png",
+            "name":"Amazing",
+            "rating":100 
+        },{
+            "imagepath":"http://ddo.walkingtree.in/resources/images/Logo_head.png",
+            "name":"Check",
+            "rating":50 
+        },{
+
+            "imagepath":"http://ddo.walkingtree.in/resources/images/Logo_head.png",
+            "name":"Amazing",
+            "rating":100 
+        },{
+            "imagepath":"http://ddo.walkingtree.in/resources/images/Logo_head.png",
+            "name":"Check",
+            "rating":50 
+        }
+    ]
+
+}

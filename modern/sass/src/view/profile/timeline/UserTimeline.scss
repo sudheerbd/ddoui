@@ -1,0 +1,285 @@
+.userProfile-container .timeline-item .contents-wrap {
+    margin: 0 0px 15px 110px;
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 15px;
+    white-space: normal;
+}
+
+.userProfile-container .timeline-item .profile-pic-wrap {
+    position: relative;
+    background: #fff;
+    padding: 5px 0;
+}
+
+.userProfile-container .timeline-item .contents-wrap .shared-img {
+    width: 100%;
+    display: block;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    left: 63px;
+    background: white;
+    border-top: none !important;
+    border-bottom: none !important;
+    @include box-shadow(0px 1px 1px 0px #d6d6d6);
+}
+
+.timeline-item {
+    float: left;
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+}
+
+.timeline-box {
+    margin-right: 10px;
+    padding: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-top: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    @include border-radius(5px);
+    background-color: white !important;
+    @include box-shadow(0px 2px 2px 0px #d6d6d6);
+    margin-bottom: 1px;
+}
+
+.timeline-outer {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-left: 53px;
+    background: white;
+    padding: 15px;
+    @include border-radius(50%);
+    margin-top: 20px;
+    @include box-shadow(0px 2px 5px 0px #d6d6d6);
+}
+
+.timeline-inner {
+    content: "";
+    position: relative;
+    width: 8px;
+    height: 8px;
+    margin-left: -11px;
+    margin-top: -11px;
+    background: #FABC16;
+    padding: 9px;
+    @include border-radius(85%);
+    border: 2px solid #F1F2F3;
+}
+
+.timeline-day {
+    float: left;
+    margin-top: 20px !important;
+    font-weight: 600;
+    width: 50px;
+    margin-right: 40px;
+    color: #8f8f8f;
+    text-align: center;
+    font-size: 12px;
+}
+
+.timeline-items-wrap {
+    .x-grid-item-focused .x-grid-cell-inner:before {
+        border: 0px;
+    }
+    .x-grid-cell-inner {
+        position: inherit !important;
+        padding: 0px !important;
+        left: 10% !important;
+    }
+}
+
+.timeline-content {
+    font: 500 13px/15px "Aileron", "Open Sans" !important;
+    color: #8f8f8f;
+    border-top: 1px solid rgba(226, 225, 225, 0.48) !important;
+    white-space: normal;
+    overflow: hidden;
+    text-align: justify;
+    line-height: 20px !important;
+}
+
+.timeline-image img {
+    border: 0;
+    height: 45px;
+    width: 45px;
+    @include border-radius(5px);
+    margin-top: 12px;
+    margin-left: 4px;
+    @include opacity(0.4);
+}
+
+.timeline-image img:hover {
+    @include opacity(1.0);
+}
+
+.timeline-title {
+    font-weight: 600;
+    margin-bottom: 9px;
+    color: #8f8f8f;
+    font-size: 14px;
+    font-family: "Aileron", "Open Sans";
+}
+
+.timeline-badge {
+    float: right;
+    margin-top: -30px;
+    margin-left: 15px;
+    height: 30px;
+}
+
+
+/* for hiding gridpanel border of employeenotification */
+
+.timeline-items-wrap .x-grid-with-row-lines .x-grid-item {
+    background: #F5F6F8 !important;
+    border: none !important;
+}
+
+
+/*css for pointer*/
+
+.timeline-item .timeline-box:after {
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid #fff;
+    margin: 15px 0 0 -8px;
+}
+
+
+/*.timeline-item .timeline-box:before {
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid #ddd;
+    margin: 16px 0 0 -9px;
+}*/
+
+.timeline-attach img {
+    float: left;
+}
+
+.timeline-attach {
+    padding: 10px;
+}
+
+.timeline-attachedData {
+    font: 500 13px/15px "Aileron", "Open Sans" !important;
+    margin-left: 28px;
+}
+
+
+/*.timeline-item .timeline-box:before, .timeline-item .timeline-box:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    left: 0px;
+    margin-top: 16px;
+    float: left;
+}*/
+
+.timelinebutton.x-btn-default-toolbar-small {
+    background-color: #FAC500 !important;
+    @include border-radius(6px);
+}
+
+.detailsbutton.x-btn-default-toolbar-small {
+    background-color: black !important;
+    @include border-radius(6px);
+}
+
+.timelinebutton .x-btn-inner-default-toolbar-small,
+.detailsbutton .x-btn-inner-default-toolbar-small {
+    color: white;
+    font-weight: 700;
+}
+
+.timeline-left-image img {
+    // width: 150px;
+    //height: 150px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 120px;
+    left: 7px;
+}
+
+.timeline-icon-3 img {
+    //margin-left: 220px;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    /* top: -80px; */
+    bottom: 75px;
+    left: 147px;
+}
+
+.timeline-icon-2 .icon-2 {
+    // margin-left: 95px;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    /* top: -110px; */
+    bottom: 72px;
+    left: 80px;
+}
+
+.timeline-icon-2 .icon-4 {
+    //margin-left: 180px;
+    height: 45px;
+    width: 45px;
+    bottom: 74px;
+    position: relative;
+    left: 170px;
+}
+
+.timeline-emptytext-box {
+    @include border-radius(5px);
+    background-color: white !important;
+    position: relative;
+    @include box-shadow($ddo-profile-timeline-box-box-shadow);
+    // margin-bottom: 15px;
+    width: 95%;
+    height: 254px;
+    /* margin: 0 auto; */
+    position: relative !important;
+    top: 20px;
+    left: 10px;
+}
+
+.timeline-items-wrap .x-grid-empty {
+    // background:#f6f6f6;
+}
+
+.userprofile-tbar {
+    // border-bottom: 1px solid #EAEAEA !important;
+}
+
+.timeline-emptytext td {
+    text-align: center
+}
+
+.timeline-emptytext img {
+    height: 45px;
+    width: 45px;
+    padding: 5px 5px 0px 0px;
+}
+
+.timeline-emptytext .icon-cls {
+    height: 80px !important;
+    width: 80px !important;
+}

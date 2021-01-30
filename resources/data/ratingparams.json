@@ -1,0 +1,44 @@
+{
+  "ratingdetails": [
+    {
+      "name": "Too Lazy",
+      "ratingId": 1000002,
+      "orderSeq": 5,
+      "value": -20,
+      "imgurl": "resources/images/rating/Lazy.png",
+      "imgurlover": "resources/images/rating/Lazy_1.png"
+    },
+    {
+      "name": "Lazy",
+      "value": -10,
+      "ratingId": 1000003,
+      "orderSeq": 4,
+      "imgurl": "resources/images/rating/okey.png",
+      "imgurlover": "resources/images/rating/okey_1.png"
+    },
+    {
+      "name": "Good",
+      "value": 10,
+      "ratingId": 1000004,
+      "orderSeq": 3,
+      "imgurl": "resources/images/rating/good.png",
+      "imgurlover": "resources/images/rating/good_1.png"
+    },
+    {
+      "name": "Superb",
+      "value": 20,
+      "ratingId": 1000005,
+      "orderSeq": 2,
+      "imgurl": "resources/images/rating/Superb.png",
+      "imgurlover": "resources/images/rating/Superb_1.png"
+    },
+    {
+      "name": "Amazing",
+      "value": 30,
+      "ratingId": 1000006,
+      "orderSeq": 1,
+      "imgurl": "resources/images/rating/Amazing.png",
+      "imgurlover": "resources/images/rating/Amazing_1.png"
+    }
+  ]
+}

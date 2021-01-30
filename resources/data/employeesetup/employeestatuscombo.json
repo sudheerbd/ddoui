@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "Confirmed",
+      "value": "CON"
+    },
+    {
+      "name": "Loss Of Pay",
+      "value": "LOP"
+    },
+    {
+      "name": "Performance Improvement Plan",
+      "value": "PIP"
+    },
+    {
+      "name": "PIP Extension",
+      "value": "PIE"
+    },
+    {
+      "name": "Probation",
+      "value": "PRB"
+    },
+    {
+      "name": "Separated",
+      "value": "SEP"
+    },
+    {
+      "name": "Service Notice Period",
+      "value": "SNP"
+    }
+  ]
+}

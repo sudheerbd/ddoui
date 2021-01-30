@@ -1,0 +1,62 @@
+.notesgoal-cls {
+    //border-bottom: 0px  !important;
+    margin-top: 10px;
+    width: 70% !important;
+    left: 20%;
+    position: relative;
+    .x-form-text-default {
+        padding-left: 35px;
+        background-color: transparent !important;
+    }
+}
+.notesgoalicon-cls {
+    background-image: url("/resources/images/goals/goalstats.png") !important;
+    background-repeat: no-repeat;
+    left: 50%;
+    background-position: left;
+}
+.notessdate-cls {
+    //border-bottom: 1px solid lightgrey !important;
+    margin-top: 10px;
+    width: 65% !important;
+    left: 20%;
+    position: relative;
+}
+.notessdateicon-cls {
+    background-image: url("/resources/images/goals/calendar.png") !important;
+    background-repeat: no-repeat;
+    left: 50%;
+    padding: 0px;
+    background-position: right;
+}
+.notesgrid-cls .x-column-header {
+    background-color: grey !important;
+    color: white;
+    text-align: center;
+    border: none !important;
+}
+.notesgrid-cls .x-grid-item-selected {
+    border-color: grey;
+    border-style: solid;
+    background-color: white !important;
+}
+.notesgrid-cls .x-column-header-over {
+    background-color: grey !important;
+    color: white;
+    text-align: center;
+    border: none !important;
+}
+.notesgrid-cls .x-grid-cell {
+    height: 50px !important;
+    border: 1px solid lightgrey !important;
+}
+.notesgrid-cls .x-grid-dirty-cell > .x-grid-cell-inner:after {
+    color: rgba(207, 76, 53, 0);
+}
+.status-cls .x-grid-cell {
+    background-color: #E2E2E2 !important;
+}
+
+.notetype-cls{
+    text-align: center; 
+}

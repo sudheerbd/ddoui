@@ -1,0 +1,87 @@
+.adv-custom-scroller-container-cls{
+    width: 100% !important;
+    padding: 24px 0px;
+    bottom: 4px !important; 
+    border-top: 1px solid #EBEBEB; 
+    border-bottom: 1px solid #EBEBEB;
+}
+.adv-custom-scroller-container-cls .x-autocontainer-outerCt{
+    width:90%;
+}
+.adv-mainDiv{
+    width:94%;
+    height:4px;
+    display:inline-flex;
+}
+
+.adv-sliderDivs{
+    position:relative;
+    top:4px;
+   background: -webkit-linear-gradient(90deg, #F20F00, #3DDB00); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(90deg, #F20F00, #3DDB00); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(90deg, #F20F00, #3DDB00); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(90deg, #F20F00, #3DDB00); /* Standard syntax (must be last) */
+}
+
+.adv-slider-cls{
+    position: absolute;
+    top: -12px;
+    border: none !important;
+    margin: 0px !important;
+}
+.adv-slider-cls .x-slider:before {
+    border: 0 solid #d0d0d0 !important;    
+}
+.adv-slider-cls .x-slider-horz:before{
+    height: 0px !important;
+    width: 0% !important;
+}
+.adv-slider-cls .x-slider-thumb{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   border: 1px solid #3DDB00 !important;
+   @include box-shadow(0px 0px 1px 2px #3DDB00 !important);
+}
+
+.adv-slider-cls .x-slider-horz .x-slider-thumb {
+    margin-top: 26px;
+    margin-left: -5px !important;
+}
+
+.adv-slider-cls .x-slider-horz .x-slider-thumb:before {
+    content: "." !important;
+    position: relative;
+    bottom: 6px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #3DDB00;
+}
+
+.adv-ddo-karma-endrange-value {
+    position:relative;
+    top:18px;
+    float:right;
+    left: 11px;
+}
+.adv-ddo-karma-endrange-start-value {
+    position:relative;
+    top:18px;
+    float:right;
+    left:11px;    
+}
+
+.adv-slider-cls .x-slider-thumb-over {
+    border: 1px solid #3DDB00 !important;
+}
+
+.adv-sliderDivs:first-child {
+    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+}
+
+.adv-sliderDivs:last-child {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+    

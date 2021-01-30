@@ -1,0 +1,131 @@
+.threadpanel {
+    .x-grid-body{
+        background : #fff;
+    }
+    .x-toolbar-default{
+        background : #fff;
+    }
+    .x-grid-view::-webkit-scrollbar {
+        width: 0px;
+     }
+	.ticket-subject {
+		font-size : 14px;
+		font-weight: 600;
+	}
+	.ticket-description {
+		font-size : 12px;
+	}
+	.ticket-reply {
+		font-family : fontawesome;
+		font-size   : 17px;
+		border      : 1px solid #d2d5d7;
+		background-color: #fafafa;
+		border-radius   : 5px;
+		padding    : 10px;
+		margin     : 10px;
+		opacity    : 0.5;
+	}
+    .thread-title {
+        font-size  : 20px;
+        line-height: 20px;
+        color      : #3e4752;
+        margin-bottom: 5px;
+    }
+
+    .thread-small {
+        font-size: 10px;
+        color    : #878ea2;
+
+        img {
+            vertical-align : top;
+            margin         : 3px 5px 0 10px;
+            height         : 12px;
+        }
+    }
+
+    .text-wrapper {
+        position: relative;
+        overflow: visible;
+
+        word-wrap: break-word;
+        white-space: pre-wrap;      /* CSS3 */
+        /*white-space: -moz-pre-wrap; /* Firefox */
+        /*white-space: -pre-wrap;     /* Opera <7 */
+        /*white-space: -o-pre-wrap;   /* Opera 7 */
+        /*word-wrap: break-word;      /* IE */
+
+        .thread-data {
+            background-color: #FFFFFF;
+            padding: 15px 15px 0px 15px;
+        }
+
+        .thread-content {
+            margin-left: 50px;
+        }
+
+        .thread-author {
+            text-transform: uppercase;
+        }
+
+        .thread-paragraph {
+            background-color: #FFFFFF;
+            min-height: 20px;
+            overflow: hidden;
+            font-weight: 400;
+        }
+
+        .thread-picture {
+            width: 35px;
+            height: 35px;
+            background-color: #FFFFFF;
+            float: left;
+            border-radius: 3px;
+            overflow: hidden;
+
+            img {
+                width: 35px;
+            }
+        }
+
+        .thread-toggle {
+            text-align: right;
+            span {
+                color: #2e6eaf;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+                width: 100px;
+                display: inline-block;
+                //text-align: left;
+            }
+
+            img {
+                height: 14px;
+                vertical-align: middle;
+                margin: 3px 5px 0 5px;
+            }
+        }
+    }
+    .x-grid-cell-inner {
+        padding: 0px;
+    }
+    .x-grid-item {
+        border: 0px !important;
+        border-bottom: 0px;
+        background-color: transparent;
+    }
+    .x-grid-rowbody {
+        padding: 0px;
+        .thread-data {
+            padding-top: 0px;
+            margin-bottom: 3px;
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        .thread-paragraph {
+            margin-left: 50px;
+            margin-top: 0;
+        }
+    }
+}
+

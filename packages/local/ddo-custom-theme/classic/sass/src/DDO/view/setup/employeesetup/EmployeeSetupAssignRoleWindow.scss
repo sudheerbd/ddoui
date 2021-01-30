@@ -1,0 +1,20 @@
+.assignrolessearchcls {
+    border: 1px solid #dcdcdc !important;
+    background-color: rgba(0, 0, 0, 0);
+    @include border-radius(5px);
+    padding: 1px !important;
+}
+
+.assignroleclearcls {
+    padding: 7px important;
+    color: #FFFFFF !important;
+}
+
+.karmasetup-checkbox-cls {
+    .x-form-cb-checked .x-form-checkbox-default {
+        background-color: #fac500 !important;
+    }
+    .x-form-cb-label-default.x-form-cb-label-after {
+        padding-left: 32px;
+    }
+}

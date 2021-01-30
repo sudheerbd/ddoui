@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "headofdeptname": "Ajit Kumar",
+      "depheadid": "1000869"
+    },{
+      "headofdeptname": "Ramesh Arigela",
+      "depheadid": "1001163"
+    },
+    {
+      "headofdeptname": "Nagendar Bondaladinne",
+      "depheadid": "1001187"
+    },
+    {
+      "headofdeptname": "Pradeep Lavania",
+      "depheadid": "1000870"
+    },{
+      "headofdeptname": "Alok Ranjan",
+      "depheadid": "1000868"
+    }
+  ]
+}

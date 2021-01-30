@@ -1,0 +1,22 @@
+ [{
+     "name": "author",
+     "fieldLabel": "Author",
+     "type": "combo",
+     "displayField": "employee_name",
+     "valueField": "employee_code",
+     "apiUrl":"/dashboard/getEmployeeNames",
+     "rootProperty": "data"
+ }, {
+     "name": "dateRange",
+     "fieldLabel":"Date Range",
+     "value": "dateRange",
+     "type": "datefield"
+ }, {
+     "name": "postType",
+     "fieldLabel": "Post Type",
+     "type": "combo",
+     "displayField": "name",
+     "valueField": "value",
+     "apiUrl":"resources/data/filter/type.json",
+     "rootProperty": "data"
+ }]

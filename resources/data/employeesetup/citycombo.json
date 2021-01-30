@@ -1,0 +1,15 @@
+{
+    "data": [{
+        "city": "Hyderabad",
+        "cityid": "1"
+    }, {
+        "city": "Delhi",
+        "cityid": "2"
+    }, {
+        "city": "Pune",
+        "cityid": "3"
+    }, {
+        "city": "Chennai",
+        "cityid": "4"
+    }]
+}

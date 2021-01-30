@@ -1,0 +1,30 @@
+{
+    "data": [{
+      "name": "Facebook",
+      "reaction": "Facebook",
+      "imgsrc": "resources/images/feeds/socialmedia/facebook.png",
+      "delay": 0,
+      "count": 0
+    },
+    {
+      "name": "Twitter",
+      "reaction": "Twitter",
+      "imgsrc": "resources/images/feeds/socialmedia/twiteer.jpg",
+      "delay": 0.05,
+      "count": 1
+    },
+    {
+      "name": "LinkedIn",
+      "reaction": "LinkedIn",
+      "imgsrc": "resources/images/feeds/socialmedia/linkedin.png",
+      "delay": 0.1,
+      "count": 2
+    },
+    {
+      "name": "Google",
+      "reaction": "Google",
+      "imgsrc": "resources/images/feeds/socialmedia/google.png",
+      "delay": 0.15,
+      "count": 3
+    }]
+}

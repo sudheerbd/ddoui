@@ -1,0 +1,56 @@
+.accountview-cls {
+    .x-panel-header-default {
+        background: #000 !important;
+    }
+    .x-form-trigger-default {
+        vertical-align: text-top !important;
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-text-default {
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-empty-field-default {
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-item-label-inner {
+        font-weight: 500;
+    }
+    .x-panel-header-title-default > .x-title-text-default{
+        text-align: center !important;
+    }
+}
+
+.logo-url-path-cls {
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    .x-form-trigger-default {
+        border: 0px !important;
+    }
+    .x-form-file-btn {
+        top: 0px;
+        width: 40px;
+        height: 23px;
+        font-size: 35px;
+        position: relative;
+        border-color: transparent !important;
+        font-family: 'WtcFontResource' !important;
+        background-color: transparent !important;
+        &:before {
+            content: '\0059' !important;
+            font-size: 31px;
+            position: absolute;
+            font-weight: 500;
+            bottom: -4px;
+            right: -3px;
+        }
+    }
+}
+
+.logo-img-cls {
+    border: 1px solid #dcdcdc;
+}
+
+.karmaform-save-btn.karmaform-save {
+    left: 0 !important;
+}

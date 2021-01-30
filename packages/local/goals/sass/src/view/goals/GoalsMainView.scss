@@ -1,0 +1,230 @@
+.goals-dashboard-mainview-cls{
+	margin: 10px;
+}
+
+.searchgoal-icon-field:hover {
+    color: #000 !important;
+}
+.searchgoal-icon-field.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 16px !important;
+    left: 257px !important;
+    width: 28px !important;
+    height: 33px !important;
+    border-color: #000 !important;
+    background-color: #000 !important;
+    border-radius: 0px !important;
+}
+
+.searchgoal-icon-field.x-btn-default-small{
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+} 
+.searchgoal-icon-field.x-btn-default-small:before{
+    content: '\0069' !important;
+    font-size: 35px;
+    position: relative;
+    font-weight: 500;
+    right: 9px;
+    bottom: 1px;
+    color: #fff;
+}
+.searchgoal-selected-icon-field:hover {
+    color: #000 !important;
+}
+.searchgoal-selected-icon-field.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 16px !important;
+    left: 257px !important;
+    width: 28px !important;
+    height: 33px !important;
+    border-color: #fab82e !important;
+    background-color: #fab82e !important;
+    border-radius: 0px !important;
+}
+
+.searchgoal-selected-icon-field.x-btn-default-small{
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+} 
+.searchgoal-selected-icon-field.x-btn-default-small:before{
+    content: '\0069' !important;
+    font-size: 35px;
+    position: relative;
+    font-weight: 500;
+    right: 9px;
+    bottom: 1px;
+    color: #fff;
+}
+.search-icon-field.x-btn-default-toolbar-small {
+    z-index: 1;
+    cursor: initial;
+    top: 4px !important;
+    left: 554px !important;
+    width: 28px !important;
+    height: 33px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+}
+.search-icon-field:hover {
+    color: #000 !important;
+
+}
+.search-icon-field.x-btn-default-toolbar-small{
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+    cursor:pointer;
+} 
+.search-icon-field.x-btn-default-toolbar-small:before{
+    content: '\0041' !important;
+    font-size: 27px;
+    position: relative;
+    font-weight: 600;
+    right: 2px;
+    bottom: 1px;
+    top: 7px;
+}
+.goals-btn-cls.x-btn-default-toolbar-small {
+    color:#fff !important;
+    left:3px !important;
+    background: #000 !important;
+    border-color: #000 !important;
+    border-radius: 4px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);   
+}
+.goals-btn-cls .x-btn-inner-default-toolbar-small {
+    font: 400 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #fff;
+    padding:0px !important;
+    max-width: 100%;
+}
+.goals-btn-cls:hover {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+/*.goals-btn-cls:focus {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+.goals-btn-cls.x-btn-focus {
+    color:#fff !important;
+    left:3px !important;
+    background: #fab82e !important;
+    border-color: #fab82e !important;
+    border-radius: 6px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);   
+}*/
+.x-btn.x-btn-goalschkd-btn-cls{
+    color:#fff !important;
+    left:3px !important;
+    background: #fab82e !important;
+    border-color: #fab82e !important;
+    border-radius: 6px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);  
+}
+.goals-selected-btn-cls.x-btn-default-toolbar-small{
+    color:#fff !important;
+    left:3px !important;
+    background: #fab82e !important;
+    border-color: #fab82e !important;
+    border-radius: 4px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);  
+}
+.goals-selected-btn-cls .x-btn-inner-default-toolbar-small {
+    font: 400 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif !important;
+    color: #fff !important;
+    padding:0px !important;
+    max-width: 100% !important;
+}
+/*
+
+.x-btn-focus.x-btn-default-small {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+.x-btn-focus.x-btn-default-toolbar-small {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+.x-btn-over.x-btn-default-toolbar-small {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+.x-btn-over.x-btn-default-small {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+*/
+.btn-grp-cls{
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    left: -6px !important;
+}
+.goal-dt-label-cls {
+    position: relative;
+    left: 20px !important;
+}
+.goal-bbar-cls {
+    padding: 0px !important;
+    border-top: 1px solid #dcdcdc !important;
+}
+.goal-date-cls {
+    margin: 0px;
+    width: 123px !important;
+    right: auto;
+    left: 58px !important;
+    top: 5px;
+}
+.goal-date-cls {
+    .x-form-trigger-wrap-default {
+        border-bottom: 1px solid #d0d0d0;
+        position: relative;
+        bottom: 7px;
+    }
+    .x-form-text-default {
+        top: 6px;
+        position: relative;
+        padding: 2px !important;
+    }
+    .x-form-date-trigger:before {
+        content: "\f073";
+        font-size: 90%;
+   }
+}
+.clearfilter-cls {
+    border-bottom: 1px solid #d0d0d0 !important;
+    left: 480px !important;
+    cursor:pointer;
+}
+
+
+
+
+.pressedCls.x-btn-default-small {
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+}
+/*
+.pressedBtnCls .x-btn-default-toolbar-small {
+    color:red !important;
+    left:3px !important;
+    background: #F3B917 !important;
+    background-color: blue !important;
+    border-color: blue !important;
+    border-radius: 4px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);   
+}*/
+.pressedBtnCls .x-btn-inner-default-toolbar-small {
+    color: #fff !important;
+    left: 3px !important;
+    background: #F3B917 !important;
+    border-color: #F3B917 !important;
+    border-radius: 4px !important;
+    padding: 6px;
+    box-shadow: 2px 2px 2px 0px #aeaeae;
+}
+

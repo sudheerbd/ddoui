@@ -1,0 +1,57 @@
+{
+  "data": [
+      {
+      "reaction": "All",
+      "imgsrc": "",
+      "likeType":"All",
+      "count": "total_count",
+      "active":true,
+      "value":0,
+    },
+    {
+      "reaction": "Bad",
+      "name": "Sad",
+      "imgsrc": "/resources/images/feeds/likes/Bad.png",
+      "likeType": "Sad",
+      "count": "Sad_count",
+      "active":false,
+       "value":-2,
+    },
+    {
+      "reaction": "Okay",
+       "name": "Ok",
+      "imgsrc": "/resources/images/feeds/likes/Okay.png",
+       "likeType": "Ok",
+      "count": "Ok_count",
+      "active":false,
+       "value":-1,
+    },
+    {
+      "reaction": "Like",
+       "name":"Like",
+      "imgsrc": "/resources/images/feeds/likes/Like.png",
+      "likeType":"Like",
+      "count": "Like_count",
+      "active":false,
+       "value":1,
+    },
+    {
+      "reaction": "Great",
+       "name":"Like",
+      "imgsrc": "/resources/images/feeds/likes/Great.png",
+       "likeType": "Great",
+      "count": "Great_count",
+      "active":false,
+       "value":2,
+    },
+    {
+      "reaction": "Love",
+       "name":"Like",
+       "imgsrc": "/resources/images/feeds/likes/Love.png",
+      "likeType": "Love",
+      "count":"Love_count",
+      "active":false,
+       "value":3,
+    }    
+  ]
+}

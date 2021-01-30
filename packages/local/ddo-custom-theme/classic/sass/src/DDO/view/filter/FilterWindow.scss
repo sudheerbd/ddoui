@@ -1,0 +1,348 @@
+.DDO-filterForm-cls {
+    .x-form-trigger-wrap-default {
+        border: 1px solid #808080 !important;
+    }
+}
+
+.ddo-toggle-button.x-btn-default-small {
+    background: #7d7474 !important;
+    border-color: #7d7474 !important;
+    border-radius: 0px !important;
+}
+
+.ratingDiv-cls {
+    top: 9px;
+    background: #fff;
+    position: relative;
+    border-radius: 27px;
+    padding: 5px 7px 1px 10px;
+}
+
+.ratingImg-cls {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+}
+
+.ddo-redeem-rating-image {
+    text-align: center;
+}
+
+.ddo-legend {
+    height: 5px;
+}
+
+.ddo-filter-window {
+    border: 2px solid #000 !important;
+}
+
+.ddo-toggle-button.x-btn.x-btn-pressed.x-btn-default-small {
+    background: #000 !important;
+    border-color: #000 !important;
+}
+
+.ddo-toggle-button.x-btn-over.x-btn-default-small {
+    background: #000;
+    border-color: #000;
+}
+
+/* nominate view icons sass file */
+
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+.nominateviewicon-scroll {
+    width: 500px !important;
+    height: 100px !important;
+    overflow-y: scroll !important;
+}
+
+.nominateviewicon {
+    width: 500px !important;
+    height: 100px !important;
+}
+
+.nominatesetup-main-cls {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.ddo-nominatesetup-uploadicon {
+    width: 75px;
+    height: 75px;
+    padding-top: 10%;
+    background: #fff;
+    text-align: center;
+}
+
+.ddo-nominatesetup-over {
+    color: #000 !important;
+}
+
+.ddo-nominatesetup-name {
+    width: 75px;
+    border: none;
+    color: #c6c6c6;
+    text-align: center;
+    background: transparent;
+    padding: 10px 0px 2px 0px;
+}
+
+.ddo-nominatesetup-icon {
+    width: 60px;
+    height: 60px;
+     cursor: pointer;
+    opacity: 0.5 !important;
+}
+
+.ddo-nominatesetup-icon.x-item-selected {
+    opacity: 1 !important;
+}
+
+.nominatesetup-feed-form .x-panel-body-default {
+    background: transparent !important;
+}
+
+
+/* circle button */
+
+.nominate-circle-btn {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ecb116;
+    @include border-radius(50%);
+    div {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 36%;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+
+/* nominate button */
+
+.nominate-cls {
+    @include bgImgShorthand($imgpath: '/resources/images/Nomiante.png', $size: cover);
+    width: 13px !important;
+    height: 16px !important;
+    color: #fff !important;
+}
+
+.nominatebutton {
+    & .x-btn-inner-default-toolbar-small {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+    &.x-btn-default-toolbar-small {
+        @include border-radius(6px);
+        background-color: #31a950 !important;
+    }
+    &.x-btn-text.x-btn-icon-left > .x-btn-icon-el-default-toolbar-small {
+        background-color: #31a950 !important;
+    }
+}
+
+.ddo-filter-window {
+    .x-window-body-default {
+        border: none !important;
+        background: #fff !important;
+        border-color: transparent !important;
+    }
+    .x-window-header {
+        border: none !important;
+        //border-bottom: 1px solid #dcdcdc !important;
+        background-color: transparent !important;
+    }
+    .x-window-header-title-default > .x-title-text-default {
+        text-align: center;
+        color: #000 !important;
+    }
+    &.x-window-default {
+        border: 0px solid transparent !important;
+    }
+    .x-header > .x-box-inner {
+        border-bottom: 1px solid #dcdcdc !important;
+        padding: 15px;
+    }
+}
+
+
+/* nominate karma categories combobox */
+
+.nominatecombocontainer {
+    .x-box-item {
+        &:first-child {
+            left: 0px !important;
+        }
+    }
+}
+
+// .nom-toolbar-cls {
+//     padding: 0px !important;
+//     border-top: 1px solid #dcdcdc !important;
+// }
+
+.nom-submit-cls {
+    &.x-btn-default-toolbar-small {
+        @include border-radius(0px !important);
+        background-color: #000 !important;
+        border-color: #000 !important;
+    }
+    .x-btn-inner-default-toolbar-small {
+        color: #f0f0f0;
+        padding: 0 5px;
+        max-width: 100%;
+        font-size: 16px !important;
+    }
+}
+
+.nom-name-cls {
+    color: #f0bb1f;
+}
+.ddo-filterform-label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.ddo-filter-window .x-tool-img{
+    width: 20px !important;
+    height: 20px !important;
+    padding:1px !important;
+    background: black !important;
+    border-radius: 30px !important;
+}
+.ddo-filterform-datefield .x-form-item-label.x-form-item-label-default{
+    position: relative !important;
+    right: 10px !important;
+}
+.ddo-filterform-datefield .x-form-item-body.x-form-item-body-default.x-form-text-field-body.x-form-text-field-body-default{
+    position: relative !important;
+    left: 13px !important;
+} 
+
+.share-container-cls > .filter-btn{
+    float: right !important;
+} 
+.ddo-addfilter-daterangefield{
+    //left:0px !important;
+    width:315px !important;
+    //margin:-10px !important;
+}
+.ddo-addfilter-daterangefield .x-form-item-label{
+    width:105px !important;
+    font-weight: 500;
+    color: #fab82e;
+    font-size:14px;
+}
+.ddo-addfilter-daterangefield .x-form-item-label-inner{
+    position: relative;
+    bottom: 3px;
+}
+.ddo-addfilter-combo .x-form-item-label{
+    font-weight: 500;
+    color: #fab82e;
+    font-size:14px;
+}
+.ddoo-addfilter-combo .x-form-item-label-inner, .posttype-text-cls {
+    font-weight: 600;
+}
+.ddo-addfilter-combo {
+     width: 315px;
+}
+.ddo-filterform-checkbox .x-form-checkbox-default:before{
+    background: transparent url(/resources/images/todo/check.png) no-repeat 0 0 !important;
+    background-size: cover !important;   
+}
+
+.ddo-filterform-checkbox .x-form-cb-checked .x-form-checkbox-default:before{
+    background: transparent url(/resources/images/todo/Checked.png) no-repeat 0 0 !important;
+    background-size: cover !important;   
+}
+.ddo-filterform-checkbox{
+    margin: 0 0 0 5px !important;
+}
+.ddo-filterform-checkbox .x-form-checkbox-default{
+    color: transparent !important;
+}
+.ddo-filterform-checkbox .x-form-checkbox-focus.x-form-checkbox-default{
+    color: transparent !important;
+}
+.filterbtn-grp-cls .x-title-align-center {
+    text-align: left;
+}
+.filterbtn-grp-cls {
+    border: none;
+}
+
+.filterbtn-grp-cls .x-btn-group-header-default-framed{
+    padding: 0px !important;
+}
+
+.filterbtn-grp-cls .x-header .x-box-inner {
+    border: none !important;
+    padding:0px !important;
+}
+.filter-submit-btn {
+    background: rgba(26, 148, 58, 0.88) !important;
+    border: none !important;
+    padding: 8px !important;
+}
+.filterbtn-grp-cls .x-title-text {
+    padding-left: 10px;
+}
+
+.postclearfilter-cls {
+    border-bottom: 1px solid #d0d0d0 !important;
+    cursor: pointer;
+    top: 9px !important;
+    positio:relative;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+.ddoo-addfilter-combo .x-form-trigger-wrap-default {
+    border: 1px solid grey !important;
+    border-radius: 6px;
+}
+.ddoo-addfilter-combo .x-form-text-wrap {
+    border-radius: 6px;
+}
+.ddoo-addfilter-combo .x-form-trigger.fa-calendar {
+    border-radius: 6px;
+}
+.filterwin-btn-cls.x-btn-default-toolbar-small {
+    color: #000 !important;
+    background: #fff !important;
+    border: 1px solid #848282 !important;
+}
+.filterbtn-grp-cls table tr td:first-child a {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.filterbtn-grp-cls table tr td:last-child a {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.filterbtn-selected-btn-cls.x-btn-default-toolbar-small {
+    color: #fff !important;
+    /* left: 3px !important; */
+    background: #f3b917 !important;
+    border-color: #f3b917 !important;
+    /* border-radius: 4px !important; */
+    padding: 6px;
+    opacity: 2 !important;
+    -webkit-box-shadow: 2px 2px 2px 0px #aeaeae;
+    -moz-box-shadow: 2px 2px 2px 0px #aeaeae;
+    box-shadow: 2px 2px 2px 0px #aeaeae;
+}
+.filterbtn-selected-btn-cls .x-btn-inner {
+    color: #fff !important;
+}

@@ -1,0 +1,735 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url($font-roboto-regular-url);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url($font-roboto-bold-url);
+    font-style: normal;
+}
+.list-container {
+    background: $color-white;
+    border: 1px solid lightgray;
+    box-shadow: 0px 3px 6px lightgray;
+    font-family: 'Roboto-Regular' !important;
+    .ddo-todo-add-button {
+       width: 27px;
+       height: 33px !important;
+       background-color: transparent !important;
+    }
+    .x-btn-icon-el-default-small {
+        font-size: 25px;
+        color: #34A857 !important;
+    }
+    .x-form-display-field-default {
+        font-family: $ddo-profile-font-family;
+        font-size: 16px;
+        font-weight: $ddo-todo-form-text-font-weight;
+        color: #84848a;
+        border-bottom: 1px solid #dcdce0;
+    }
+    .border-bottom {
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom: 1px solid $color-black;
+    }
+    .listGrid {
+        padding: 15px 0px 0px;
+        .x-grid-empty {
+            text-align: center;
+            font: normal 20px $ddo-profile-font-family;
+        }
+    }
+}
+.add-list-container {
+    top: 1240px !important;
+    @include border-radius(6px !important);
+    // @include box-shadow($ddo-feeds-box-shadow !important);
+    .x-mask {
+        background-image: none;
+        border: none !important;
+        background-color: rgba(208, 208, 208, 0);
+    }
+    .x-mask-msg-text {
+        background-image: none !important;
+        display: none !important;
+    }
+}
+.ddo-profile-todo {
+    @include border-radius(10px !important);
+    @include box-shadow($ddo-profile-box-shadow !important);
+}
+.listGrid {
+    padding-top:10px !important;
+    .x-grid-item-container {
+        width: 100% !important;
+    }
+    .x-grid-item {
+        padding: 10px 0px 0px;
+        width: 100% !important;
+        &:first-child {
+            padding: 21px 0px 0px;
+        }
+    }
+    .x-grid-cell-inner{
+        padding : 0px;
+    }
+    .x-grid-item-focused {
+        .x-grid-cell-inner {
+            &:before {
+                border: 0px solid !important;
+            }
+        }
+    }
+    .x-grid-item-selected {
+        background: transparent !important;
+    }
+    .x-grid-item-over {
+        background: transparent !important;
+    }
+    .edit-task {
+        padding-top: 1px !important;
+    }
+}
+.ddo-todo-datefield {
+    width: 92%;
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #dcdce0;
+    .x-form-text-default {
+        position: relative;
+        top: 5px;
+    }
+}
+.ddo-todo-textfield {
+    width: 92%;
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #949495;
+    .x-form-text-default {
+        position: relative;
+        top: 5px;
+    }
+}
+.ddo-todo-toolbar {
+    // height: 40px !important;
+    // background: $color-black !important;
+    // border-bottom: 1px solid $ddo-profile-header-border-color;
+
+     // height: 40px !important;
+    // background: $color-black !important;
+    background: $color-white !important;
+    border-bottom: 1px solid $ddo-profile-header-border-color;
+    padding: 6px !important;
+    .x-autocontainer-innerCt{
+        font-size: 14px;
+        color: $karma-score-title-color;
+        font-family:'Roboto-Regular';
+    }
+    .x-box-inner{
+        background: $color-karmaBgcolor;
+        width: 97% !important;
+        height: 32px !important;
+        border-radius: 4px;
+        margin: 3px;
+    }
+    .x-toolbar-default{
+        padding: 6px !important;
+    }
+    
+ 
+}
+.ddo-todo-border-div {
+    margin: 1px 0 0;
+    border-top: 1px solid $ddo-profile-header-border-color;
+}
+.ddo-todo-label {
+    // color: $color-white !important;
+    // font-size: $header-font-size !important;
+    // font-weight: $ddo-todo-grid-text-font-weight;
+    // font-family: $ddo-profile-font-family;
+    // left: 32px !important;
+    // top: 6px !important;
+    color: $color-white !important;
+    font-size: $header-font-size !important;
+    font-weight: $ddo-todo-grid-text-font-weight;
+    // font-family: $ddo-profile-font-family;
+    font-family: 'Roboto-Regular';
+    left: 6px !important;
+    top: 8px !important;
+}
+.ddo-todo-taskname-text {
+    color: $ddo-theme-yellow-color;
+    font: normal 13px/23px Open Sans;
+    .x-editor.x-grid-cell-editor {
+        top: 0 !important;
+        + .x-grid-cell-inner {
+            display: none !important;
+        }
+    }
+}
+.ddo-todo-outdated-taskname {    
+    font-size: 10px;
+}
+.ddo-todo-taskname-text {
+    .x-grid-cell-inner {
+        white-space: normal;
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        word-break: break-word;
+        display: -moz-box;
+        padding: 0px !important;
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.ddo-todo-delete {
+    height: 12px;
+    width: 8px;
+    margin: 5px 0px;
+}
+.non-strike-through-row {
+    .x-grid-checkcolumn {
+        @include bgImgShorthand($imgpath: '/resources/images/todo/check.png', $size: cover);
+        &:before {
+            content: "" !important;
+        }
+    }
+    .x-grid-editor .x-form-text {
+        padding: 0px !important;
+        margin: -9px 0px 0px 6px!important;
+        border-bottom: 1px solid #949495 !important;
+    }
+}
+.strike-through-row {
+    .x-grid-cell {
+        &:nth-child(2) {
+            text-decoration: line-through;
+        }
+    }
+    .x-grid-checkcolumn-checked {
+        @include bgImgShorthand($imgpath: '/resources/images/todo/Checked.png', $size: cover);
+        &:before {
+            content: "" !important;
+        }
+    }
+    .x-grid-editor {
+        .x-form-text {
+            padding: 0px !important;
+            border-bottom: 1px solid #949495 !important;
+        }
+    }
+}
+.ddo-todo-enddate-text {
+    .x-grid-cell-inner {
+        text-align: left !important;
+        padding: 7px 1px 6px 0px !important;
+    }
+}
+.ddo-todo-completed-task {
+    font-weight: 700;
+    color: $color-black;
+}
+.ddo-todo-taskname {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ddo-todo-delete-btn-img {
+    width: 8px;
+    height: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.ddo-todo-edit-btn-img {
+    cursor: pointer;
+    position: relative;
+    bottom: 4px;
+    left: 1px;
+}
+.ddo-create-datepicker {
+    .x-datepicker-disabled {
+        .x-datepicker-date {
+            color: #aeaeae !important;
+            background: #fff;
+        }
+        div.x-datepicker-date {
+            &:hover {
+                background: #fff !important;
+            }
+        }
+    }
+    border: none;
+    @include border-radius(10px !important);
+    @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+    .x-datepicker-selected {
+        div.x-datepicker-date {
+            background-color: #4CAF50;
+            @include border-radius(18px);
+        }
+    }
+    .x-datepicker-date {
+        color: #000; //!important;
+        font-weight: 700;
+        line-height: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .x-datepicker-today {
+        background: transparent;
+    }
+    div.x-datepicker-date {
+        &:hover {
+            background: #90EE90;
+        }
+    }
+    .x-datepicker-header {
+        background: #fff;
+        @include border-radius(30px);
+    }
+    .x-datepicker-arrow {
+        background: #fff;
+    }
+    .x-datepicker-month {
+        .x-btn-over {
+            background: #fff;
+        }
+    }
+    .x-datepicker-foo ter {
+        display: none;
+    }
+    .x-datepicker-column-header-inner {
+        background: #fff;
+        line-height: 24px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    .x-datepicker.x-layer {
+        position: fixed !important;
+    }
+    &.x-datepicker.x-layer {
+        position: fixed !important;
+    }
+    .x-datepicker-prevday .x-datepicker-date, 
+    .x-datepicker-nextday .x-datepicker-date {
+        color: #d0d0d0;
+    }
+}
+.ddo-todo-menu-upper-datepicker {
+    overflow: initial !important;
+    left: auto !important;
+    border: none;
+    background: $color-white;
+    overflow: hidden;
+    margin: 12px 0px 0px;
+    right: 20px !important;
+    @include transform(translate(-15px, 0px));
+    @include border-radius(12px);
+    @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+    &:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        background: #fff;
+        @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+        position: absolute;
+        border: 1px solid #fff;
+        top: -5px;
+        @include transform(rotate(45deg));
+        right: 5%;
+    }
+    .x-menu-body {
+        background: none;
+    }
+}
+.ddo-todo-menu-lower-datepicker {
+    overflow: initial !important;
+    left: auto !important;
+    border: none;
+    margin: -12px 0px 0px;
+    right: 20px !important;
+    @include transform(translate(-15px, 0px));
+    @include border-radius(12px);
+    @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+    &:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        background: #fff;
+        @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+        position: absolute;
+        border: 1px solid #fff;
+        bottom: -5px;
+        @include transform(rotate(45deg));
+        right: 5%;
+    }
+}
+.ddo-create-monthpicker {
+    .x-monthpicker-months {
+        .x-monthpicker-item-inner {
+            line-height: 25px !important;
+        }
+        .x-monthpicker-item {
+            a.x-monthpicker-selected {
+                background: #4CAF50;
+            }
+            a.x-monthpicker-item-inner {
+                &:hover {
+                    background: #90EE90;
+                }
+            }
+        }
+    }
+    .x-monthpicker-years {
+        .x-monthpicker-item-inner {
+            line-height: 25px !important;
+        }
+        .x-monthpicker-item {
+            a.x-monthpicker-selected {
+                background: #4CAF50;
+            }
+            a.x-monthpicker-item-inner {
+                &:hover {
+                    background: #90EE90;
+                }
+            }
+        }
+    }
+}
+.ddo-create-datepicker {
+    .x-datepicker-next {
+        &:before {
+            content: "\f0da";
+            color: #000;
+        }
+    }
+    .x-datepicker-prev {
+        &:before {
+            content: "\f0d9";
+            color: #000;
+        }
+    }
+    .x-datepicker-month {
+        .x-btn-inner {
+            color: #000;
+            font-weight: 700;
+        }
+    }
+    .x-datepicker-month .x-btn {
+        background: transparent !important;
+    }
+}
+.noscrollbar {
+    .x-grid-view::-webkit-scrollbar {
+        // width: 0px !important;
+        
+    }
+}
+.todo-form {
+    padding-left: 5px !important;
+}
+.todo-icon {
+    left: 5px !important;
+    top: 6px !important;
+    height: 17px
+}
+.ddo-todo-toolbar {
+    .x-box-inner {
+        // height: 25px !important;
+    }
+}
+.ddo-todo-checkcolumn {
+    .x-grid-cell-inner {
+        &.x-grid-cell-inner-checkcolumn {
+            padding: 2px 10px 7px 0px !important;
+        }
+    }
+}
+.ddo-taskname-editor-textfield {
+    top: 0 !important;
+}
+.ddo-todo-date-click {
+    bottom: 7px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    color: #8f8f8f !important;
+}
+.ddo-todo-action-buttons {
+    display: none;
+}
+.ddo-todo-action-buttons {
+    .x-grid-cell-inner {
+        padding: 0px !important;
+    }
+}
+.ddo-todo-emptyImage {
+    width: 100px;
+    height: 180px;
+}
+
+/* For New TodoList Detail View window */
+.ddo-todo-detail-expand-logo {
+    // width: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 6px !important;
+}
+.ddo-todo-detail-add-button {
+    width: 21px;
+    top: 12px !important;
+    height: 21px !important;
+}
+.ddo-todo-detail-search-text {
+    background: #fff;
+    border: 1px solid #aeaeae;
+    padding: 0px 0px 0px 27px;
+}
+.ddo-todo-detail-splitbutton {
+    @include border-radius(0px !important);
+}
+.x-menu-item-default {
+    &.x-menu-item-active {
+        color: #fff;
+        background-color: #000 !important;
+    }
+}
+.ddo-todo-detail-menu-picker-window {
+    border: none;
+    background: #fff;
+    overflow: hidden;
+    margin: 12px 0px 0px;
+    @include border-radius(12px);
+    overflow: initial !important;
+    @include transform(translate(-261px, 0px));
+    @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+}
+.todo-empty {
+    font-size: 24px;
+    text-align: center;
+}
+.todo-emptyImage {
+    width: 100px;
+    height: 180px;
+}
+.ddo-todo-detail-add-button {
+    &.x-btn-default-small {
+        background-color: #fff !important;
+    }
+}
+.search-icon-field {
+    &.x-btn-default-small {
+        z-index: 1;
+        cursor: initial;
+        top: 21px !important;
+        left: 21px !important;
+        width: 21px !important;
+        height: 21px !important;
+        border-color: #fff !important;
+        background-color: #fff !important;
+    }
+}
+.ddo-toggle-button-pending {
+    &.x-btn-default-small{
+        border-radius: 0px !important;
+        background: #7D7474 !important;
+        border-color: #7D7474 !important;
+        border-top-left-radius: 6px !important;
+        border-bottom-left-radius: 6px !important;
+    }
+    &.x-btn {
+        &.x-btn-pressed {
+            &.x-btn-default-small {
+                background: #000 !important;
+                border-color: #000 !important;
+                border-top-left-radius: 6px !important;
+                border-bottom-left-radius: 6px !important;
+            }
+        }
+    }
+    &.x-btn-over {
+        &.x-btn-default-small {
+            background: #000;
+            border-color: #000;
+            border-top-left-radius: 6px !important;
+            border-bottom-left-radius: 6px !important;
+        }
+    }
+}
+.ddo-toggle-button-completed {
+    &.x-btn-default-small{
+        border-radius: 0px !important;
+        background: #7D7474 !important;
+        border-color: #7D7474 !important;
+        border-top-right-radius: 6px !important;
+        border-bottom-right-radius: 6px !important;
+    }
+    &.x-btn {
+        &.x-btn-pressed {
+            &.x-btn-default-small {
+                background: #000 !important;
+                border-color: #000 !important;
+                border-top-right-radius: 6px !important;
+                border-bottom-right-radius: 6px !important;
+            }
+        }
+    }
+    &.x-btn-over {
+        &.x-btn-default-small {
+            background: #000;
+            border-color: #000;
+            border-top-right-radius: 6px !important;
+            border-bottom-right-radius: 6px !important;
+        }
+    }
+}
+.add-detail-list-container {
+    .x-mask {
+        background-image: none;
+        border: none !important;
+        background-color: rgba(208, 208, 208, 0);
+    }
+    .x-mask-msg-text {
+        display: none !important;
+        background-image: none !important;
+    }
+}
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');    
+    font-style: normal;
+}
+.ddo-todo-detail-add-button {
+    font-family: 'WtcFontResource' !important;
+    font-size: 40px;
+    &:before {
+        content: '\0051' !important;
+        font-size: 83%;
+        position: relative;
+        font-weight: 500;
+        right: 12px;
+        bottom: 6px;
+        color: #19a844 !important;
+    }
+} 
+.ddo-todo-add-button {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+    &:before {
+        content: '\0051' !important;
+        font-size: 34px;
+        position: relative;
+        font-weight: 500;
+        right: 96%;
+        top:.2em;
+        color:#19a844 !important;
+    }
+}
+.search-icon-field {
+    &.x-btn-default-small{
+        font-family: 'WtcFontResource' !important;
+        font-size: 30px;
+    }
+    &.x-btn-default-small {
+        &:before{
+            content: '\0041' !important;
+            font-size: 90%;
+            position: relative;
+            font-weight: 500;
+            right: 10px;
+            bottom: 4px
+        }
+    }
+} 
+.todo-cls-icon {
+    font-family: 'WtcFontResource' !important;
+    cursor: default !important;
+    font-size: 30px;
+    &:before{
+        content: '\0033' !important;
+        font-size: 100%;
+        position: relative;
+        font-weight: 500;
+        right: 35%;
+        bottom: 2px;
+        color: #fff;
+    }
+}
+.ddo-todo-detail-expand-logo{
+   font-family: 'WtcFontResource' !important;
+   font-size: 30px;
+   &:before {
+        content: '\0030' !important;
+        font-size: 85%;
+        position: relative;
+        font-weight: 500;
+        right: 2px;
+        bottom: 7px;
+        color: $karma-score-title-color;
+    }
+}
+@font-face {
+    font-family: 'Aweasome';
+    src: url('/resources/fonts/FontAwesome/FontAwesome.otf');
+    font-weight: 100;
+    font-style: normal;
+ }
+.project-icon-visible {
+    .projects-todo-cls {
+        font-family: 'Aweasome' !important;
+        &:before {
+            content: '\f288' !important;
+            font-size: 14px;
+            color: #000;
+            padding: 0px 2px 2px 0px;
+            position: absolute;
+            right: 0px !important;
+        }
+    }
+    .ddo-todo-taskname-text {
+        padding-right: 18px !important;
+    }
+}
+.mom-icon-visible {
+    .projects-todo-cls {
+        font-family: 'Aweasome' !important;
+        &:before {
+            content: '\f136' !important;
+            font-size: 8px;
+            color: #fff;
+            padding: 0px 2px 2px 1px;
+            position: absolute;
+            right: 1px !important;
+            width: 12px;
+            height: 12px;
+            line-height: 14px;
+            top: 4px;
+            font-weight: 100;
+            background: #000;
+            border-radius: 50%;
+            text-align: center;
+        }
+    }
+    .ddo-todo-taskname-text {
+        padding-right: 18px !important;
+    }
+}
+.goals-icon-visible {
+    .projects-todo-cls {
+        font-family: 'Aweasome' !important;
+        &:before {
+            content: '\f287' !important;
+            font-size: 14px;
+            color: #000;
+            padding: 0px 2px 2px 0px;
+            position: absolute;
+            right: 0px !important;
+        }
+    }
+    .ddo-todo-taskname-text {
+        padding-right: 18px !important;
+    }
+}

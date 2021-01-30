@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+
+            "subtitle":"",
+            "content":"This article will help you understand the fine features that are packed in DDO"  
+        },
+      
+        {                      
+            "subtitle":"Share an Update:",
+            "content": "Write anything that is on your mind. Share an awesome news that you have heard or read somewhere. Get more likes and comments from fellow WTCians."
+            
+        },{
+            
+            "subtitle":"Ideate:",
+            "content": "Got an idea? Share it here and see other employees like or comment on it. If your idea is really awesome, you may earn Karma Score!"
+            
+        },{
+            
+            "subtitle":"Profile:",
+            "content":"Your profile is your reflection. You can update your personal and professional details and create your own dazzling profile.",
+            "point1":" Change your profile pic and background anytime as per your liking.",
+            "point2":" Check out your Wallet Points, Projects and Rewards points below your profile pic."
+        },{
+            
+            "subtitle":"ToDo:",
+            "content":"Set your day’s list of things to do here. Just enter the task and set the date. By default your date will be of current date."
+            
+        },{
+            
+            "subtitle":"Karma Score:",
+            "content":" See the top 10 scores in real-time. Want to look more closely? ",
+            "point1":"Click on the Karma Score tab to see details of all employees.",
+            "point2":"Scroll to the top of the screen to see where you stand on the Karma Scale.",
+            "point3":" Nominate fellow WTCians for their contributions in Activities/Feedback. Just go to the employee’s profile by clicking on his/her photo, below the profile pic, select the rating, activity/feedback and you are done.",
+            "subheading":"For Managers -"
+        },{
+            
+            "subtitle":"Availability Sheet:",
+            "content":"This is a list of employees who are on projects that are nearing the end dates and also the employees who are not on any project as of date."
+            
+        },{  
+            "subtitle":"",
+            "content":"Get Hooked! "
+        },{
+            "subtitle":"",
+            "content":"Many more features to come..."  
+        }
+    ]
+
+}

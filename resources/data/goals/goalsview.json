@@ -1,0 +1,46 @@
+{
+	"data": [{
+		"name": "Rahul Yadav",
+		"user_icon": "resources/images/goals/user.png",
+		"trgat_date": "12-12-2016",
+		"goal_title":"Published two blogs on Migration services in Angular",
+		"goal_icon": "resources/images/goals/inprogress.png",
+		"goal_status":"In Progress",
+		"progress":[{
+				"value":"40",
+				"min":"0",
+				"max": "100"
+			}]
+	}, {
+		"name": "Rahul Yadav",
+		"user_icon": "resources/images/deb1.png",
+		"trgat_date": "12-12-2016",
+		"goal_title":"Published two blogs on Migration services in Angular",
+		"goal_icon": "resources/images/goals/amazing.png",
+		"goal_status":"Amazing",
+		"karmascore":[{
+			"karma_value":"50"
+			}]
+	},{
+		"name": "Rahul Yadav",
+		"user_icon": "resources/images/goals/user.png",
+		"trgat_date": "12-12-2016",
+		"goal_title":"Published two blogs on Migration services in Angular",
+		"goal_icon": "resources/images/goals/drafted.png",
+		"goal_status":"Drafted"
+	},{
+		"name": "Rahul Yadav",
+		"user_icon": "resources/images/deb1.png",
+		"trgat_date": "12-12-2016",
+		"goal_title":"Published two blogs on Migration services in Angular",
+		"goal_icon": "resources/images/goals/amazing.png",
+		"goal_status":"Amazing"
+	},{
+		"name": "Rahul Yadav",
+		"user_icon": "resources/images/goals/user.png",
+		"trgat_date": "12-12-2016",
+		"goal_title":"Published two blogs on Migration services in Angular",
+		"goal_icon": "resources/images/goals/drafted.png",
+		"goal_status":"Drafted"
+	}]
+}

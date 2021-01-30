@@ -1,0 +1,137 @@
+
+//Anil for changes in accordion layout 11th April
+
+
+.ddo-accordion .x-tool-expand-right:before {
+
+    color: #84848A;
+}
+.ddo-accordion .x-accordion-hd .x-tool-img {
+
+    color: #FFFFFF
+}
+.ddo-accordion .x-panel-header {
+     background-color: #FFFFFF
+}
+.ddo-accordion .x-title-text{
+    color: #84848A
+}
+.ddo-accordion .x-panel-header-default .x-tool-img {
+    background-color: #FFFFFF
+}
+
+.ddo-accordion .x-accordion-item .x-accordion-hd {
+    background-color: #fff;
+   // box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    margin-top: 2px !important;
+    /* left: 1px !important; */
+    width: 100% !important;
+    height: 35px;
+}
+
+.ddo-accordion-allocation .x-accordion-item .x-accordion-hd {
+    height: 45px !important;
+}
+
+.ddo-accordion .x-accordion-hd .x-tool-expand-bottom:before, .x-accordion-hd .x-tool-collapse-bottom:before {
+    content: "\f0d7";
+    color: black;
+    margin-right:8px;
+    font-size:18px;
+}
+
+.ddo-accordion .x-accordion-hd .x-tool-collapse-top:before, .x-accordion-hd .x-tool-collapse-bottom:before {
+    content: "\f0d8";
+    color:black;
+    margin-right:8px;
+    font-size:18px;
+}
+
+.ddo-dashboard-grid .x-column-header{
+ color: #FFFFFF !important;
+ background-color: #000000 !important;
+}
+
+.ddo-dashboard-grid .x-grid-header-ct{
+ width: 100% !important;
+ margin: 5px 0px 5px 0px !important;
+}
+
+.ddo-dashboard-grid .x-column-header-trigger {
+background-color: #000 !important;
+}
+
+.ddo-dashboard-grid .x-column-header-over{
+ color: #FFF !important;
+ background-color: #000 !important;
+ border:none;
+}
+
+.ddo-dashboard-grid .x-column-header .x-column-header-open{
+ background-color: #000 !important;
+}
+
+
+ /* .ddo-accordion > .x-box-inner {
+    background-color: #eee;
+}*/
+
+ .ddo-accordion .x-title-icon {
+    color: gray !important;
+} 
+
+/* skilltip css */
+.skillstip-cls.x-tip-default {
+   background-color: #fff !important;
+   border-radius:10px;
+   border:none !important;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.skillToolTable {
+  color:gray!important;
+  font-weight:400;
+  font-size:14;
+  border:none !important
+}
+
+.skillLine {
+  text-align:left;
+  margin:10px;
+  color:#000000;
+  border-bottom:1px solid #aeaeae;
+  font-weight:700;
+}
+
+.header-skill{
+   height: 20px;
+   width: 20px;
+   line-height: 20px;
+   display: inline-block;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   float:right;
+   margin-left:10px;
+   margin-bottom:5px;
+   font-size: 1em;
+}
+
+.ddo-avail-emp-bench-btn {
+  padding: 2px;
+}
+
+.ddo-avail-emp-bench-btn.x-btn.x-btn-pressed.x-btn-default-small {
+  background: #12A110 !important;
+  border-color: #12A110 !important;
+}
+
+.ddo-filter-menu-dash.x-menu-item-unchecked .x-menu-item-icon-default.x-menu-item-checkbox {
+  font: 18px/24px FontAwesome !important;
+}
+
+.ddo-filter-menu-dash.x-menu-item-checked .x-menu-item-icon-default.x-menu-item-checkbox {
+  font: 18px/24px FontAwesome !important;
+}

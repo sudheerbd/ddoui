@@ -1,0 +1,106 @@
+.otpview-cls{
+    .x-autocontainer-outerCt{
+        height: 100%;
+    }
+.inner-container-cls{
+    top: 55px !important;
+    margin-left: 0px;
+    box-shadow:none;
+    .x-box-inner{
+        height: 100% !important;
+    }
+    .otp-form-cls{
+      left:87px !important;
+      width:435px !important;
+      .x-form-item{
+        width:435px !important;
+        height: 45px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #D7D7D7;
+        border-radius: 6px;
+        // opacity: 0.6;
+        margin-bottom: 10px;
+      }
+      .x-panel-body{
+          width:100% !important;
+          background: none !important;
+      }
+
+      .icon{
+        background-image: url('/resources/images/lock.png') !important;
+        background: #188936 50% 48% no-repeat padding-box;
+        border-radius: 6px 0px 0px 6px;
+        opacity: 1;
+        width: 58px;
+        height: 50px;
+      }
+
+      .x-btn-inner-default-small{
+        font: normal normal normal 18px/39px Poppins;
+        letter-spacing: 0px;
+        color: #FCFCFC !important;
+        opacity: 1;
+        padding: 0px 0px 0px 100px !important;
+      }
+      
+      .x-btn-button-default-small {
+        justify-content: end;
+    }
+      .button-cls{
+        width: 435px;
+        height: 50px;
+        background: #31A850 0% 0% no-repeat padding-box !important;
+        border-radius: 6px !important;
+        opacity: 1;
+        padding: 0px !important;
+      }
+
+      label.extra-text{
+        width: 333px;
+        height: 25px;
+        letter-spacing: 0px;
+        color: #8D8D8D;
+        opacity:1;
+        font-size:18px;
+        bottom: 23px !important;
+        line-height: 1.5;
+    }
+
+    label.after-validation{
+      width: 333px;
+      height: 25px;
+      letter-spacing: 0px;
+      color: green;
+      opacity:1;
+      font-size:18px;
+      bottom: 23px !important;
+      line-height: 1.5;
+  }
+    
+    .resendotp {
+        float: right;
+        padding: 0px;
+        border-style: none;
+        cursor: pointer;
+        .x-btn-inner-default-small{
+            background: none;
+            background-color: #f6f6f6;
+            color: black !important;
+            padding: 0px !important;
+            text-decoration: underline;
+        }
+    }
+      label.labelcls{
+          font: normal normal 600 28px/69px Poppins;
+          letter-spacing: 0px;
+          color: #000000;
+          opacity: 1;
+          font-size:28px;
+          width: 223px;
+          height: 39px;
+          bottom: 23px !important;
+      }
+}
+
+}
+}

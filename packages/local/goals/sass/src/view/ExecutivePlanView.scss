@@ -1,0 +1,310 @@
+// .executiveplanview-cls .x-autocontainer-innerCt {
+//     background: #F6F6F6 !important;
+// }
+.goalsgrid-cls .x-column-header {
+    background-color: grey !important;
+    color: white;
+    text-align: center;
+    border: none !important;
+}
+
+.goalsgrid-cls .x-grid-item-selected {
+    border-color: grey;
+    border-style: solid;
+    background-color: white !important;
+}
+
+.goalsgrid-cls .x-column-header-over {
+    background-color: grey !important;
+    color: white;
+    text-align: center;
+    border: none !important;
+}
+
+.goalsgrid-cls .x-grid-cell {
+    //height: 50px !important;
+    border: none !important;
+}
+
+.goalsgrid-cls .x-grid-dirty-cell > .x-grid-cell-inner:after {
+    color: rgba(207, 76, 53, 0);
+}
+
+.goaldatecontainer-cls .x-autocontainer-innerCt {
+    background-color: white !important;
+}
+
+// .goalsdate-cls {
+//     //border-bottom: 1px solid lightgrey !important;
+//     margin-top: 10px;
+//     width: 65% !important;
+//     /* text-align: center !important; */
+//     left: 20%;
+//     position: relative;
+// }
+// .goaldatecontainer-cls {
+//     width: 193px !important;
+//     //border-bottom: 1px solid lightgrey !important;
+//     margin-left: 13%;
+// }
+// .goalsdateicon-cls {
+//     top: 20px !important;
+// }
+.goalhrscontainer-cls .x-autocontainer-innerCt {
+    background-color: white !important;
+}
+
+// .goalhrscontainer-cls {
+//     width: 110px !important;
+//     border-bottom: 1px solid lightgrey !important;
+//     margin-left: 18%;
+// }
+// .goalshrsicon-cls {
+//     left: 92px !important;
+//     top: 20px !important;
+// }
+.goalsaddbtn-cls {
+    left: 43% !important;
+    width: auto;
+    background: #50B150 !important;
+    border-radius: 5px;
+}
+
+.goalsaddbtn-cls.x-btn-over {
+    background: #50B150 !important;
+    border-radius: 5px;
+}
+
+.goalsaddbtn-cls .x-btn-inner {
+    color: white;
+}
+
+.goalsaddbtn-cls .x-btn-icon-el {
+    color: white;
+}
+
+.hideDisplay {
+    display: none !important;
+    //margin: 10px !important;
+}
+
+.showDisplay {
+    //margin: 10px !important;
+    display: visible !important;
+}
+
+.goaldateicon-cls {
+    background-image: url("/resources/images/goals/calendar.png") !important;
+    background-repeat: no-repeat;
+    //left: 50%;
+    /* position: relative; */
+    /* float: right; */
+    padding: 0px;
+    background-position: right;
+}
+
+.goalhoursicon-cls {
+    background-image: url("/resources/images/goals/hours.png") !important;
+    background-repeat: no-repeat;
+    //left: 50%;
+    background-position: right;
+}
+
+.goalstab-cls .x-tab-bar-default {
+    background-color: white !important;
+    padding:0px 5px !important;
+}
+
+.goalstab-cls .x-tab-default-top {
+    width: 190px !important;
+    height: 50px !important;
+}
+
+.goalstab-cls .x-tab.x-tab-active.x-tab-default {
+    background-color: #FEC520 !important;
+    border-color: #FEC520 !important;
+}
+
+.goalstab-cls .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: white !important;
+}
+
+.goalstab-cls .x-tab-inner-default {
+    color: black !important;
+}
+
+.x-tab-bar-default-top > .x-tab-bar-body-default {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.goalstab-cls .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
+    color: white !important;
+}
+
+.goalstab-cls .x-tab-icon-el-default {
+    color: black !important;
+}
+
+.goalhtml-updatebtn-cls {
+    height: 50px !important;
+    width: 140px !important;
+    border-radius: 3px !important;
+    background-color: #2DA64E !important;
+    border-color: #2DA64E !important;
+}
+
+.goalhtml-savebtn-cls {
+    height: 50px !important;
+    width: 140px !important;
+    border-radius: 3px !important;
+    background-color: #2DA64E !important;
+    border-color: #2DA64E !important;
+}
+
+.goalshtmleditor-cls .x-box-target {
+    width: 100% !important;
+}
+
+.goalshtmleditor-cls .x-box-inner {
+    width: 100% !important;
+}
+
+.goalshtmleditor-cls .x-toolbar-default {
+    width: 100% !important;
+}
+
+.goalshtmleditor-cls .x-html-editor-input {
+    width: 100% !important;
+}
+
+.goalshtmleditor-cls .x-html-editor-container {
+    border: none !important;
+    border-top: 1px solid lightgrey !important;
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.goalratingcontainer-cls .x-autocontainer-innerCt {
+    border-top: 1px solid lightgrey !important;
+    background-color: #289B49 !important;
+}
+
+.ratingdetailcontainer-cls .x-autocontainer-innerCt {
+    border-top: 1px solid lightgrey !important;
+    background-color: white !important;
+}
+
+.sharegoalsform-cls {
+    background-color: white !important;
+}
+
+.sharegroup-cls {
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.goalsearchicon-cls {
+    background-image: url("/resources/images/Delete.png") !important;
+    background-repeat: no-repeat;
+    left: 50%;
+    /* position: relative; */
+    /* float: right; */
+    padding: 0px;
+    background-position: right;
+}
+
+.header-fields {
+    .x-webkit .x-form-text {
+        background-color: #CECECE !important;
+    }
+}
+
+.exe-plan-btn-cls {
+    background: #000;
+    .x-btn-over.x-btn-default-toolbar-small {
+        background: #000 !important;
+        border-color: #000 !important;
+    }
+}
+
+.ratingsavebtn {
+    height: 50px !important;
+    width: 160px !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    font-size: 12px;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.rating-screen-btn.x-btn-default-small {
+    height: 50px !important;
+    width: 160px !important;
+    background-color: #2DA64E !important;
+    border-color: #2DA64E !important;
+    border-radius: 3px !important;
+}
+
+.goaldelete-cls .x-grid-cell-inner-action-col {
+    padding: 18px 4px 7px 15px !important;
+}
+
+.goaldelete-cls {
+    .x-grid-with-col-lines .x-grid-cell {
+        border-style: none !important;
+    }
+}
+
+.goalnotesadd-cls {
+    float: right !important;
+    margin: 2px !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background-color: #92949e !important;
+    border-radius: 5px;
+    }
+
+::-webkit-scrollbar-track {
+    background-color: #F1F1F1;
+}
+
+.goal-execgrid-cls .x-mask {
+    background-color: transparent !important;
+}
+
+.goal-gridcls .x-mask {
+    background-color: transparent !important;
+    opacity: 1;
+}
+
+.goalshtmleditor-cls.x-item-disabled {
+    opacity: 3 !important;
+}
+
+.goalshtmleditor-cls .x-mask {
+    background-color: transparent !important;
+}
+
+.executiveplanview-textarea {
+    background: #fff !important;
+    border-radius: 9px;
+    box-shadow: 1px 3px 7px 3px #dfdfe0;
+}
+
+.fab-button.x-btn-default-small {
+    border-radius: 50% !important;
+    background: #4caf50 !important;
+    border-color: #4caf50 !important;
+    color: #f0f0f0;
+  //position: absolute !important;
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(top, transparent, transparent, transparent) !important;
+  border: 0 !important;
+  z-index: 999 !important;
+  left: 115vh;
+  bottom: 4em;
+}

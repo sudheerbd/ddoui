@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "designation": "Project Manager",
+      "company": "Walking Tree Consultancy Services Pvt. Ltd.",
+      "location": "Hyderabad",
+      "startmonth": "December",
+      "startyear": "2016",
+      "endmonth": "March",
+      "endyear": "2019",
+      "isCurrentMonth": false,
+      "description": "<ul><li>Conceptualized the logo and framed brand guidelines for www.walkingtree.in</li><li>Conceptualized a path breaking UI and UX for all the products(Four different verticles Sales 360,Little tales, project) which will be launched on web and mobile (iOS and Android).</li><li>Added code features for better user experience into the product depending on the business requirements.</li></ul>"
+    }
+  ]
+}

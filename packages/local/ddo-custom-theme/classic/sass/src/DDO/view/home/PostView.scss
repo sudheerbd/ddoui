@@ -1,0 +1,19 @@
+@import "compass";
+@import "compass/css3";
+
+.ddo-postview-grid,
+.your-karma-score {
+    //newly changed 14thApr @Nag
+    border: 1px solid lightgray;
+    box-shadow: 0px 3px 6px lightgray;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    // @include box-shadow(rgba($color-black,0.2) 0px 1px 4px, rgba($color-black,0.1) 0px 3px 3px);
+    // @include box-shadow($ddo-feeds-box-shadow);
+    // margin-left: 1%;
+    // margin-right: 0%;
+    // margin-top: 1%;
+    // margin-bottom: 1%;
+    //newly changed 14thApr @Nag
+    /*border-radius: 5px;*/
+    @include border-radius(6px !important);
+}

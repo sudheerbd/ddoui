@@ -1,0 +1,119 @@
+.accesscontrol-grid .x-column-header-over{
+    background:none !important;
+}
+.accesscontrol-grid .x-column-header-focus .x-column-header-inner:after{
+   border: none !important;
+}
+.accesscontrol-grid .x-grid-empty{
+    margin: 5px 10px 5px 5px !important;
+}
+.accesscontrol-grid .x-column-header-inner .x-column-header-text,.x-grid-cell-inner {
+    white-space: normal;
+}
+.accesscontrol-grid .x-grid-cell{
+    vertical-align: middle;
+}
+.accesscontrol-grid .x-grid-body {
+    border: none !important;
+    //background-color: #E9E9E9;
+}
+.accesscontrol-grid{
+    .x-grid-view::-webkit-scrollbar {
+        width: 0px !important;
+    }
+}
+.accesscontrol-grid .accesscontrolgrid-cell{
+    display:table;
+    padding-left : 10px;
+    .applogo,.appnametxt{
+        display:table-cell;
+        vertical-align:middle;
+        border: 0;
+    } 
+    .applogo{
+        @include border-radius(10px);
+        width: 60px;
+        height: 60px;
+    }
+    .appnametxt {
+        color: #f8ba14;
+        font-size: medium;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}
+
+.owner-name-accesscontrol {
+    display : block;
+    color: #000;
+    font-size: medium;
+    font-weight: 600;
+}
+.owner-details-accesscontrol{
+    display : block;
+    color: gray;
+}
+
+.accesscontrol-grid .x-grid-with-row-lines .x-grid-item {
+    margin: 5px 10px 10px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+.x-grid-header-ct{
+    margin: 5px 10px 5px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+
+.accesscontrol-grid .x-grid-item-selected {
+    background-color: white;
+}
+.reason {
+    color: #000;
+    font-size: normal;
+    font-weight: 600;
+}
+
+.accesscontrol-grid .appgrid-details-dash-non-img-cls {
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    display: inline-block;
+    @include border-radius(10px);
+}
+.accesscontrol-grid .appfirst-letter-cls {
+    top: 20px;
+    text-align:center; 
+    position: relative; 
+}
+
+.pending-accept-btn.x-btn-default-small {
+    background-color: #31A950 !important;
+    border: 0px !important;
+}
+.pending-reject-btn.x-btn-default-small {
+    background-color: #af1616 !important;
+    border: 0px !important;
+}
+
+.active-btn-accesscontrol.x-btn-default-small {
+    background-color: rgba(52, 167, 81, 0) !important;
+    border: 0px !important;
+}
+.active-btn-accesscontrol .x-btn-inner-default-small {
+    font: 600 16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #31A950!important;
+}
+
+.rejected-btn.x-btn-default-small {
+    background-color: rgba(52, 167, 81, 0) !important;
+    border: 0px !important;
+}
+.rejected-btn .x-btn-inner-default-small {
+    font: 600 16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: red!important;
+}
+
+

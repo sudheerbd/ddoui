@@ -1,0 +1,35 @@
+{
+    "data": [{
+        "ddo_leavetype_id": "1",
+        "name": "Sick Leave",
+        "noofleaves": 5,
+        "imagepath": "resources/images/wtc_logo.png",
+        "isselected": "false"
+    }, {
+        "ddo_leavetype_id": "2",
+        "name": "Earned Leave",
+        "noofleaves": 4,
+        "imagepath": "resources/images/wtc_logo.png",
+        "isselected": "false"
+
+    }, {
+        "ddo_leavetype_id": "3",
+        "name": "Maternity Leave",
+        "noofleaves": 1,
+        "imagepath": "resources/images/wtc_logo.png",
+        "isselected": "false"
+    }, {
+        "ddo_leavetype_id": "4",
+        "name": "Causal Leave",
+        "noofleaves": 2,
+        "imagepath": "resources/images/wtc_logo.png",
+        "isselected": "false"
+    }, {
+        "ddo_leavetype_id": "5",
+        "name": "Optional Leave",
+        "noofleaves": 0,
+        "imagepath": "resources/images/wtc_logo.png",
+        "isselected": "false"
+    }]
+
+}

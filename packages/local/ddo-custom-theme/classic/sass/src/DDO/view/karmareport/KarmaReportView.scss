@@ -1,0 +1,107 @@
+.karmaReport-cls{
+    width:100% !important;
+}
+.karmareportwin-cls{
+    position: absolute !important;
+    left: 476px !important;
+    top: 120px !important;
+    border-radius: 0% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.karmareportwin-cls .x-window-header-default{
+     background-color: white !important;
+     border-color: white !important;
+}
+.karmareportwin-cls.x-window-default{
+border: 0px solid white !important;
+}
+.karmareporttxtfield-cls{
+    border:1px solid #d0d0d0;
+    padding: 0px 0px 0px 27px;
+    background-color: #fff !important;
+    left:0px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.karmareportbtn-cls.x-btn-default-small{
+   // background-color:#3191a9 !important;
+    border-color:#0277A3 !important;
+    border-radius: 4px !important;
+   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.karmareportdownloadbtn-cls.x-btn-default-small{
+
+    margin-left: 20px !important;
+    border-radius: 4px !important;
+    background-color: #31A850 !important;
+    border-color:#31A850 !important;
+   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.karmareportclearbtn-cls.x-btn-default-small{
+
+    margin-left: 20px !important;
+    border-radius: 4px !important;
+    background-color: #0277A3 !important;
+    border-color:#0277A3 !important;
+   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.karmareportwinformtxtfrom-cls{
+    .x-form-text-field-body{
+        border: 1px solid grey !important;
+     border-radius: 0px !important;
+  //   width: 5px !important;
+}
+}
+
+
+.karmareportwinformtxt-cls{
+    .x-form-text-field-body{
+                border: 1px solid grey !important;
+             border-radius: 0px !important;
+             width: 500px !important;
+  }
+}
+
+.karmareportwinformto-cls{
+    .x-form-text-field-body{
+        border: 1px solid grey !important;
+      // width: 5px !important;
+        border-radius: 0px !important;
+
+}
+margin-left: 5px !important;
+}
+
+
+.karmareportsearchbtn-cls{
+    width: 130px;
+   
+           .x-btn-default-small{
+     background-color:#31a950 !important;
+    border-color:#31a950 !important; 
+    border-radius: 4px !important;
+   }
+}
+.karmareportgrid-cls{
+        margin: 10px auto;
+        width: 100% !important;
+      
+       // border: 1px solid grey;
+        border-radius: 3px;
+        text-align:center !important;
+}
+.karmareportgrid-cls{
+    .x-column-header-inner {
+     background-color: grey !important;
+     
+    }
+}
+
+.karmareportform-cls{
+    height: 50px !important;
+    width:100% !important;
+  //  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

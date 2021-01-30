@@ -1,0 +1,63 @@
+
+.add-holiday-panel .x-autocontainer-innerCt {
+	background: #F3F3F3;
+}
+
+.add-holiday-panel .x-panel-body-default {
+	     background: transparent !important; 
+}
+
+.add-holiday-panel .x-toolbar-default {
+	background-color: transparent !important; 
+}
+
+.add-holiday-add-btn .x-btn-default-small{
+       border-radius: 3px !important;
+}
+
+.addholiday-print-btn.x-btn-default-small {
+    background-color: #F4BA18 !important;
+    border-color: #F4BA18 !important;
+    border-radius: 6px !important;
+}
+
+.addholidaysgrid-cls {
+    .x-grid-item-selected {
+        background: transparent !important;
+    }
+    .x-grid-item-over {
+        background: transparent !important;
+    }
+    .x-grid-cell-inner {
+        padding: 15px 10px 15px !important;
+    }
+    .ddo-upcomingday-cls {
+        background: #F2B818;
+        padding: 5px 10px;
+        border-radius: 15px;
+        color: #FFFFFF !important;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .ddo-upcomingholidayname-cls {
+        color: #7E7E7E !important;
+    }
+    .ddo-upcomingfulldate-cls {
+        background: #7E7E7E;
+        padding: 5px 10px;
+        border-radius: 15px;
+        color: #FFFFFF !important;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.deleteBtn{
+  background-image: url('/resources/icons/delete01.png');
+  width:35px!important;
+  height:35px!important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  background-repeat: no-repeat !important;
+}

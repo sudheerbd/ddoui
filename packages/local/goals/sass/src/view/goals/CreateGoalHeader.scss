@@ -1,0 +1,50 @@
+/*@include extjs-progress-ui(
+    $ui: 'progressui',
+    $ui-border-width: 1px,
+    $ui-text-font-size: 0px,
+    $ui-border-radius: 300px,
+    $ui-border-color: #d3d3d3,
+    $ui-background-color: #cccccc,
+    $ui-bar-background-color: #31a950
+);*/
+
+.goals-dashboard-detailview-cls{
+	margin:10px
+}
+
+.goals-back-btn-cls.x-btn-default-small{
+	border-radius: 5px !important;
+    width: 50px;
+    height: 40px;
+}
+.goals-back-icon:before{
+	content: "\f060" !important;
+    font-family: FontAwesome !important;
+    color:#fff !important;
+}
+.goals-status-button.x-btn-default-small{
+	border-radius: 5px !important;
+    width: 100px;
+    height: 40px;
+    background:#31a950 !important;
+    color:#fff;
+    border: none;
+}
+.goals-status-button .x-btn-inner x-btn-inner-default-small{
+	    font-size: 16px;
+}
+.goals-detail-headerview-cls .x-panel-body-default{
+	background: #F6F6F6;
+}
+.goals-detail-headerview-cls .goals-details-headerview-top{
+	border-bottom: 1px solid #E6E6E6 !important;
+}
+.select-project-cls .x-form-trigger{
+    background: #000;
+    color: white;
+}
+
+.select-project-cls .x-form-trigger-default:before{
+	content: "\f107" !important;
+	font-family: FontAwesome !important;
+}

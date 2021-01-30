@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "karmarule_name":"Feedback",
+            "karmarule_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "karmarule_id" : 1      
+        },
+         {
+            "karmarule_name":"Instant karma",
+            "karmarule_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "karmarule_id" : 2         
+        }
+    ]
+}

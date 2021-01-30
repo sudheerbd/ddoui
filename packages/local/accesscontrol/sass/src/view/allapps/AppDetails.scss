@@ -1,0 +1,286 @@
+.app-details-dashboard-cls {
+    margin: 10px;
+    width: 100%;
+    height: 200px;
+    color: #8c8b8b;
+    background: #fff;
+    display: inline-block;
+    @include border-radius(4px);
+    @include box-shadow(3px 3px 7px 1px #d4d4d4);
+    &:hover {
+        @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+    }
+}
+
+.app-details-dash-table-cls {
+    tr {
+        &:first-child {
+            th {
+                border-top: 0;
+            }
+        }
+        &:last-child {
+            td {
+                border-bottom: 0;
+            }
+        }
+        td {
+            &:first-child {
+                border-top: 0;
+                border-left: 0;
+                border-bottom: 0;
+            }
+            &:last-child {
+                border-right: 0;
+                height: 100%;
+            }
+        }
+        th {
+            &:first-child {
+                border-top: 0;
+                border-left: 0;
+                border-bottom: 0;
+            }
+            &:last-child {
+                border-right: 0;
+            }
+        }
+    }
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: 0px solid #dfdfde;
+    td {
+        border: 1px solid #dfdfde;
+        border-top: 0;
+    }
+    th {
+        border: 1px solid #dfdfde;
+        border-top: 0;
+    }
+}
+
+.app-details-dash-td-cls {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+}
+.app-owner-details-td-cls{
+    width: 25%;
+    text-align: center;
+}
+.usercount-td-cls{
+    width: 20%;
+}
+.description-td-cls{
+    width: 35%;
+}
+
+.app-details-dash-img-cls {
+    width: 90px;
+    height: 90px;
+    margin: 10px 0px;
+    @include border-radius(10px);
+}
+
+.app-details-dash-non-img-cls {
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    font-size: 80px;
+    margin: 10px 0px;
+    display: inline-block;
+    @include border-radius(10px);
+}
+.first-letter-cls {
+    top: 30px;
+    text-align:center; 
+    position: relative; 
+}  
+
+
+.app-name-cls {
+    color: #F8BA14;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.owner-name {
+    color: #131313;
+    margin-top: 22px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.owner-details-cls {
+    color: #767676; 
+    font-size: large;
+    text-align: center;
+}
+
+.owner-label {
+    font-size: medium;
+    bottom: 25px;
+    left: 30%;
+    position: absolute;
+}
+
+.app-desc {
+    font-size: medium;
+    color: grey;
+    margin: 10px;
+    text-align: center;
+}
+
+.activeuser-count {
+    color: #131313;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.activeuser-label {
+    font-size: medium;
+    bottom: 25px;
+    left: 52%;
+    position: absolute;
+}
+
+
+/* css for the Active user details*/
+
+.users-view-cls {
+    position:realtive;
+    margin: 5px;
+    width: 33%;
+    height: 40px;
+    color: #8c8b8b;
+    cursor: pointer;
+    background: #fff;
+    display: inline-table;
+    @include border-radius(5px);
+    @include box-shadow(3px 3px 7px 1px #d4d4d4);
+    &:hover {
+        @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+    }
+}
+
+.user-details{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 10px;
+    width: 45%;
+}
+.user-name{
+    font-size: 16px;
+    color: #fab82e;
+    font-weight: 600;
+}
+.user-designation{
+    font-size: 15px;
+}
+.users-target-date-cls {
+    margin: 10px;
+    display: inline-block;
+    width: 65px;
+    font-size: 9px;
+    text-align: center;
+    vertical-align: middle;
+}
+.round-check{
+    float: right;
+    margin: 7px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.selected-round-check{
+    .round-check{
+        background-color: green;
+    }
+}
+
+
+ul.checkmark li {
+  font-size: 16px; // this determines the size of the list text and therefore checkmark size
+  list-style-type: none; // remove default list style
+  margin-bottom: 1em; // lists need to be able to breathe
+  padding: 0.25em 0 0 2.5em; // make room for the circle
+  position: relative; // because we want to position the circle in an absolute fashion
+}
+ul.checkmark li:before {
+  content: " "; // the circle itself is empty
+  display: block;
+  border: solid 0.8em #660a5e; // create a colored area...
+  border-radius: .8em; // ... and turn it into a circle
+  height: 0;
+  width: 0;
+  position: absolute; // the circle is then put into place
+  left: 0.5em;
+  top: 40%; 
+  margin-top: -0.5em;
+}
+ul.checkmark:after {
+  content: " ";
+  display: block;
+  width: 0.3em; // the short bar of the mark is half as long as the long bar
+  height: 0.6em;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0; // creates the inverted "L" shape
+  position: absolute;
+  left: 1em;
+  top: 40%;
+  margin-top: -0.2em;
+  -webkit-transform: rotate(45deg); // tilts the shape
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.date-cls {
+    font-weight: bold;
+}
+.detail-user-icon{
+    margin: 0px 5px 0px 15px;
+    vertical-align: middle;
+    border: none !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 7px 3px #dfdfe0;
+}
+
+.edit-app-btn{
+    cursor: pointer;
+    //float: right;
+    position: absolute;
+    background-color: transparent;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+.app-user-details-dash-non-img-cls{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin: 0px 5px 0px 15px;
+    vertical-align: middle;
+    border: none !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 7px 3px #dfdfe0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.user-name-first-letter-cls{
+    top: 10px;
+    position: relative;
+}

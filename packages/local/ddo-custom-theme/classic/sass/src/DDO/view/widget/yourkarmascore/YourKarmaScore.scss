@@ -1,0 +1,258 @@
+.yourkarmascore-div {
+  
+    @include box-shadow($ddo-feeds-box-shadow !important);
+    @include border-radius(6px !important);
+    //left: 19px !important;
+    background: $color-white !important;
+    position: absolute !important;
+    // top: 1450px !important;
+    top: 923px !important;
+    left: 0px;
+    border: 1px solid lightgray;
+    .x-panel-body-default{
+        border-radius: 5px;
+    }
+}
+
+// .maindivcls{
+//     height: 200px;
+//     width: 200px;
+//     border: 1px solid #A2A2A2;
+//     border-radius: 50%;
+//     margin: auto;
+//     margin-top: 50px;
+//     border-bottom: 0px;
+//     border-left: 0px;
+//     border-right: 0px;
+// }
+// .center-cls{
+//     position: absolute;
+//     top: 60px;
+//     margin-left: 60px;
+//     height: 80px;
+//     border: none;
+//     width: 80px;
+//     background-color: #fff !important;
+//     text-align: center;
+//     padding-top: 18%;
+//     @include border-radius(50%);
+//     background-position-y: -1px;
+//     background-size: cover;
+//     @include box-shadow(1px 3px 7px 3px #dfdfe0);
+//     font-size: 18px;
+//     font-weight: bold;
+// }
+// .nextdiv-cls{
+//        margin-top:50px;
+// }
+// .pefixdiv-cls{
+//     position: absolute;
+//     margin-left: -20px;
+//     height: 70px;
+//     border: none;
+//     width: 70px;
+//     background-color: #fff !important;
+//     text-align: center;
+//     padding-top: 16%;
+//     @include border-radius(50%);
+//     background-position-y: -1px;
+//     background-size: cover;
+//     color: #ff0000;
+//     font-size: 18px;
+//     font-weight: bold;
+//     @include box-shadow(1px 3px 7px 3px #dfdfe0);
+// }
+// .suffixdiv-cls{
+//     position: absolute;
+//     margin-left: 150px;
+//     height: 70px;
+//     border: none;
+//     width: 70px;
+//     background-color: #fff !important;<<<<<<< sprint_ux_dev
+//     text-align: center;
+//     padding-top: 16%;
+//     @include border-radius(50%);
+//     background-position-y: -1px;
+//     background-size: cover;
+//     font-size: 18px;
+//     font-weight: bold;
+//     @include box-shadow(1px 3px 7px 3px #dfdfe0);
+// }
+// .empname-cls{
+//     color: #fab82e;
+//     width: 100%;
+//     font-weight: 500;
+//     font-size: 12px !important;
+//     overflow: hidden;
+//     text-align: center;
+//     white-space: nowrap;
+//     text-overflow: ellipsis;
+//     float: left;
+//     padding: 0px;
+// }
+// .your-karma-points-div {
+//     padding-top: 27px;
+//     font-size: 14px;
+//     color: #4587f5;
+// }
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf');
+    font-style: normal;
+}
+
+.your-karma-score-cls {
+    font-family: 'WtcFontResource' !important;
+    cursor: default !important;
+    font-size: 30px;
+}
+
+.your-karma-score-cls:before {
+    content: '\0032' !important;
+    font-size: 100%;
+    position: relative;
+    font-weight: 500;
+    bottom: 6px;
+    right: 35%;
+    color: #fff;
+}
+
+@import "compass/css3";
+.wrap {
+    height: 230px;
+    // width: 280px;
+    background: #fff;
+    position: relative;
+    margin: 12px 0 0 5px;  
+    .arc,
+    .karma-info {
+        position: absolute;
+    }
+    /* Default center only */
+    .arc,
+    .karma-info:not(.info-center) {
+        display: none;
+    }
+    .karma-info {
+        text-align: center;
+        display: inline-block;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        width: 80px;
+        .name {
+            color: #fab82e;
+            font-weight: 500;
+            font-size: 12px !important;
+            overflow: hidden;
+            text-align: center;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .score {
+            font-size: 14px;
+            color: #4587f5;
+            // margin-right: 22px;
+        }
+        &.info-center {
+            left: 30%;
+            @include transform(translateX(-50%));
+            top: 50%;
+            @include transform(translate(-50%,
+            -50%));
+            .name {
+                display: none;
+            }
+            .score {
+                font-size: 14px;
+                color: #4587f5;
+                margin-right: 22px;
+            }
+        }
+    }
+    &.show-left,
+    &.show-right {
+        .karma-info {
+            &.info-center {
+                // top: 40%;
+                top: 51%;
+                left: 51%;
+                .profile-pic {
+                    height: 50px;
+                    border: none;
+                    margin: 5px;
+                    width: 50px;
+                    background-color: #fff !important;
+                    background: url("https://scontent.cdninstagram.com/t51.2885-19/s150x150/11350911_1684493185115092_638279712_a.jpg") 0px 0px / cover no-repeat;
+                    @include border-radius(50%);
+                    // @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+                    @include box-shadow(0 10px 20px rgba(0,
+                    0,
+                    0,
+                    0.03),
+                    0 6px 6px rgba(0,
+                    0,
+                    0,
+                    0.09));
+                }
+            }
+            &.info-left, &.info-right {
+                .profile-pic {
+                    height: 35px;
+                    border: none;
+                    margin: 5px;
+                    width: 35px;
+                    background-color: #fff !important;
+                    background: url("https://scontent.cdninstagram.com/t51.2885-19/s150x150/11350911_1684493185115092_638279712_a.jpg") 0px 0px / cover no-repeat;
+                    @include border-radius(50%);
+                    // @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+                    @include box-shadow(0 10px 20px rgba(0,
+                    0,
+                    0,
+                    0.03),
+                    0 6px 6px rgba(0,
+                    0,
+                    0,
+                    0.09));
+                }
+            }
+        }
+    }
+    /* Left exists */
+    &.show-left {
+        .arc.arc-left {
+            display: block;
+            left: 20%;
+            top: 15%;
+            width: 64px;
+        }
+        .karma-info.info-left {
+            // display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            top: 75%;
+            left: 3%;
+        }
+    }
+    /* Right exists */
+    &.show-right {
+        .arc.arc-right {
+            display: block;
+            left: 27%;
+            top: 16%;
+            width: 134px;
+        }
+        .karma-info.info-right {
+            display: flex;
+            // display: inline-block;
+            flex-direction: column;
+            align-items: center;
+            right: 7%;
+            top: 3%;
+            // .profile-pic{
+            //     margin-top: 5px;
+            // }
+        }
+    }
+}

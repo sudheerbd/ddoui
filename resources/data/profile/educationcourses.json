@@ -1,0 +1,49 @@
+// {
+//   "courses": [
+//     {
+//       "name": "MCA",
+//       "id": 1000000
+//     },
+//     {
+//       "name": "B.Tech",
+//       "id": 1000003
+//     },
+//     {
+//       "name": "BBA",
+//       "id": 1000004
+//     },
+//     {
+//       "name": "MBA",
+//       "id": 1000005
+//     },
+//     {
+//       "name": "BSc",
+//       "id": 1000006
+//     },
+//     {
+//        "name": "B.Com",
+//       "id": 1000007
+//     }
+//   ]
+// }
+
+{
+"data": [
+ {"courseid": "1000000", "course": "MCA"},
+ {"courseid": "1000003", "course": "B. Tech."},
+ {"courseid": "1000004", "course": "BBA"},
+ {"courseid": "1000005", "course": "MBA"},
+ {"courseid": "1000007", "course": "B.Com"},
+ {"courseid": "1000008", "course": "B.E."},
+ {"courseid": "1000009", "course": "M.Tech"},
+ {"courseid": "1000010", "course": "M.E."},
+ {"courseid": "1000011", "course": "M.Com"},
+ {"courseid": "1000006", "course": "B.Sc"},
+ {"courseid": "1000012", "course": "M.Sc"},
+ {"courseid": "1000013", "course": "BCA"},
+ {"courseid": "1000014", "course": "M.A."},
+ {"courseid": "1000015", "course": "B.A."},
+ {"courseid": "1000016", "course": "B.Ed"},
+ {"courseid": "1000017", "course": "Ph.D."},
+ {"courseid": "1000018", "course": "Diploma in Engineering"}]
+}

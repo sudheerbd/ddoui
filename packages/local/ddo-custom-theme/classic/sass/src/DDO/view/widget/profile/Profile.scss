@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url($font-roboto-bold-url);
+    font-style: normal;
+    
+}
+
+.profileName{
+    // width: 71%;
+    font-size:16px;
+    color: $empnames-color;
+    // font-weight: 500;
+    cursor: pointer;
+    margin-left: 10px;
+    // font: bold 22px/27px Roboto;
+    font-weight:bold;
+    position:relative;
+    // top:5px;
+    font-family: 'Roboto-Bold'
+}
+
+.profileDesignation {
+    font-size: $ddo-designation-font-size;
+    color:#888888;
+    font-weight: 600;
+    position:relative;
+    // top:5px;
+    margin-left: 8px;
+    font-family: 'Roboto-Bold'
+}
+.minus-gray{
+    display:none !important;
+}
+.reporting-view-cls{
+    .x-grid-cell{
+    &.x-grid-cell-inner {
+        text-align: center;
+    }
+}
+}

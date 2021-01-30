@@ -1,0 +1,26 @@
+{
+   
+"data": [ {
+              "group_name":"Utilized",
+              "group_value":0
+
+            },     
+            {
+              "group_name":"Non Billable",
+              "group_value":1
+
+            },
+            {
+             "group_name":"Shadow",
+              "group_value":2
+
+            },
+            {
+             "group_name":"Available",
+             "group_value":3
+
+            }
+            
+        ]
+  }
+  

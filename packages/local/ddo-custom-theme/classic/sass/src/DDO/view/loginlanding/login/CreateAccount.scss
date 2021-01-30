@@ -1,0 +1,222 @@
+.sencha-logo {
+    .main-logo {
+        img {
+            top: 28px;
+            left: 42px;
+            width: 180px;
+            height: 35px;
+            opacity: 1;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+}
+.main-container-cls {
+    width: 1366px;
+    height: 657px;
+}
+.circle-icon{
+    left: 230px;
+    top: 35px;
+    overflow: visible !important;
+    .x-box-inner{
+        width: 100%;
+        overflow: visible !important;
+    }
+    .x-btn-default-small{
+        // top: 648px;
+        // left: 968px;
+        width: 11px;
+        height: 11px;
+        background-color: black !important;
+        opacity: 0.3;
+        border-radius: 10px !important;
+        padding: 0px !important;
+        border-color: none !important;
+
+        .fa-circle-o:before {
+            content: unset !important;
+        }
+    }
+    .x-btn-pressed{
+        background-color: black !important;
+    opacity:1; 
+    width: 11px;
+    height: 11px;
+    border-radius: 10px !important;
+    padding: 0px !important;
+    border-color: none !important;   
+    }
+}
+
+.image-below-text{
+    top: 420px !important;
+    left: 796px !important;
+    width: 398px;
+    height: 31px;
+    text-align: center;
+    font: italic normal 600 22px/40px Poppins;
+    letter-spacing: 0px;
+    color: #353131;
+    opacity: 1;
+}
+
+.emptytext{
+    font: normal normal normal 16px/39px Poppins;
+    letter-spacing: 0px;
+    // color: #333333;
+    opacity: 1;
+    color:black !important;
+      -webkit-text-fill-color: #333333 !important;
+}
+
+.login-button{
+    top: 14px !important;
+    left: 82% !important;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #31A850;
+    border-radius: 4px;
+    opacity: 1;
+    .x-btn-inner{
+        font: normal normal 16px/69px Poppins;
+        letter-spacing: 0px;
+        color: #32A851;
+        opacity:1;
+    }
+}
+
+.sencha-dash-headerbar{
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 90px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #BBBBBB29;
+    opacity: 1;
+}
+
+
+@media only screen and (max-width :1365px) and (max-height:656px){
+    .main-container-cls {
+         overflow: scroll;
+         .x-box-inner{
+           overflow: visible !important;
+    }
+    }
+  }
+.formcontainer-cls{
+    top: 145px !important;
+    overflow: visible !important;
+    .x-box-inner{
+        height: 657px !important;
+    }
+    .form-cls{
+      left:87px !important;
+      width:435px !important;
+      .x-form-item{
+        width:435px !important;
+        height: 45px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #D7D7D7;
+        border-radius: 6px;
+        // opacity: 0.6;
+        margin-bottom: 10px;
+      }
+      .x-panel-body{
+          width:100% !important;
+          background: none !important;
+      }
+
+      .icon{
+        background-image: url('/resources/images/lock.png') !important;
+        background: #188936 50% 48% no-repeat padding-box;
+        border-radius: 6px 0px 0px 6px;
+        opacity: 1;
+        width: 58px;
+        height: 50px;
+      }
+
+      .x-btn-inner-default-small{
+        font: normal normal normal 18px/39px Poppins;
+        letter-spacing: 0px;
+        color: #FCFCFC !important;
+        opacity: 1;
+        padding: 0px 0px 0px 100px !important;
+      }
+      
+      .x-btn-button-default-small {
+        justify-content: end;
+    }
+      .button-cls{
+        width: 435px;
+        height: 50px;
+        background: #31A850 0% 0% no-repeat padding-box !important;
+        border-radius: 6px !important;
+        opacity: 1;
+        padding: 0px !important;
+      }
+
+      label.extra-text{
+        width: 333px;
+        height: 25px;
+        letter-spacing: 0px;
+        color: #8D8D8D;
+        opacity:1;
+        font-size:18px;
+        bottom: 23px !important;
+        line-height: 1.5;
+    }
+
+      label.createaccount{
+          font: normal normal 600 28px/69px Poppins;
+          letter-spacing: 0px;
+          color: #000000;
+          opacity: 1;
+          font-size:28px;
+          width: 223px;
+          height: 39px;
+          bottom: 23px !important;
+      }
+}
+
+    
+}
+
+.img-cls{
+    left: 738px !important;
+    width: 513px;
+    top:16px !important;
+    height: 492px !important;
+    opacity: 1;
+
+    .x-img-default{
+              height: 381px;
+    }
+    .x-panel-default{
+        top: 30px;
+        width: 100% !important;
+        // left: 58px !important;
+        height: 40px !important;
+    }
+    .x-box-target{
+         width: 100% !important;
+    }
+
+    .x-box-inner{
+        position: unset !important;
+    }
+    .x-panel-body-default{
+        width: 100% !important;
+        height: 31px !important;
+        text-align: center;
+        font: italic normal 22px/40px Poppins;
+        letter-spacing: 0px;
+        color: #353131;
+        opacity: 1;
+        background: none !important;
+    }
+}

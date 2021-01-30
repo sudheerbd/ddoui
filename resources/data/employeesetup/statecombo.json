@@ -1,0 +1,15 @@
+{
+    "data": [{
+        "state": "AP",
+        "stateid": "1"
+    }, {
+        "state": "Bihar",
+        "stateid": "2"
+    }, {
+        "state": "Patna",
+        "stateid": "3"
+    }, {
+        "state": "Telangana",
+        "stateid": "4"
+    }]
+}

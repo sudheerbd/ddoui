@@ -1,0 +1,65 @@
+{
+    "data": [{
+        "first name": "QA",
+        "last name": "Prakash Lavania",
+        "email": "kkl@gmail.com",
+       // "Work": [{
+            "employee code": 1,
+            "department": "Development",
+            "primary skill": "sencha",
+            "designation": "Development Team of DDO",
+            "reporting to": 2,
+            "joined date": "1st july",
+            "confirmed date": "25th june",
+            "relieve date": "25th April",
+            "employee status": "approved",
+        //}],
+        //"Personal Information": [{
+            "pan number": 1111111111111,
+            "current address": "jubilee hills",
+            //[{
+            "details": 1,
+            "city": "Development",
+            "state": "AP",
+            "country": "INDIA",
+            //}],
+            "permanent address": "jubilee hills",
+            //[{
+            "Details": 1,
+            "city": "UP",
+            "state": "INDIA"
+            //}]
+       // }]
+    },{
+        "first name": "kanaka",
+        "last name": "Lakshmi",
+        "email": "kkl@gmail.com",
+       // "Work": [{
+            "employee code": 16666,
+            "department": "Development",
+            "primary skill": "sencha",
+            "designation": "Associate",
+            "reporting to": "1st july",
+            "joined date": "1st july",
+            "confirmed date": "25th june",
+            "relieve date": "25th April",
+            "employee status": "approved",
+        //}],
+        //"Personal Information": [{
+            "pan number": 111777711111,
+            "current address": "jubilee hills",
+            //[{
+            "details": 1,
+            "city": "Hyderabad",
+            "state": "AP",
+            "country": "INDIA",
+            //}],
+            "permanent address": "jubilee hills",
+            //[{
+            "Details": 1,
+            "city": "UP",
+            "state": "INDIA"
+            //}]
+       // }]
+    }]
+}

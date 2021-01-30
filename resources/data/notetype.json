@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "note_name":"All",
+      "note_type":"1"
+    },
+    {
+     "note_name":"Escalation",
+      "note_type":"2"
+      
+    },
+    {
+      "note_name":"Risk",
+      "note_type":"3"
+    },
+    {
+      "note_name":"Challenge",
+      "note_type":"4"
+    },
+    {
+      "note_name":"Value Edition",
+      "note_type":"5"
+    },{
+      "note_name":"Opportunity",
+      "note_type":"6"
+    },{
+      "note_name":"Regular Notes",
+      "note_type":"7"
+    }
+    
+  ]
+}

@@ -1,0 +1,44 @@
+// Base css prefix to be used for all mobile styles
+$appprefix: ddo-mobile-;
+$color-black:black;
+//font-sizes
+$ddo-name-font-size:12px;
+$ddo-designation-font-size:10px;
+$ddo-widget-header-font-size:16px;
+.x-mask-msg-text {
+    background-image: url("/resources/images/loading_mask.svg") !important;
+    background-position: center 0 !important;
+    background-repeat: no-repeat !important;
+    padding: 50px 28px 3px !important;
+    color: black !important;
+}
+
+.x-mask-msg {
+    background: none !important;
+}
+
+body > .x-mask {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+//
+// Mixins
+//
+
+//shorthand background mixin
+// @param $color -> css background-color
+// @param $imgpath -> Path of an image
+// @param $repeat -> css background-repeat
+// @param $position -> css background-position
+// @param $size -> css background-size
+// @param $important -> true to make it important
+
+@mixin bgImgShorthand($imgpath, $color: transparent, $repeat: no-repeat, $position: 0 0, $size: auto, $important: false) {
+    @if $important == true {
+        background: $color url(#{$imgpath}) $repeat $position !important;
+        background-size: $size !important;
+    } @else {
+        background: $color url(#{$imgpath}) $repeat $position;
+        background-size: $size;
+    }
+}

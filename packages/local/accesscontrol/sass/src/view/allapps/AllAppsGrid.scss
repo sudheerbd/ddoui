@@ -1,0 +1,147 @@
+.app-grid .x-column-header-over{
+    background:none !important;
+}
+.app-grid .x-grid-empty{
+    margin: 5px 10px 5px 5px !important;
+}
+.app-grid .x-column-header-focus .x-column-header-inner:after{
+   border: none !important;
+}
+.app-grid .x-column-header-inner .x-column-header-text,.x-grid-cell-inner {
+    white-space: normal;
+}
+.app-grid .x-grid-cell{
+    vertical-align: middle;
+}
+.app-grid .x-grid-body {
+    border: none !important;
+    //background-color: #E9E9E9;
+}
+.app-grid{
+    .x-grid-view::-webkit-scrollbar {
+        width: 0px !important;
+    }
+}
+.app-grid .allappgrid-cell{
+    display:table;
+    padding-left : 10px;
+    .applogo,.appnametxt{
+        display:table-cell;
+        vertical-align:middle;
+        border: 0;
+    } 
+    .applogo{
+        @include border-radius(10px);
+        width: 60px;
+        height: 60px;
+    }
+    .appnametxt {
+        color: #f8ba14;
+        font-size: medium;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}
+.activeAccessAllowed {
+    color: #000;
+    font-size: x-large;
+    font-weight: 600;
+}
+.owner-name-allapps {
+    display : block;
+    color: #000;
+    font-size: medium;
+    font-weight: 600;
+}
+.owner-details{
+    display : block;
+    color: gray;
+}
+
+.app-grid .x-grid-with-row-lines .x-grid-item {
+    margin: 5px 10px 10px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+.x-grid-header-ct{
+    margin: 5px 10px 5px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+    //width:990px !important;
+}
+
+.app-grid .x-grid-item-selected {
+    background-color: white;
+}
+.description {
+    color: #000;
+    font-size: normal;
+    font-weight: 600;
+}
+
+.app-grid .appgrid-details-dash-non-img-cls {
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    display: inline-block;
+    @include border-radius(10px);
+}
+.app-grid .appfirst-letter-cls {
+    top: 20px;
+    text-align:center; 
+    position: relative; 
+}
+
+.request-access-btn.x-btn-default-small {
+    background-color: #34A751 !important;
+    border-radius: 3px !important;
+    border: 0px !important;
+}
+
+.request-access-btn .x-btn-inner-default-small {
+    font: 600 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #fff !important;
+}    
+
+.active-btn.x-btn-default-small {
+    background-color: rgba(52, 167, 81, 0) !important;
+    border: 0px !important;
+}
+.active-btn .x-btn-inner-default-small {
+    font: 600 16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #000!important;
+} 
+
+.owned-btn.x-btn-default-small {
+    background-color: rgba(52, 167, 81, 0) !important;
+    border: 0px !important;
+
+}
+
+.owned-btn .x-btn-inner-default-small {
+    font: 600 16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: green !important;
+}  
+.pending-btn.x-btn-default-small {
+    background-color: rgba(52, 167, 81, 0) !important;
+    border: 0px !important;
+}
+.pending-btn .x-btn-inner-default-small {
+    font: 600 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #F8BA14!important;
+}  
+.rejected-btn.x-btn-default-small {
+    background-color: rgba(52, 167, 81, 0) !important;
+    border: 0px !important;
+}
+
+.rejected-btn .x-btn-inner-default-small {
+    font: 600 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: red!important;
+}
+
+.app-grid .x-grid-item-container {
+    width: 1010px !important;
+}

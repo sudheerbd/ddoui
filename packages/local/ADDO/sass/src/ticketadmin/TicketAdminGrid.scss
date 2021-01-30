@@ -1,0 +1,100 @@
+.ticketLink {
+	color: #005bab;
+    text-decoration: none;
+    line-height: 16px;
+    font-size: 14px;
+}
+a:hover {
+    color: #5daef5!important;
+}
+a:visited {
+    color: #005bab!important;
+}
+.grayText .fa{
+	color:#aaa;
+	font-size:9px;
+}
+.grayText{
+	color: #8e8e8e;
+    font-size: 9px !important;
+    line-height: 12px;
+}
+.x-panel-header-default,.x-window-header-default {
+    background-color: #3e4752;
+    border-color : #3e4752;
+}
+.x-window-header-default .x-tool-img {
+    background-color: #3e4752;
+}
+.x-window-default{
+    border : none;
+}
+
+/*.x-grid-item-over,.x-grid-item-selected{
+	background-color : white;
+}*/
+.ticket-toolbar-cls{
+    background:transparent;
+    text-align: center;
+    left:0px !important;
+    padding: 10px 0px 10px 10px;
+
+}
+.ticket-btn {
+    &.x-btn-default-toolbar-small {
+        @include border-radius(6px !important);
+        background-color: #000 !important;
+        border-color: #000 !important;
+        width: 110px;
+    }
+    .x-btn-inner-default-toolbar-small {
+        font-size: 12px !important;
+        color: #f0f0f0;
+    }
+}
+.ticket-grid-cls {
+    .x-column-header {
+        border-right: 0px !important;
+        color: #fff;
+        outline: 0;
+        background-color: #000;
+    }
+    .x-grid-header-ct {
+        background-color: #000 !important;
+    }
+    .x-grid-cell {
+        position: relative;
+        padding: 3px;
+    }
+    .x-column-header-over {
+        color: #FFF !important;
+        background-color: #000 !important;
+        border: none;
+    }
+    .x-column-header .x-column-header-open {
+        background-color: #000 !important;
+    }
+    .x-column-header-trigger {
+        background: none;
+        background-color: #000 !important;
+    }
+    .x-column-header-align-left {
+        text-align: center !important;
+    }
+    .x-grid-item-focused {
+        .x-grid-cell-inner:before {
+            border: none !important;
+        }
+    }
+    .x-grid-row .x-grid-cell {
+        border-bottom: none !important;
+        border-top: none !important;
+        border-right: 1px solid rgba(115, 109, 109, 0.09);
+    }
+    .x-grid-with-row-lines .x-grid-item {
+        border-width: 0px !important;
+    }
+    .x-grid-dirty-cell > .x-grid-cell-inner:after {
+        content: "" !important
+    }
+}

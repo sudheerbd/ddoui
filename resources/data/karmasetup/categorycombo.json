@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "category_name":"All",
+      "category_type":"1"
+    },
+    {
+     "category_name":"Escalation",
+      "category_type":"2"
+      
+    },
+    {
+      "category_name":"Risk",
+      "category_type":"3"
+    }    
+    
+  ]
+}

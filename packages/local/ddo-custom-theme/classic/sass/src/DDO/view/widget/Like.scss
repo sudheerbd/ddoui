@@ -1,0 +1,74 @@
+	.like {
+		padding : 5px 5px 5px 15px;
+		margin-left: 2px;
+		margin-right : 10px !important;
+	}
+	.hearNumberCls{
+		margin-left: 2px;
+		padding: 0px 0px 0px 2px;
+	}
+	.like-cls{
+		margin-left: 14px;
+	}
+	.like-heart-container {
+	    display: inline-block;
+	}
+
+	.like-heart-animation-container {
+	    position: relative;
+	    width: 16px;
+	    height: 16px;
+	}
+
+	.like-heart-animation {
+		// position: absolute;
+    background: url('/resources/images/like.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    position:relative;
+    top: 2px;
+	}
+
+	.like-heart-animation:hover {
+	    background-position: right !important;
+	}
+
+	.like-heart-active {
+	    background-position: right !important;
+	}
+
+	.likeAnim {
+	  -moz-animation: heart-burst 0.8s steps(28) 1;
+	  -webkit-animation: heart-burst 0.8s steps(28) 1;
+	  animation: heart-burst 0.8s steps(28) 1;
+	}
+
+	@-moz-keyframes heart-burst {
+	  from {
+	    background-position: left;
+	  }
+	  to {
+	    background-position: right;
+	  }
+	}
+
+	@-webkit-keyframes heart-burst {
+	  from {
+	    background-position: left;
+	  }
+	  to {
+	    background-position: right;
+	  }
+	}
+
+	@keyframes heart-burst {
+	  from {
+	    background-position: left;
+	  }
+	  to {
+	    background-position: right;
+	  }
+	}

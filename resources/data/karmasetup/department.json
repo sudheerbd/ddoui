@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "name":"QA",
+            "department":"Prakash Lavania",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "karmadepartment_id" : 1      
+        },{
+            "name":"Development",
+            "department":"Ranjit Battewad",
+            "description":"Development Team of DDO",
+            "karmadepartment_id" : 2      
+        }
+    ]
+}

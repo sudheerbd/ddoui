@@ -1,0 +1,33 @@
+{
+	"data": [{
+		"skillname": "ExtJs",
+		"rating": "4",
+		"firstused": "January",
+		"firstyear": "2015",
+		"lastused": "May",
+		"lastyear": "2016",
+		"selfcomments": "Good",
+		"certification": "No"
+
+	}, {
+		"skillname": "HTML",
+		"rating": "3",
+		"firstused": "February",
+		"firstyear": "2014",
+		"lastused": "May",
+		"lastyear": "2016",
+		"selfcomments": "Good",
+		"certification": "No"
+
+	}, {
+		"skillname": "Java",
+		"rating": "5",
+		"firstused": "March",
+		"firstyear": "2013",
+		"lastused": "May",
+		"lastyear": "2016",
+		"selfcomments": "Good",
+		"certification": "No"
+
+	}]
+}

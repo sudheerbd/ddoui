@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "recruiter_name": "Shivani",
+            "id":1          
+
+        },
+        {
+            "recruiter_name": "Meshak",
+            "id":2  
+        },
+        {
+            "recruiter_name": "Arvind",
+            "id":3           
+        }
+    ]
+}

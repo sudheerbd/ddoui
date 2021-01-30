@@ -1,0 +1,26 @@
+{
+  "data": [
+   {
+      "id":"1",
+      "skills": "Business Development",
+    },{
+      "id":"2",
+       "skills": "Cold Calling",
+    },{
+      "id":"3",
+ 	    "skills": "Ext JS",
+    },{
+      "id":"4",
+      "skills": "Html ",
+    },{
+      "id":"5",
+      "skills": "CSS",
+    },{
+      "id":"6",
+       "skills": "React Js",
+    },{
+      "id":"7",
+      "skills": "Meteor Js",
+    }          
+  ]
+}

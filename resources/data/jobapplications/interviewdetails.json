@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "ddo_jobintvw_id":"1",
+            "empName":"Padmini",
+            "lastName":"Maddur",
+            "interviewType":"Face-to-Face",
+            "interviewDate":"11-05-2018",
+            "interviewTime":"03:30 PM",
+            "rating_id":1,
+            "feedback":"Good Technical Skills"
+        }
+    ]
+}

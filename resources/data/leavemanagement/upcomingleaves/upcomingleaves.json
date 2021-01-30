@@ -1,0 +1,28 @@
+{
+    "data": [{
+        "no_of_leaves": "10",
+        "from_date": "2017-01-22",
+        "to_date": "2017-01-30",
+        "leavestatus": "Pending"
+    }, {
+        "no_of_leaves": "20",
+        "from_date": "2017-01-22",
+        "to_date": "2017-01-30",
+        "leavestatus": "Approved"
+    },{
+        "no_of_leaves": "2",
+        "from_date": "2017-01-22",
+        "to_date": "2017-01-30",
+        "leavestatus": "Cancel"
+    },{
+        "no_of_leaves": "10",
+        "from_date": "2017-01-22",
+        "to_date": "2017-01-30",
+        "leavestatus": "Pending"
+    }, {
+        "no_of_leaves": "20",
+        "from_date": "2017-01-22",
+        "to_date": "2017-01-30",
+        "leavestatus": "Approved"
+    }]
+}

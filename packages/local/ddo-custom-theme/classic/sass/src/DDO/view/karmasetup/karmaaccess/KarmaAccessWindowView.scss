@@ -1,0 +1,62 @@
+.access-window-cls {
+    .x-window-header-title-default > .x-title-text-default{
+        text-align: center;
+    }
+
+}
+.access-window-cls {
+    &.x-window-default {
+        border: none !important;
+        background:#000 !important;
+    }
+}
+
+.access-window-cls .x-window-body {
+    position: relative;
+    overflow: hidden;
+    padding: 28px 0px 0px 50px;
+}
+
+.access-form-cls {
+    width: 95% !important;
+    padding: 5px;
+    positon: relative;
+    margin-left: 10px; 
+    .x-form-trigger-default {
+        vertical-align: text-top !important;
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-text-default {
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-empty-field-default {
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+}
+
+.access-save-btn {
+    border: none !important;
+    background-color: #fcba1a !important;
+    border-radius: 0px !important;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    left: 50% !important;
+
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+.access-cancel-btn {
+    background-color: #000 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    left: 18% !important;
+
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}

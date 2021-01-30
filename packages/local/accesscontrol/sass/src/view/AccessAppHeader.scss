@@ -1,0 +1,73 @@
+.access-app-header-cls{
+	&.x-toolbar-default {
+	    padding: 0px 0px 0px 3px !important; 
+	    background-color: transparent !important;
+    	border-bottom: 1px solid #E6E6E6 !important;
+	}
+    .x-form-text-default{
+        padding: 5px 10px 9px;
+    }
+}
+.all-apps-tag-field-cls{
+	.x-form-empty-field-default{
+		padding: 0px !important;
+	}
+	.x-form-empty-field{
+		padding-top: 3px;
+    	padding-left: 3px;
+	}
+}
+.allapps-add-btn{
+    border: none !important;
+    background-color: #f8ba14 !important;
+    border-radius: 4px !important;
+    width: 14%;
+    padding: 9px;
+    left: 85% !important;
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+
+
+.allapps-app-search-btn-cls{
+    background-color: #4cc54c !important;
+    border-color: #fff !important;
+}
+.allapps-app-pressed-btn-cls{
+    background-color: green !important;
+    border-color: #fff !important;
+}
+
+.allapps-search-icon{
+    z-index: 1;
+    cursor: initial;
+    top: 6px !important;
+    left: 35% !important;
+    width: 25px !important;
+    height: 25px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+}
+.allapps-search-icon:before{
+    content: '\0041' !important;
+    font-size: 90%;
+    position: relative;
+    font-weight: 600;
+    right: 8px;
+    bottom: 5px;
+    color: #000;
+}
+.allapps-people-search-btn-icon:before{
+    content: "\f183" !important;
+    font-family: FontAwesome !important;
+    color:#d0d0d0 !important;
+}
+.allapps-app-search-btn-icon:before{
+    content: "\f1de" !important;
+    font-family: FontAwesome !important;
+    color:#d0d0d0 !important;
+}
+

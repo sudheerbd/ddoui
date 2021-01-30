@@ -1,0 +1,15 @@
+{
+    "data": [{
+        "interest": "Computer Gaming",
+        "user_id": 1
+    }, {
+        "interest": "Go Karting",
+        "user_id": 1
+    }, {
+        "interest": "Biking",
+        "user_id": 1
+    }, {
+        "interest": "Painting",
+        "user_id": 1
+    }]
+}

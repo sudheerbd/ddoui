@@ -1,0 +1,70 @@
+.commentsgrid {
+	.comments-data {
+		background-color : #ececec;
+
+	}
+	.comments-picture {
+        width: 35px;
+        height: 35px;
+        background-color: #ececec;
+        float: left;
+        border-radius: 3px;
+        overflow: hidden;
+
+        img {
+            width: 35px;
+        }
+    }
+    .comments-icon {
+        margin-left : 50px;
+        font-size   : 12px;
+        img {
+                width  : 12px;
+                height : 12px;
+                margin: 3px 5px 0 5px;
+            }
+    }
+    .x-grid-item-focused .comments-content {
+        background-color : #FFFFFF;
+
+        .anchor {
+            border-right-color : #FFFFFF; 
+        }
+    }
+    .comments-content {
+    	background-color: #ced8e1;
+    	margin-left : 50px;
+    	font-size   : 12px;
+    	color       : black;
+    	padding     : 10px;
+    	border-radius: 5px;
+    	
+        .comments-author {
+    	 	color     : blue;
+    	 	font-size : 14px;
+    	}
+    	.anchor {
+    		width  : 10px;
+    		height : 10px;
+    		border-width : 10px;
+    		border-style : solid; 
+    		border-top-color   : transparent;
+    		border-right-color : #ced8e1; 
+    		border-bottom-color: transparent;
+    		border-left-color  : transparent; 
+    		margin-left        : -30px;
+    		float              : left; 
+    	}
+    }
+    .x-grid-item {
+    	background-color : #ececec !important;
+    	color            : #0c0c0c !important;
+    }
+    .x-grid-with-row-lines .x-grid-item {
+	    border-width: 0px !important; 
+	}
+    .x-grid-item-focused .x-grid-cell-inner::before{
+        border-width : 0px;
+    } 
+
+}

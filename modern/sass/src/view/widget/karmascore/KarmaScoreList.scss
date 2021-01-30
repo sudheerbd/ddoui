@@ -1,0 +1,63 @@
+.DDO-main-container {
+    width: auto !important;
+    max-width: 100% !important;
+    @include box-shadow (1px 3px 11px #ccc);
+    background-color: #FFF;
+    //@include border-radius(6px);
+    margin: 5px 5px 0px 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.DDO-profileImage-cls {
+    float: left;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.DDO-scorerName-cls {
+    color: #fac500;
+    font-weight: bolder;
+    padding-left: 15px;
+    width: 15px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: $ddo-name-font-size;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+}
+
+.DDO-score-cls {
+    color: #84848A;
+    float: right;
+    position: relative;
+    font-weight: 500px;
+    top: 8px;
+    /*right:18px;*/
+}
+
+.DDO-profession-cls {
+    color: #8f8f8f;
+    padding-left: 15px;
+    font-size: $ddo-designation-font-size;
+}
+
+.DDO-glyphIcon-cls {
+    float: right;
+    position: relative;
+    bottom: 11px;
+}
+
+.DDO-scoreView-cls {
+    padding: 10px;
+}
+
+.DDO-noscrollbar::-webkit-scrollbar {
+    // width: 0px;
+    background-color: $border-color;
+
+}

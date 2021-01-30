@@ -1,0 +1,137 @@
+.noticeperiod-view-text-cls{
+    margin-top: 30px;
+    margin-left: 760px;
+    border: 1px solid #d0d0d0;
+    padding: 0px 0px 0px 11px;
+    background-color: #fff !important;
+   
+}
+
+.bottombarnxt-cls{
+    margin-left: 50px !important;
+  //  margin-top: 5px !important;
+    width: 100px !important;
+
+}
+.bottombarback-cls{
+    margin-left: 30px !important;
+   // margin-top: 5px !important;
+    width: 100px !important;
+}
+.noticeform-cls{
+    //height:'500px';
+    overflow: visible !important;
+}
+
+.employeesinnoticeperioddataview{
+    .employeesinnoticeperiodbbar{
+        top: 540px !important;
+    }
+    .employeesinnoticeperiodcards{
+       width: 100% !important;
+    }
+}
+
+.noticeprojectgrid-cls{
+    
+    width: 100% !important;
+        &.x-column-header-text-wrapper {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: left;
+        }
+        .x-grid-cell-inner {
+            position: relative;
+            text-overflow: ellipsis;
+            padding: 14px 9px 9px 6px;
+        }
+        .x-column-header {
+            border-right: 0px !important;
+            color: #fff;
+            font: 400 13px/19px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+            outline: 0;
+            background-color: #000;
+        }
+        .x-column-header-over {
+            background: none;
+            background-color: #000 !important;
+            color: #FFF !important;
+        }
+        .x-column-header-trigger {
+            background: none;
+            background-color: #000 !important;
+        }
+        .x-column-header .x-column-header-open {
+            background-color: #000 !important;
+        }
+        .x-grid-row .x-grid-cell {
+            border-bottom: none !important;
+            border-top: none !important;
+            border-right: 1px solid rgba(115, 109, 109, 0.09);
+        }
+        .x-grid-with-row-lines .x-grid-item {
+            border-width: 0px !important;
+        }
+        .x-grid-header-ct {
+            background-color: #000 !important;
+        }
+    
+}
+
+.Empnoticeimage-cls{
+    margin-left: 45px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+.noticedatefield-cls{
+    .x-form-text-field-body{
+    border: 1px solid !important;
+    min-width: 275px !important;
+    border-radius: 5px;
+   
+    }
+    
+    margin-top: 150px !important;
+}
+.noticetextfield-cls{
+    .x-form-text-field-body{
+        border: 1px solid !important;
+        min-width: 275px !important;
+        border-radius: 5px;
+        }
+       
+}
+.noticetextfieldhr-cls{
+    .x-form-text-field-body{
+        border: 1px solid !important;
+        min-width: 275px !important;
+        border-radius:5px;
+        }
+       
+}
+
+.ddo-create-datepicker {
+    .x-datepicker-next {
+        &:before {
+            content: "\f0da";
+            color: #000;
+        }
+    }
+    .x-datepicker-prev {
+        &:before {
+            content: "\f0d9";
+            color: #000;
+        }
+    }
+    .x-datepicker-month {
+        .x-btn-inner {
+            color: #000;
+            font-weight: 700;
+        }
+    }
+    .x-datepicker-month .x-btn {
+        background: transparent !important;
+    }
+}

@@ -1,0 +1,391 @@
+
+.employeereportform-cls.x-window-default {
+    border: gray !important;
+    left: 382px !important;
+    top: 147px !important;
+    width: 349px !important;
+}
+
+.employeeapplybtn-cls{
+    left: 268px !important;
+}
+
+.employeereportform-cls{
+    .x-panel-header-default, .x-window-header-default {
+        background-color: white;
+        border-color: #3e4752;
+    }
+    .x-window-header{
+        border-top: 0px !important;
+        border-right: 0px !important;
+        border-left: 0px !important;
+        width: 345px !important;
+    }
+    .x-box-inner{
+        width: 345px !important;
+    }
+}
+
+.employeeapplybtn-cls.x-btn-default-small {
+    background-color: white !important;
+    border-color: white !important;
+    border-radius: 5px !important;
+    left: 280px !important;
+}
+
+.employeereportform-cls{
+    .x-window-header-default-horizontal .x-tool-after-title {
+        left: 308px !important;
+    }
+}
+.employeefilter-cls{
+    background-image: url(/resources/icons/Assets/column.png) !important;
+    background: round;
+}
+.employeereportform-cls{
+    .x-window-header-title-default {
+        color:black;
+        width: 221px !important;
+    }
+}
+.employeereportwin-cls{
+    position: absolute !important;
+    left: 525px !important;
+    top: 120px !important;
+    border-radius: 0% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.employeereportwin-cls .x-window-header-default{
+     background-color: white !important;
+     border-color: white !important;
+}
+.employeereportwin-cls.x-window-default{
+border: 0px solid white !important;
+}
+// .employeereporttxtfield-cls{
+
+//     // box-shadow: 0 4px 8px 0 rgba(26, 142, 209, 0.2), 0 6px 20px 0 rgba(19, 171, 182, 0.19) !important;
+// }
+
+
+
+.employeereportwinformtxtfrom-cls{
+    .x-form-text-field-body {
+        border: 1px solid grey !important;
+     border-radius: 5px !important;
+}
+}
+.employeereportwinformtxt-cls{
+    .x-form-text-field-body
+    {
+             border: 1px solid grey !important;
+             border-radius: 5px !important;
+  }
+}
+
+.employeereportwinformto-cls{
+    .x-form-text-default {
+        border: 1px solid grey !important;
+     border-radius: 5px !important;
+}
+}
+
+
+.employeereportsearchbtn-cls{
+    margin-right: 10px !important;
+}
+.employeereportgrid-cls{
+        border-radius: 3px;
+        text-align:center !important;
+        .searchemptb-cls{
+            left: 333px !important;
+        }
+}
+
+.employeereportgrid-cls{
+    .x-column-header-over .x-column-header-trigger , .x-column-header-open .x-column-header-trigger{
+        color: #35baf6 !important;
+    }
+    .filtertbspace-cls{
+        left: 116px !important;
+    }
+}
+
+.employeereportgrid-cls{
+    .x-column-header-inner {
+     background-color:white !important;
+     color: rgb(3, 3, 3);
+    }
+}
+// .employeereportdownloadbtn-cls{
+//     margin-left: 500px !important;
+// }
+
+.employeeresetbtn-cls.x-btn-default-small {
+        background-color: white !important;
+        border-color: white !important;
+        border-radius: 5px !important;
+}
+
+
+.employeeapplybtn-cls.x-btn-inner-default-small {
+    color: gray !important
+}
+
+.employeeresetbtn-cls.x-btn-inner-default-small {
+    color: gray !important
+}
+
+.employeeapplybtn-cls{
+    .x-btn-inner-default-small {
+    color: gray !important;
+ }
+}
+
+.employeeresetbtn-cls{
+    .x-btn-inner-default-small {
+        color: gray !important;
+    }
+}
+
+.icon-add{
+    background-image: url(/resources/icons/Assets/filter.png) !important;
+    background-repeat: no-repeat;
+    background-position: left;
+    background: round;
+}
+
+.resetbtn-cls{
+    background-image: url(/resources/icons/Assets/reset.png) !important;
+    background: round;
+}
+
+.applybtn-cls{
+    background-image: url(/resources/icons/Assets/accept.png) !important;
+    background: round;
+}
+
+
+.employeecolumnfilter-cls.x-btn-default-toolbar-small {
+    left: 340px !important;
+    border-color: transparent;
+}
+
+.employeedownloadbtn-cls.x-btn-default-toolbar-small {
+    background-color: steelblue !important;
+}
+
+.employeedownloadbtn-cls{
+    .x-btn-inner-default-toolbar-small {
+        color: white !important;
+    }
+}
+.employeereportdownloadbtn-cls{
+    background-image: url(/resources/icons/Assets/download.png) !important;
+    background: round;
+}
+
+.onsearchemptbspace-cls{
+    .x-toolbar-default.x-toolbar-separator-horizontal {
+        left: 333px !important;
+    }
+}
+
+.filtertbspace-cls.x-toolbar-default .x-toolbar-separator-horizontal {
+    left: 116px !important;
+}
+
+
+.employeereportdownloadbtnbottom-cls{
+    background-image: url(/resources/icons/Assets/download.png) !important;
+    background: round
+}
+
+.downloadbtnbottom-cls{
+    .x-btn-inner-default-toolbar-small {
+        color: white;
+    }
+}
+
+.downloadbtnbottom-cls.x-btn-default-toolbar-small{
+        left: 855px !important;
+    }
+
+
+    .employeerecheckbox-cls{
+        height: 322px !important;
+        .x-window-body{
+            height: 300px !important;
+        }
+        .x-panel-header-default, .x-window-header-default {
+            background-color: white;
+            border-color: #404040;
+        }
+    }
+
+   .employeerecheckbox-cls.x-window-default {
+    border: none !important;
+    left: 736px !important;
+    top: 168px !important;
+    width: 233px !important;
+    }
+
+    .employeerecheckbox-cls{
+        .x-window-header{
+            border-bottom: 2px solid black !important;
+            border-top: 0px !important;
+            border-left: 0px !important;
+            border-right: 0px !important
+        }
+    }
+
+    .employeerecheckbox-cls.x-css-shadow {
+            box-shadow: #404040 0px 0px 6px !important;
+        }
+
+   .showcolumn-cls.x-btn-default-small {
+        background-color: inherit !important;
+        border-color: white !important;
+        border-radius: 14px !important;
+        left: 74px !important;
+        .x-btn-inner-default-small {
+            color: #404040 !important; 
+        }
+    }
+
+
+  .employeerecheckbox-cls{
+        .x-autocontainer-outerCt{
+           width: 450px !important;
+        }
+    }
+
+    .employeereportgrid-cls{
+        .x-grid-inner-normal .x-grid-header-ct{
+        //    overflow: visible !important;
+           width: inherit !important;
+        }
+    }
+
+
+//   .employeerecheckbox-cls{
+//     .showcolumn-cls{
+//         left: 110px !important;
+//         top: -9px !important;
+//     }
+// }
+
+    .showiconcolumn-cls{
+         background-image: url(/resources/icons/Assets/column.png)!important;
+         background: round;
+       }
+
+       .showcolumnhr-cls{
+        left: 2px !important;
+        width: 267px !important;
+       }
+
+        .x-css-shadow {
+            top: 147px !important;
+            box-shadow: rgb(136, 136, 136) 0px 0px 6px !important;
+        }
+
+
+        .employeerecheckbox-cls{
+            .x-window-header-title-default {
+                color: black !important;
+                font-size: 13px !important;
+            }
+        }
+
+        .employeerecheckbox-cls{
+            .x-tool{
+                left: 190px !important;
+            }
+        }
+
+        .employeereportform-cls{
+            .x-window-body{
+                height: 223px !important;
+                width: 347px;
+            }
+        }
+
+        .employeereportform-cls{
+            height: 320px !important;
+        }
+
+        .employeereportform-cls{
+            .x-toolbar{
+                top: 266px !important;
+                width: 343px;
+            }
+        }
+
+        .employeereportform-cls{
+            .containertwo-cls{
+                top: 3px !important;
+            }
+        }
+
+        .experienceslider-cls{
+            width: 319px !important;
+            left: 7px !important;
+            top: 3px !important;
+        }
+      
+        .experienceslider-cls{
+            .x-slider-thumb{
+                opacity: 4.7 !important;
+            }
+            .x-slider-horz:before {
+                height: 3px !important;
+                width: 103% !important;
+                top: 62% !important;
+            }
+            .x-slider:before {
+                border: 1px solid #f0f0f0 !important;
+                background-color: #0277a3!important;
+            }
+            .x-slider-thumb {
+                /* color: darkblue; */
+                background-color: #0277a3!important;
+                ;
+                /* border: 1px solid #35baf6; */
+                border-radius: 500px !important;
+            }
+            .x-slider-horz .x-slider-thumb {
+                width: 18px !important;
+                height: 18px !important;
+            }
+            .x-slider-thumb:before {
+                color: #0277a3
+            }
+        }
+
+        .experience-cls{
+            left: 95px !important;
+            color: gray;
+            top: 31px !important;
+        }
+
+        .hr-cls{
+            left: -4px !important;
+            top: 55px !important;
+        }
+
+        .checkboxmenu-cls{
+            top: 147px !important;
+            width: 274px !important;
+            .x-menu-body{
+                width: 270px !important;
+            }
+            .x-box-inner{
+                width: 270px !important;
+            }
+            .x-title{
+                width: 185px !important;
+            }
+
+        }

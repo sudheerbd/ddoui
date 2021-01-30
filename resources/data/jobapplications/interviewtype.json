@@ -1,0 +1,12 @@
+
+{
+    "data": [
+     {
+        "interviewtype_id":"1",
+        "name": "Face-to-Face"
+      },{
+        "interviewtype_id":"2",
+          "name": "Telephonic"
+      }        
+    ]
+  }

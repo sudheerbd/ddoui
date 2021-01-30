@@ -1,0 +1,49 @@
+{
+  "data": [
+   {
+      "id":"1",
+      "min": "0 years",
+      "max": " 0 years"
+    },{
+      "id":"2",
+        "min": "1 years",
+        "max": " 1 years"
+    },{
+      "id":"3",
+ 	    "min": "2 years",
+      "max": "2 years"
+    },{
+      "id":"4",
+       "min": "3 years",
+      "max": "3 years"
+    },{
+      "id":"5",
+       "min": "4 years",
+      "max": "4 years"
+    },{
+      "id":"6",
+       "min": "5 years",
+      "max": "5 years"
+    },{
+      "id":"7",
+      "min": "6 years",
+      "max": "6 years"
+    },{
+      "id":"8",
+      "min": "7 years",
+      "max": "7 years"
+    },{
+      "id":"9",
+      "min": "8 years",
+      "max": "8 years"
+    },{
+      "id":"10",
+      "min": "9 years",
+      "max": "9 years"
+    },{
+      "id":"9",
+      "min": "10 years",
+      "max": "10 years"
+    }          
+  ]
+}

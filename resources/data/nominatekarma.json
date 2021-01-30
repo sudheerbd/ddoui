@@ -1,0 +1,19 @@
+{
+    "data": [{
+        "ddo_karma_id": 1000002,
+        "ddo_karmacategory_id": 1000000,
+        "name": "Rating",
+        "description": "Rating Based",
+        "isrulebased": "N",
+        "isratingbased": "Y",
+        "points": 300
+    }, {
+        "ddo_karma_id": 1000002,
+        "ddo_karmacategory_id": 1000000,
+        "name": "Rule",
+        "description": "Rule Based",
+        "isrulebased": "Y",
+        "isratingbased": "N",
+        "points": 500
+    }]
+}

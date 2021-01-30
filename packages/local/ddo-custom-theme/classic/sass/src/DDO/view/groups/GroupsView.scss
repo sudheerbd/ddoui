@@ -1,0 +1,404 @@
+.groupsearch-container-cls .x-box-inner {
+    padding: 16px;
+    height: 47px !important;
+}
+
+.user-cls {
+    margin-top: 4px !important;
+}
+
+.user-cls.x-btn-default-small {
+    z-index: 1;
+    width: 27px;
+    height: 27px;
+    color: #fff !important;
+    font-weight: bold !important;
+    cursor: initial;
+    padding: 5px 0px 0px 7px !important;
+    transform: translate(28px, 3px);
+    border: 1px solid #f6f6f6 !important;
+    @include border-radius(50% !important);
+    margin: 4px 0px 0px 11px !important;
+}
+
+.grp-combo-cls .x-form-text-default {
+    padding-left: 45px;
+}
+
+.grp-combo-cls {
+    margin-top: 4px !important;
+    //@include border-radius(4px);
+    @include box-shadow(0px 0px 7px 3px #e6e3e6 !important);
+}
+
+.grp-edit-cls.x-btn-default-small {
+    border: none;
+    color: #000 !important;
+    padding: 0px !important;
+    border-right: 1px solid #000;
+    @include border-radius(1px !important);
+    background-color: transparent !important;
+}
+
+.grp-delete-cls.x-btn-default-small {
+    border: none;
+    color: #000 !important;
+    padding-left: 2px !important;
+    background-color: transparent !important;
+}
+
+.grp-edit-cls .x-btn-inner-default-small {
+    color: #000 !important;
+}
+
+.grp-delete-cls .x-btn-inner-default-small {
+    color: #000 !important;
+    text-decoration: underline;
+    font-size: 12px !important;
+}
+
+.add-people-btn.x-btn-default-small {
+    left: 83.5% !important;
+}
+
+.grp-plus-btn.x-btn-default-small {
+    z-index: 1 !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.grp-label-cls {
+    top: 6px !important;
+    color: #fab82e;
+    font-weight: 500;
+    font-size: 15px !important;
+}
+
+.text-fd-cls {
+    // border-bottom: 1px solid;
+    // margin-top: -4px !important;
+    margin-left: 5px !important;
+    // border-color: #9c9e9e !important;
+}
+
+.text-cnt-cls {
+    background-color: #fff !important;
+    @include box-shadow(0px 0px 7px 3px #e6e3e6 !important);
+}
+
+.text-fd-cls .x-form-text-default {
+    padding: 0px 0px 2px 0px;
+}
+
+.grp-plus-btn .fa-plus:before {
+    color: #0A0A0A;
+}
+
+.ddo-group-round {
+    padding: 3px 7px;
+    font-weight: 800;
+    background: #000;
+    color: #fff !important;
+    margin: 0px 6px 0px 0px;
+    @include border-radius(50% !important);
+}
+
+.x-boundlist-selected.x-boundlist-item-over {
+    color: #fac500;
+    background: #fff;
+    border-bottom: 1px solid rgba(208, 208, 208, 0.42) !important;
+}
+
+.x-boundlist-item-over {
+    color: #fff;
+    background: #000;
+}
+
+.x-boundlist-selected.x-boundlist-item-over {
+    border-bottom: 1px solid rgba(208, 208, 208, 0.42) !important;
+}
+
+// search view
+.ddo-emp-list-empty {
+    text-align: center;
+    color: #aeaeae;
+    font-size: 21px;
+}
+
+.empListView-cls.ddo-emp-list-item {
+    padding: 10px !important;
+}
+
+.ddo-group-search-empty {
+    text-align: center;
+    color: #aeaeae;
+    font-size: 25px;
+    top: 20% !important;
+    position: relative;
+}
+
+.ddo-group-search-view {
+    //margin-left: 19px !important;    
+    .x-dataview-item {
+        margin: 13px;
+        vertical-align: top;
+        width: 315px !important;
+        display: inline-block;
+        @include border-radius(5px);
+        background-color: #fff !important;
+        @include box-shadow(0px 0px 7px 3px #e6e3e6 !important);
+        @include transition(all 0.3s cubic-bezier(.25, .8, .25, 1));
+        &:hover {
+            @include box-shadow(0px 0px 7px 3px #e6e3e6 !important);
+        }
+    }
+    .ddo-emp-list-item {
+        display: table;
+    }
+    .profile-img-wrap {
+        float: left;
+        display: table-cell;
+        vertical-align: middle;
+        .profileImage-cls {
+            float: left;
+            width: 70px;
+            height: 70px;
+            @include border-radius(50%);
+            @include box-shadow(none);
+        }
+    }
+    .name-wrapper {
+        width: 100%;
+        padding-left: 10px;
+        font-size: 15px;
+        text-align: left;
+        display: table-cell;
+        vertical-align: middle;
+        width: 198px !important;
+        max-width: 198px !important;
+        .scorerName-cls,
+        .profession-cls {
+            padding-left: 0;
+            width: 198px !important;
+            max-width: 198px !important;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            padding-right: 10px !important;
+        }
+    }
+    .group-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        .group-nonselec-cls {
+            height: 27px;
+            width: 27px;
+            float: right;
+            top: 0;
+            right: 0;
+            padding-top: 16px;
+            color: $color-black;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            background: -webkit-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: -moz-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: -ms-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: -o-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            @include border-radius(50%);
+            // @include bgImgShorthand($imgpath: '/resources/images/Select_Icon_Inactive.png', $size: cover, $important: true);
+        }
+        .group-delete-cls {
+            height: 27px;
+            width: 27px;
+            float: right;
+            top: 0;
+            right: 0;
+            padding-top: 16px;
+            color: $color-black;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            background: -webkit-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: -moz-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: -ms-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: -o-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            background: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+            @include border-radius(50%);
+            //  @include bgImgShorthand($imgpath: '/resources/images/Remove_From_group.png', $size: cover, $important: true);
+        }
+    }
+}
+
+.ddo-group-search-view .empselected-cls .group-wrapper .group-nonselec-cls {
+    height: 27px;
+    width: 27px;
+    float: right;
+    top: 0;
+    right: 0;
+    padding-top: 16px;
+    color: $color-black;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+    background: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
+    @include border-radius(50%);
+    // @include bgImgShorthand($imgpath: '/resources/images/Select_Icon.png', $size: cover, $important: true);
+}
+
+.group-search-icon-field.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 9px !important;
+    width: 21px !important;
+    height: 21px !important;
+    border-color: #fff !important;
+    background-size: cover !important;
+    background-color: #fff !important;
+    @include transform(translate(-294px, -1px));
+    // @include bgImgShorthand($imgpath: '/resources/images/todo/search-icon.png', $size: cover, $important: true);
+}
+
+.ddo-group-search-text {
+    border: 1px solid #aeaeae;
+}
+
+.group-form-cls .x-panel-body-default {
+    background: transparent !important;
+}
+
+.group-label-cls {
+    color: #aeaeae;
+    margin: 10% 0% 0% 70%;
+}
+
+.grpcombo-list-cls .x-boundlist-selected {
+    background-color: white !important;
+    border-color: white !important;
+    color: black !important;
+}
+
+.plus-btn-cls {
+    margin: 0% 83%;
+}
+
+// .ddo-group-search-text .x-form-text-default {
+//     padding-left: 50px;
+//     // position: absolute !important;
+// }
+
+.clearsearch-cls.x-btn-default-small {
+    z-index: 1;
+    cursor: pointer;
+    top: 2px !important;
+    /* left: 700px !important; */
+    width: 21px !important;
+    height: 30px !important;
+    position: relative !important;
+    border-color: #fff !important;
+    background-size: cover !important;
+    background-color: #fff !important;
+    @include transform(translate(-33px, -1px));
+}
+
+.clearsearch-cls:hover {
+    color: #000 !important;
+}
+
+.user-cls.fa-users:before {
+    position: relative;
+    right: 2px;
+}
+
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');
+    font-style: normal;
+}
+
+.userIcon-cls {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+
+.userIcon-cls:before {
+    content: '\0075' !important;
+    font-size: 23px;
+    position: relative;
+    font-weight: 500;
+    right: 4px;
+    bottom: 5px;
+}
+
+.group-search-icon-field.x-btn-default-small {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+
+.group-search-icon-field:hover {
+    color: #000 !important;
+}
+
+.group-search-icon-field.x-btn-default-small:before {
+    content: '\0041' !important;
+    font-size: 24px;
+    position: relative;
+    font-weight: 500;
+    right: 7px;
+    bottom: 9px;
+}
+
+.ddo-group-search-view .empselected-cls .group-wrapper .group-nonselec-cls {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+
+.ddo-group-search-view .empselected-cls .group-wrapper .group-nonselec-cls:before {
+    content: '\0051' !important;
+    font-size: 50px;
+    position: relative;
+    font-weight: 500;
+    right: 9px;
+    bottom: 9px;
+    color: #000;
+}
+
+.group-delete-cls {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+
+.group-delete-cls:before {
+    content: '\006D' !important;
+    font-size: 50px;
+    position: relative;
+    font-weight: 500;
+    right: 7px;
+    bottom: 9px;
+}
+
+.group-nonselec-cls {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+
+.group-nonselec-cls:before {
+    content: '\0051' !important;
+    font-size: 50px;
+    position: relative;
+    font-weight: 500;
+    right: 7px;
+    bottom: 9px;
+    color: #aeaeae;
+}
+
+.toast-cls {
+    background: '#fff', padding: '10px', color: 'green',
+}

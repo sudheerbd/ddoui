@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rule-tb-cls.x-toolbar-default {
+    padding: 13px 0 6px 8px;
+    border-style: none;
+    border-width: 0px;
+    background-image: none;
+    height: 55px;
+    background-color: transparent;
+}
+
+.rule-add-btn {
+    &.x-btn-default-toolbar-small {
+        @include border-radius(6px !important);
+        background-color: #000 !important;
+        border-color: #000 !important;
+        width: 110px;
+    }
+    .x-btn-inner-default-toolbar-small {
+        font-size: 12px !important;
+        color: #f0f0f0;
+    }
+}
+
+.rule-plus{
+    font-family: 'WtcFontResource' !important;
+    font-size: 18px;
+}
+.rule-plus:before {
+    content: '\0058' !important;   
+    color: #fff;
+    bottom:2px;
+    font-size:18px; 
+    position: relative;
+    top:2px;
+}
+
+.delete-plus{
+    font-family: 'WtcFontResource' !important;
+    font-size: 18px;
+}
+.delete-plus:before {
+    content: '\005B' !important;   
+    color: #000;
+    bottom:2px;
+    font-size:18px; 
+    position: relative;
+    top:2px;
+}
+.role-winform-cls{
+    width: 43% !important;
+    height: 43% !important;
+}
+.role-winform-cls{
+    .x-window-header-title-default > .x-title-text-default{
+        text-align: center;
+    }
+
+}
+.role-winform-cls{
+    &.x-window-default {
+        border: none !important;
+        background:#000 !important;
+    }
+}
+.department-winform-cls{
+    width: 43% !important;
+    height: 47% !important;
+}
+.department-winform-cls{
+    .x-window-header-title-default > .x-title-text-default{
+        text-align: center;
+    }
+
+}
+.department-winform-cls{
+    &.x-window-default {
+        border: none !important;
+        background:#000 !important;
+    }
+}
+.rule-winform-cls {
+    padding: 20px !important;
+    .x-autocontainer-outerCt {
+        width: 105% !important;
+    }
+}
+.karmadash-score-board-cls{
+        margin-top: 30px;
+      margin-left: 30px;
+}
+
+.karmalist-cls {
+    .x-column-header {
+        border-right: 0px !important;
+        color: #fff;
+        outline: 0;
+        background-color: #000;
+    }
+    .x-grid-header-ct {
+        background-color: #000 !important;
+    }
+    .x-grid-cell {
+        position: relative;
+        padding: 3px;
+    }
+    .x-grid-cell-inner{
+        text-align: center !important;
+    }
+    .x-column-header-over {
+        color: #FFF !important;
+        background-color: #000 !important;
+        border: none;
+    }
+    .x-column-header .x-column-header-open {
+        background-color: #000 !important;
+    }
+    .x-column-header-trigger {
+        background: none;
+        background-color: #000 !important;
+    }
+    .x-column-header-align-left {
+        text-align: center !important;
+    }
+    .x-grid-item-focused {
+        .x-grid-cell-inner:before {
+            border: none !important;
+        }
+    }
+    .x-grid-row .x-grid-cell {
+        border-bottom: none !important;
+        border-top: none !important;
+        border-right: 1px solid rgba(115, 109, 109, 0.09);
+    }
+    .x-grid-with-row-lines .x-grid-item {
+        border-width: 0px !important;
+    }
+    .x-grid-dirty-cell > .x-grid-cell-inner:after {
+        content: "" !important
+    }
+    .x-grid-cell-inner-action-col{
+        text-align: center !important;
+        .x-action-col-icon {
+            padding-right: 48px !important;
+        }
+    }
+}
+.karma-search-cls {
+  .x-form-text-field-body-default {
+    border: 1px solid #aeaeae;
+  }
+
+  & .x-form-trigger-default {
+    width: 25px !important;
+  }
+}
+.karmadashboard-cls {
+    .x-column-header {
+        border-right: 0px !important;
+        color: #FFFFFF;
+        outline: 0;
+        background-color: #6F6F6F;
+    }
+    .x-grid-header-ct {
+        background-color: #6F6F6F !important;
+    }
+    .x-grid-cell {
+        position: relative;
+        padding: 3px;
+    }
+    .x-column-header-over {
+        color: #FFF !important;
+        background-color: rgb(160, 156, 156) !important;
+        border: none;
+    }
+    .x-column-header .x-column-header-open {
+        background-color: #6F6F6F !important;
+    }
+    .x-column-header-trigger {
+        background: none;
+        background-color: #6F6F6F !important;
+    }
+    .x-column-header-align-left {
+        text-align: center !important;
+    }
+    .x-grid-item-focused {
+        .x-grid-cell-inner:before {
+            border: none !important;
+        }
+    }
+    .x-grid-row .x-grid-cell {
+        border-bottom: none !important;
+        border-top: none !important;
+        border-right: 1px solid rgba(115, 109, 109, 0.09);
+    }
+    .x-grid-with-row-lines .x-grid-item {
+        border-width: 0px !important;
+    }
+    .x-grid-dirty-cell > .x-grid-cell-inner:after {
+        content: "" !important
+    }
+}
+.tab-panel-karma-dash-cls{
+    .x-tab{
+        color: #00000029;  
+    }
+    .x-box-inner {
+        background-color: #f6f6f6;
+        // border-bottom: 1px solid #707070;
+        // font-weight: bold !important;
+     }
+       
+     .x-tab-inner-default {
+        color: #707070 !important;
+        // border-bottom: 1px solid #707070;
+        // font-weight: bold !important;
+     }
+    
+    .x-tab.x-tab-active.x-tab-default{
+        border-color: #f6f6f6;
+        background-color: #f6f6f6;  
+    }
+   
+}
+.tab-panel-karma-dash-cls .x-tab-default .x-tab-inner {
+    font-weight:normal;
+}
+
+.tab-panel-karma-dash-cls .x-tab-active .x-tab-inner{
+    font-weight:bold;
+    border-bottom: 2px solid #707070;
+}
+.btn-icon-cls{
+    padding: 3px;
+    .icon {
+        color:rgb(51, 238, 51);
+        }
+   
+}
+.btn-icon-clss{
+    padding: 3px;
+    .icon {
+        color:rgb(66, 87, 143);
+        }
+   
+}
+.down-icon-cls{
+    .x-action-col-icon {
+        color: rgb(51, 238, 51) !important;
+        font-size: 18px;
+        height: 18px;
+        width: 18px;
+        cursor: pointer;
+    }
+}
+
+.probationtocnnfmform{
+.x-vbox-form-item{
+    background-color: antiquewhite !important;
+    border: 1px solid green;
+}
+}

@@ -1,0 +1,193 @@
+{
+	"products" : [{ 
+				itemid : 1,
+				img    :'resources/images/redeem/tshirt.jpeg',
+				attributes : { 
+					size : [{
+							dispVal : 'S',
+							available : 1
+						},{
+							dispVal : 'M',
+							available : 1
+						},{
+							dispVal : 'L',
+							available : 1
+						},{
+							dispVal : 'XL',
+							available : 0
+						},{
+							dispVal : 'XXL',
+							available : 0
+						}
+					],
+
+					color : [{
+							val : 'Red',
+							available : 0
+						},{
+							val : 'Green',
+							available : 1
+						},{
+							val : 'Blue',
+							available : 1
+						},{
+							val : 'Yellow',
+							available : 1
+						}]
+				}, 
+				points     : 300,
+				categoryId : 2
+			},{ 
+				itemid : 1,
+				img    :'resources/images/redeem/shirt.png',
+				attributes : { 
+					size : [{
+							dispVal : 'S',
+							available : 1
+						},{
+							dispVal : 'M',
+							available : 1
+						},{
+							dispVal : 'L',
+							available : 1
+						},{
+							dispVal : 'XL',
+							available : 0
+						},{
+							dispVal : 'XXL',
+							available : 0
+						}
+					],
+
+					color : [{
+							val : 'Red',
+							available : 0
+						},{
+							val : 'Green',
+							available : 1
+						},{
+							val : 'Blue',
+							available : 1
+						},{
+							val : 'Yellow',
+							available : 1
+						}]
+				}, 
+				points     : 500,
+				categoryId : 3
+			},{ 
+				itemid : 1,
+				img    :'resources/images/redeem/cap.png',
+				attributes : { 
+					size : [{
+							dispVal : 'S',
+							available : 1
+						},{
+							dispVal : 'M',
+							available : 1
+						},{
+							dispVal : 'L',
+							available : 1
+						},{
+							dispVal : 'XL',
+							available : 0
+						},{
+							dispVal : 'XXL',
+							available : 0
+						}
+					],
+
+					color : [{
+							val : 'Red',
+							available : 0
+						},{
+							val : 'Green',
+							available : 1
+						},{
+							val : 'Blue',
+							available : 1
+						},{
+							val : 'Yellow',
+							available : 1
+						}]
+				}, 
+				points     : 200,
+				categoryId : 4
+			},{ 
+				itemid : 1,
+				img    :'resources/images/redeem/cup.png',
+				attributes : { 
+					size : [{
+							dispVal : 'S',
+							available : 1
+						},{
+							dispVal : 'M',
+							available : 1
+						},{
+							dispVal : 'L',
+							available : 1
+						},{
+							dispVal : 'XL',
+							available : 0
+						},{
+							dispVal : 'XXL',
+							available : 0
+						}
+					],
+
+					color : [{
+							val : 'Red',
+							available : 0
+						},{
+							val : 'Green',
+							available : 1
+						},{
+							val : 'Blue',
+							available : 1
+						},{
+							val : 'Yellow',
+							available : 1
+						}]
+				}, 
+				points     : 150,
+				categoryId : 5
+			},{ 
+				itemid : 1,
+				img    :'resources/images/redeem/bag.png',
+				attributes : { 
+					size : [{
+							dispVal : 'S',
+							available : 1
+						},{
+							dispVal : 'M',
+							available : 1
+						},{
+							dispVal : 'L',
+							available : 1
+						},{
+							dispVal : 'XL',
+							available : 0
+						},{
+							dispVal : 'XXL',
+							available : 0
+						}
+					],
+
+					color : [{
+							val : 'Red',
+							available : 0
+						},{
+							val : 'Green',
+							available : 1
+						},{
+							val : 'Blue',
+							available : 1
+						},{
+							val : 'Yellow',
+							available : 1
+						}]
+				}, 
+				points     : 700,
+				categoryId : 6
+			}]
+}

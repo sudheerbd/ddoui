@@ -1,0 +1,21 @@
+{"data": [
+        {
+            
+            "from": "Ranjit",
+            "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "to":"vinod"
+        },
+        {
+            
+            "from": "Phani",
+            "comment": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+            "to":"Vinod"            },
+        {
+            
+            "from": "Udaya",
+            "comment": "As part of first phase, we came up with design for desktop version of the ddo by considering following functionalities dashboard's",
+            "to":"Vinod"
+        }
+    ]
+
+}

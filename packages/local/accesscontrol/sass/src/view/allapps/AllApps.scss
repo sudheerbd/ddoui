@@ -1,0 +1,21 @@
+.all-apps-view-cls{
+    margin: 10px;
+}
+.revoke-confirm-btn {
+    background-color: #000 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 10px;
+    width: 20%;
+    position: relative;
+    left: 36% !important;
+
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+
+.apps-history-title .x-toolbar-default .x-toolbar-item {
+    left: 45% !important;
+    font-weight: bold;
+}

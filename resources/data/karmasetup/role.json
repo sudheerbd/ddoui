@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "karma_name":"Feedback",
+            "karma_desc":"Lorem Ipsum"
+        },
+         {
+            "karma_name":"Instant karma",
+            "karma_desc":"Lorem Ipsum"
+        }
+    ]
+}

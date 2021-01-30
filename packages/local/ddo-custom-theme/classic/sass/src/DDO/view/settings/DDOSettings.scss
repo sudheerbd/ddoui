@@ -1,0 +1,24 @@
+.financial-year-emptytext-cls {
+	position: absolute;
+    top: 50%;
+    left: 41%;
+    color: #6B6767;
+    font-size: 18px;
+}    
+
+.goalsetting-tagfield-cls {
+    width: 95% !important;
+    padding: 5px;
+    positon: relative;
+    margin-left: 10px; 
+    .x-form-trigger-default {
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-text-default {
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .x-form-empty-field-default {
+    	padding-bottom: 5px;
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+}

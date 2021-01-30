@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url($font-roboto-regular-url);
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('$font-roboto-bold-url');
+  font-style: normal;
+} 
+.karmapotentialwidget {
+  text-align: right;
+}
+
+.karmaprogressbar {
+  border-radius: 50px;
+}
+
+.actualpotentialsize {
+  padding-top: 30px;
+font-family:'Roboto-Regular';
+color:$karma-score-title-color;
+  .x-form-display-field-default {
+    font-size: $font-fourteen;
+  }
+}
+
+.totalkarmaname {
+  margin: 15px 0 0 20px;
+}
+
+.circularprgressview {
+  background: white;
+  // border-bottom: 1px solid lightgrey;
+  // border-top: 2px solid lightgrey;
+}
+.progress-gridview {
+  background-color: white;
+  border-radius: 6px !important;
+  box-shadow: 3px 3px 3px lightgrey;
+  color: $karma-score-title-color;
+  font-family: 'Roboto-Regular' !important;
+
+  .x-progress-default .x-progress-bar-default {
+    border-radius: 50px;
+    background-color: #fcba1a;
+  }
+
+  .x-progress-default {
+    height: 10px;
+  }
+
+  .x-grid-item-selected,
+  .x-grid-item {
+    background-color: white !important;
+  }
+
+  .x-panel-header-default {
+    background-color: black;
+  }
+
+  .x-panel-header-title-default > .x-title-text-default {
+    color: white !important;
+  }
+
+  .x-title-text {
+    color: white !important;
+  }
+
+  .x-grid-item-container,
+  .x-grid-item,
+  .x-container {
+    width: 100% !important;
+  }
+  .x-form-display-field-default {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family:'Roboto-Regular';
+    color:$karma-score-title-color;
+}
+.wtc-progress-bar .x-box-item{
+    left: 7px !important;
+  }
+}
+.progress-gridview  {
+  .x-grid-view::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius : 10px;
+  }
+  
+  .x-grid-view::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+  } 
+  
+  .x-grid-view::-webkit-scrollbar-thumb {
+    background-color: #A0A1A6;
+    border-radius : 10px;
+  }
+}
+    

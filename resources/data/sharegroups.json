@@ -1,0 +1,28 @@
+{
+	"data": [{
+		"tagName": "Ranjit",
+		"tagId": 101
+	}, {
+		"tagName": "Supriya Malla",
+		"tagId": 102
+	}, {
+		"tagName": "Rahul",
+		"tagId": 103
+	}, {
+        "tagName": "Ramesh Arigela",
+		"tagId": 104
+	}, {
+		"tagName": "Suresh Tatikonda",
+		"tagId": 105
+	}, {
+		"tagName": "Anil Kumar",
+		"tagId": 106
+	}, {
+		"tagName": "Nagendar",
+		"tagId": 107
+	}, {
+		"tagName": "Lakshmi",
+		"tagId": 108
+	}]
+
+}

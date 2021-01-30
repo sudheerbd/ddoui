@@ -1,0 +1,9 @@
+.manager-rating-form .x-panel-body {
+    background-color: white !important
+}
+.karmastatusPic {
+    border-bottom: 1px solid #E6E6E6 !important;
+    border-right: 1px solid #E6E6E6 !important;
+    border-radius: 4px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);
+}

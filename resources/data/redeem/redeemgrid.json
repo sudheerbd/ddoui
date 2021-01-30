@@ -1,0 +1,21 @@
+[{
+     
+     "created":new Date(),
+     "points":500,
+     "refrence":"Test",
+     "status": "Elgibile"
+ }, {
+     
+     "created":new Date(),
+     "points":250,
+     "refrence":"Test",
+     "status": "Not Elgibile"
+
+ }, {
+     
+     "created":new Date(),
+     "points":700,
+     "refrence":"Test",
+     "status": "Elgibile"
+
+ }]

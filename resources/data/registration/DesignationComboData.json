@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Owner",
+      "value": "Owner"
+    },
+    {
+      "name": "Managing Director",
+      "value": "Managing Director"
+    },
+     {
+      "name": "Personal Manager",
+      "value": "Personal Manager"
+    },
+     {
+      "name": "Operations Head",
+      "value": "Operations Head"
+    },
+    {
+      "name": "Others",
+      "value": "Others"
+    }
+  ]
+}

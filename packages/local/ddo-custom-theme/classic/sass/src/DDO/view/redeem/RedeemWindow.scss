@@ -1,0 +1,63 @@
+.redeemhistoryitems-grid-view{
+	&.x-panel-default{
+		border:1px solid #000;
+	}
+	.x-title-text-default{
+        font-weight: 600;
+        font-size:14px;
+        text-align: center;
+	}
+	.x-box-inner{
+        border-bottom: none !important;
+     }
+     .x-grid-row-summary  .x-grid-cell-inner {
+        font-weight: 600;
+      }
+}
+.redeemwindow-cls {
+   &.x-window-default {
+    border: 0px solid #fff !important;
+    }
+    .x-window-header {
+    border: none !important;
+    background-color: transparent !important;
+    //border-bottom: 1px solid #dcdcdc !important
+    }
+   .x-window-header-title-default > .x-title-text-default {
+    text-align: center;
+    color: #000 !important;
+    font-weight: 600 !important;
+    }
+     .x-header > .x-box-inner{
+        border-bottom: 1px solid #dcdcdc;
+     }
+}
+.redeemwindow-cancel-btn {
+    &.x-btn-default-small{
+    background-color:#ff2916 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding:10px;
+
+    }
+    .x-btn-inner-default-small{
+        color:#fff;
+    }
+}
+.redeemwindow-complete-btn {
+    &.x-btn-default-small{
+    background-color:#19a844 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding:10px;
+
+    }
+    .x-btn-inner-default-small{
+        color:#fff;
+    }
+}
+.redeem-text-cls .x-form-item-label-inner-default{
+   font-weight: 600;
+   font-size:14px;
+	
+}

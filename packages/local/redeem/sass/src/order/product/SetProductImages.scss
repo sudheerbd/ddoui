@@ -1,0 +1,83 @@
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+
+.product-main-cls {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    div.ddo-product-icon-delete {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        display: inline-block;
+        right: -7px;
+        top: -4px;
+        cursor: pointer;
+    }
+    &.ddo-product-over div.ddo-product-icon-delete {
+        display: inline-block;
+    }
+}
+.ddo-product-emptytext {
+    padding: 33px 0px 0px 0px;
+    color: rgba(174, 174, 174, 0.51);
+    font: normal 20px "Aileron", "Open Sans";
+}
+
+.ddo-product-uploadicon {
+    background: #fff;
+    text-align: center;
+    padding-top: 10%;
+    @include border-radius(4px);
+    @include box-shadow(2px 2px 2px 0px #C9C7C8);
+    width: 75px;
+    height: 75px;
+}
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');
+    font-style: normal;
+}
+
+.ddo-product-icon-delete {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+
+.ddo-product-icon-delete:before {
+    content: '\006D' !important;
+    font-size: 30px;
+    position: relative;
+    font-weight: 500;
+    top:23px;
+    @include text-shadow(1px 1px 2px #B0B0B0);
+    color: #575757 !important;
+}
+.ddo-product-icon {
+    width: 80px;
+    height: 80px;
+    @include border-radius(4px);
+    @include box-shadow(2px 2px 2px 0px #C9C7C8);
+}
+
+.product-nonselec-cls {
+    background-image: url(/resources/images/todo/check.png);
+    background-size: cover;
+    width: 18px !important;
+    height: 18px;
+    font: 18px/1 ExtJS;
+    color: #919191;
+    display: inline-block;
+}
+
+.imgselected-cls .product-nonselec-cls{
+    background-image: url(/resources/images/todo/Checked.png) !important;
+    background-size: cover;
+    width: 18px !important;
+    height: 18px;
+    font: 18px/1 ExtJS;
+    color: #919191;
+    display: inline-block;
+}

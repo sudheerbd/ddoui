@@ -1,0 +1,233 @@
+{
+  "success": true,
+  "data": [
+    {
+      "ad_role_id": "400003",
+      "name": "Accountant",
+      "description": "Accountant",
+      "checked":false
+    },
+    {
+      "ad_role_id": "400021",
+      "name": "Accountant",
+      "description": "Accountant",
+      "checked":false
+    },
+    {
+      "ad_role_id": "400000",
+      "name": "Accounting Executive",
+      "description": "Accounting Executive",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000021",
+      "name": "CFO",
+      "description": "CFO",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000029",
+      "name": "COO",
+      "description": "COO",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000028",
+      "name": "CTO",
+      "description": "CTO",
+      "checked":false
+    },
+    {
+      "ad_role_id": "401002",
+      "name": "Developer",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000027",
+      "name": "Director",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000018",
+      "name": "Employee",
+      "description": "Employee",
+      "checked":true
+    },
+    {
+      "ad_role_id": "50002",
+      "name": "FA User",
+      "description": "Fixed Asset User",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000000",
+      "name": "Finance Manager",
+      "description": "Finance Manager",
+      "checked":false
+    },
+    {
+      "ad_role_id": "1000000",
+      "name": "HR Manager",
+      "description": "HR Manager",
+      "checked":false
+    },
+    {
+      "ad_role_id": "6900001",
+      "name": "Inventory Admin",
+      "description": "Inventory Admin ",
+      "checked":false
+    },
+    {
+      "ad_role_id": "401003",
+      "name": "IT Recruiter",
+      "description": "IT Recruiter",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000002",
+      "name": "Operations Manager",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000001",
+      "name": "Operations Manger",
+      "description": "Operations Manger",
+      "checked":false
+    },
+    {
+      "ad_role_id": "50001",
+      "name": "Packaging User",
+      "description": "Packaging User",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000005",
+      "name": "Presale",
+      "description": "presale",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000006",
+      "name": "PreSale",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000004",
+      "name": "PreSale",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000001",
+      "name": "President",
+      "description": "President",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000026",
+      "name": "Project Manager",
+      "description": "Manage Project Allocation",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000025",
+      "name": "Purchase Executive",
+      "description": "Purchase Executive",
+      "checked":false
+    },
+    {
+      "ad_role_id": "6900000",
+      "name": "Purchase Manager",
+      "description": "Purchase Manager ",
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000030",
+      "name": "Resource Manager",
+      "description": "Resource Manager",
+      "checked":false
+    },
+    {
+      "ad_role_id": "20000000",
+      "name": "Sales Executive",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "7000019",
+      "name": "Sales Manager",
+      "description": "Sales Manager",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000008",
+      "name": "Scientist A",
+      "description": "Senior Scientist",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000010",
+      "name": "Scientist A",
+      "description": "Senior Scientist",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000009",
+      "name": "Scientist A",
+      "description": "Senior Scientist",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000007",
+      "name": "Senior Business Development Manger",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "1000002",
+      "name": "Software Engineer",
+      "description": "Software Engineer",
+      "checked":false
+    },
+    {
+      "ad_role_id": "1000001",
+      "name": "Supervisor",
+      "description": "Department Manager",
+      "checked":false
+    },
+    {
+      "ad_role_id": "0",
+      "name": "System Administrator",
+      "description": "System Administrator Role (cannot be changed)",
+      "checked":false
+    },
+    {
+      "ad_role_id": "30000000",
+      "name": "test",
+      "description": "Senior Business Development Manger",
+      "checked":false
+    },
+    {
+      "ad_role_id": "50004",
+      "name": "Web Service Execution",
+      "description": null,
+      "checked":false
+    },
+    {
+      "ad_role_id": "102",
+      "name": "WTC Admin",
+      "description": "WTC Admin",
+      "checked":false
+    },
+    {
+      "ad_role_id": "103",
+      "name": "WTC User",
+      "description": "WTCUser",
+      "checked":false
+    }
+  ]
+}

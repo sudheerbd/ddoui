@@ -1,0 +1,160 @@
+.daterangepanel .x-panel-body-default{
+    border:none !important;
+}
+
+.daterangepanel .x-toolbar-footer{
+    background-color: transparent;
+}
+
+.fa-calendar:before {
+    content: "\f073" !important;
+}
+.daterangepanel-form-cls .x-toolbar-footer {
+    background: transparent !important;
+    
+}
+.daterangepanel {
+    left: 889px !important;
+    overflow: initial !important;
+    background: $color-white;
+    @include border-radius(5px);
+    @include transform(translate(-87px, 32px));
+    @include box-shadow(0px 1px 4px rgba($color-black, 0.3), 0px 2px 1px rgba($color-black, 0.2));
+    &.x-menu-default {
+        border: none !important;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: $color-white;
+        z-index: -1;
+        left: 50%;
+        @include transform(translateX(-50%) rotate(45deg));
+        @include box-shadow(0px 0px 2px rgba($color-black, 0.2));
+        top: -5px;
+    }
+}
+.ddo-daterange-datepicker {
+    .x-datepicker-prevday .x-datepicker-date, .x-datepicker-nextday .x-datepicker-date {
+    color: #d0d0d0 !important;
+     }
+    .x-datepicker-disabled {
+        .x-datepicker-date {
+            color: #aeaeae !important;
+            background: #fff;
+        }
+        div.x-datepicker-date {
+            &:hover {
+                background: #fff !important;
+            }
+        }
+    }
+    .x-monthpicker-item-inner{
+          line-height: 31px !important;
+
+    }
+    .x-datepicker{
+        width: 270px !important;
+    }
+    .x-monthpicker-years {
+      width: 126px !important;
+    }
+    .x-monthpicker-months{
+      width: 126px !important;
+    }
+    .x-monthpicker-yearnav-button-ct {
+       width: 58px !important;
+    }
+    .x-monthpicker-yearnav {
+       height: 30px !important;
+    }
+    .x-monthpicker-item{
+         margin: 3px 0 3px !important;
+    }
+    .x-monthpicker-months .x-monthpicker-item {
+    width: 60px !important;
+    }
+    .x-monthpicker-years .x-monthpicker-item {
+    width: 60px !important;
+     }
+    .x-datepicker-inner{
+          table-layout: auto !important;
+          border-collapse: separate !important;
+    }
+    border: none;
+    @include border-radius(10px !important);
+    @include box-shadow(0px 0px 10px 2px #dcdcdc !important);
+    .x-datepicker-selected {
+        div.x-datepicker-date {
+            background-color: #4CAF50;
+            @include border-radius(18px);
+        }
+    }
+    .x-datepicker-date {
+        color: #000;
+        font-weight: 700;
+        line-height: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .x-datepicker-today {
+        background: transparent;
+    }
+    div.x-datepicker-date {
+        &:hover {
+            background: #90EE90;
+        }
+    }
+    .x-datepicker-header {
+        background: #fff;
+        @include border-radius(30px);
+    }
+    .x-datepicker-arrow {
+        background: #fff;
+    }
+    .x-datepicker-month {
+        .x-btn-over {
+            background: #fff;
+        }
+    }
+    .x-datepicker-foo ter {
+        display: none;
+    }
+    .x-datepicker-column-header-inner {
+        background: #fff;
+        line-height: 24px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    .x-datepicker.x-layer {
+        position: fixed !important;
+    }
+}
+
+.ddo-daterange-datepicker {
+    .x-datepicker-next {
+        &:before {
+            content: "\f0da";
+            color: #000;
+        }
+    }
+    .x-datepicker-prev {
+        &:before {
+            content: "\f0d9";
+            color: #000;
+        }
+    }
+    .x-datepicker-month {
+        .x-btn-inner {
+            color: #000;
+            font-weight: 700;
+        }
+    }
+    .x-datepicker-month .x-btn {
+        background: transparent !important;
+    }
+}
+.pointer-cls:before{
+    left:65% !important;
+}

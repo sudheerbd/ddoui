@@ -1,0 +1,12 @@
+{
+    "data": [{
+        "name": "Billable",
+        "typeId": "1001"
+    }, {
+        "name": "Support",
+        "typeId": "1002"
+    }, {
+        "name": "Trainee",
+        "typeId": "1003"
+    }]
+}

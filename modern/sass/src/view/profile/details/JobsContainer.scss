@@ -1,0 +1,185 @@
+/*@Rahul Yadav*/
+
+//.ddo-title-txtfield,
+//.ddo-company-txtfield,
+//.ddo-location-txtfield {
+//    border-bottom: $ddo-border;
+//}
+
+.ddo-title-txtfield .x-form-label,
+.ddo-company-txtfield .x-form-label,
+.ddo-location-txtfield .x-form-label,
+.ddo-adddetails-label,
+.ddo-timeperiod-label {
+    background: $ddo-white-color;
+    padding: 15px 0px 0px 0px !important;
+    font-size: 12px !important;
+    color: #000;//$ddo-gray-color;
+}
+
+.ddo-adddetails-togglefield .x-form-label {
+    background: $ddo-white-color;
+    //font-size: 14px !important;
+    font-size: 13px !important;
+    color: $ddo-gray-color;
+    padding: 15px 0px 3px 0px;
+    opacity: 0.6 !important
+}
+
+.ddo-startdate-datepickerfield .x-form-label,
+.ddo-enddate-datepickerfield .x-form-label {
+    background: $ddo-white-color;
+    font-size: 12px !important;
+    color: $ddo-gray-color;
+    padding: 18px 0px 0px 0px !important
+}
+
+//.ddo-startdate-datepickerfield .x-field-mask,
+//.ddo-enddate-datepickerfield .x-field-mask {
+//    border-bottom: $ddo-border;
+//}
+
+.ddo-date-spacer {
+    background: $ddo-white-color;
+}
+
+.ddo-adddetails-togglefield .x-component-outer {
+    margin: 15px 0px 0px 0px !important;
+}
+
+.ddo-jobscontainer-toolbar .x-title {
+    color: $ddo-theme-yellow-color;
+    font-size: $ddo-profile-header-font-size;
+    text-align: center;
+    font-weight: $ddo-profile-header-font-weight;
+}
+
+.ddo-profile-jobs-container {
+    background: $ddo-white-color;
+    @include border-radius($ddo-profile-border-radius);
+    //margin: 2% 1%;
+    margin: 5px 0px;
+    //width: 98% !important;
+}
+
+.ddo-jobscontainer-toolbar {
+    border: none;
+    @include border-radius(10px 10px 10px 10px);
+}
+
+// .jobsexpandcollapse-btn{
+// border-top:1px solid #dcdcdc !important;
+// }
+.ddo-adddetails-togglefield .x-toggle {
+    width: 2.5em !important;
+    height: 1.1em !important;
+}
+.ddo-addjob-txtfield .x-component-outer .x-unsized.x-field-input.x-has-width .x-input-el.x-form-field.x-input-text {
+    width: 100% !important;
+}
+.ddo-adddetails-togglefield .x-thumb{
+    height: 1.5em !important;
+    width: 1em !important;
+}
+.ddo-adddetails-togglefield .x-thumb:after {
+    width: 0.9em !important;
+    height: 0.9em !important;
+    top: 0.05em !important;
+    left: 0 !important;
+}
+
+// .ddo-jobscontainer-toolbar .x-toolbar-inner {
+//     border-bottom:$ddo-border;
+// }
+// .jobdetailsview-cls .employee{
+//     border-top:$ddo-border;
+// }
+// .ddo-addjobscontainer-toolbar .x-title{
+//     color:$ddo-white-color;
+// }
+.ddo-addnew-btn {
+    border: none !important;
+    background: transparent !important;
+    font-size: $ddo-profile-sub-header-font-size;
+}
+
+.ddo-addnew-btn .x-button-icon {
+    color: $ddo-black-color;
+    font-size: 15px !important;
+}
+
+.ddo-addjobscontainer-toolbar {
+    background: $ddo-black-color;
+}
+
+.ddo-addjobscontainer-backbtn.x-button.x-button-pressing, 
+.ddo-addjobscontainer-backbtn.x-button.x-button-pressed {
+    border: 0px transparent !important;
+    background: $ddo-black-color;
+}
+
+.ddo-addjobscontainer-backbtn {
+    border: 0px transparent !important;
+    background: $ddo-black-color;
+}
+
+.ddo-addjobscontainer-backbtn .x-button-icon {
+    color: $ddo-white-color;
+}
+
+.ddo-addjobscontainer-savebtn {
+    background: $ddo-black-color;
+    border: 0px transparent !important;
+    color: $ddo-theme-yellow-color;
+}
+
+.ddo-edit-img {
+    float: right;
+}
+
+.ddo-title-wrap .designation {
+    color: $ddo-theme-yellow-color;
+    font-size: $ddo-profile-sub-header-font-size;
+}
+
+.jobdetailsview-cls .x-dataview-item ~ .x-dataview-item {
+    display: none;
+}
+
+.jobsexpandcollapse-btn {
+    background-color: transparent;
+    border: none;
+    margin: 0% 5%;
+}
+
+.jobdetailsview-cls .x-dataview-item {
+    border-top: $ddo-border;
+    padding: 10px 15px 0px 15px !important;
+    color: $ddo-profile-content-color;
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    word-break: break-word !important;
+}
+
+.ddo-addjobscontainer-toolbar .x-title .x-innerhtml {
+    color: white !important;
+}
+
+.ddo-addjobscontainer-savebtn .x-fa:before {
+    color: white !important;
+}
+
+.ddo-jobs-form {
+    margin: 0 !important;
+    border: none !important;
+}
+
+.jobdetailsview-cls {
+    padding: 4px 5px 0px 0px !important;
+}
+
+.employee p {
+    margin: 6px 0px;
+}

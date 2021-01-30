@@ -1,0 +1,41 @@
+$ddo-theme-gray-color: #808080;
+$ddo-theme-yellow-color: #fab82e; // #fac500;
+$like-comment-btn-background-color: #f4f4f4;
+$like-comment-btn-color: #979797;
+$article-comment-color: #eee;
+$ddo-white-color:#FFFFFF;
+$ddo-gray-color:#808080;
+$ddo-black-color:#000000;
+// font related
+$ddo-profile-font-family: "Aileron",
+"Open Sans";
+$ddo-profile-header-font-size: 16px;
+$ddo-profile-sub-header-font-size: 14px;
+$ddo-profile-content-font-size: 12px;
+$ddo-profile-header-font-weight: 600;
+$ddo-profile-sub-header-font-weight: 600;
+$ddo-profile-content-font-weight: 400;
+// colors
+$ddo-profile-content-color: #9a9a9a; // #959595;
+$ddo-profile-header-color: #8f8f8f;
+$ddo-profile-header-border-color: #dcdcdc;
+$ddo-profile-sub-header-color: $ddo-theme-yellow-color;
+$ddo-profile-emptytext-color: rgba(174, 174, 174, 0.51);
+$ddo-profile-button-yellow-color: $ddo-theme-yellow-color;
+// misc
+$ddo-profile-box-shadow: 1px 1px 8px 2px #edeeef;
+$ddo-profile-border-radius: 10px;
+$ddo-border: 1px solid $ddo-profile-header-border-color;
+//common padding for add details containers
+$ddo-profile-add-details-padding: 5px 27px 0px;
+//timeline
+$ddo-profile-timeline-outer-box-shadow:0px 2px 5px 0px #d6d6d6;
+$ddo-profile-timeline-thread-box-shadow:0px 1px 1px 0px #d6d6d6;
+$ddo-profile-timeline-title-font-size: 14px;
+$ddo-profile-timeline-box-box-shadow:0px 2px 2px 0px #d6d6d6;
+//Add-Job form 
+$ddo-profile-addjobform-border-radius: 5px;
+//todo
+$ddo-todo-grid-text-font-weight: $ddo-profile-header-font-weight;
+$ddo-todo-form-text-font-weight: 700;
+$ddo-todo-bold-text-font-weight: 800;

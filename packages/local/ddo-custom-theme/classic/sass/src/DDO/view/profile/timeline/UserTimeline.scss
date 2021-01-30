@@ -1,0 +1,295 @@
+.userProfile-container .timeline-item .contents-wrap {
+    margin: 0 0px 15px 110px;
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 15px;
+    white-space: normal;
+}
+
+.userProfile-container .x-grid-item:last-child .timeline-item:before {
+   margin-top: -27px;   
+}
+
+.userProfile-container .timeline-item .profile-pic-wrap {
+    position: relative;
+    background: #fff;
+    padding: 5px 0;
+}
+
+.userProfile-container .timeline-item .contents-wrap .shared-img {
+    width: 100%;
+    display: block;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    left: 115px;
+    background: white;
+    border-top: none !important;
+    border-bottom: none !important;
+    @include box-shadow($ddo-profile-timeline-thread-box-shadow);
+}
+
+.timeline-item {
+    float: left;
+}
+
+.timeline-box {
+    float: right;
+    width: 650px;
+    margin-left: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    @include border-radius(5px);
+    background-color: white !important;
+    position: relative;
+    @include box-shadow($ddo-profile-timeline-box-box-shadow);
+    margin-bottom: 15px;
+}
+
+.timeline-outer {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+    background: white;
+    padding: 20px;
+    @include border-radius(50%);
+    margin-top: 20px;
+    @include box-shadow($ddo-profile-timeline-outer-box-shadow);
+}
+
+.timeline-inner {
+    content: "";
+    position: relative;
+    width: 8px;
+    height: 8px;
+    margin-left: -11px;
+    margin-top: -11px;
+    background: #FABC16;
+    padding: 9px;
+    @include border-radius(85%);
+    border: 2px solid #F1F2F3;
+}
+
+.timeline-day {
+    float: left;
+    margin-top: 30px !important;
+    font-weight: $ddo-profile-header-font-weight;
+    width: 75px;
+    color: $ddo-profile-header-color;
+}
+
+.timeline-items-wrap {
+    .x-grid-item-focused .x-grid-cell-inner:before {
+        border: 0px;
+    }
+    .x-grid-cell-inner {
+        position: inherit !important;
+        padding: 0px !important;
+        left: 10% !important;
+    }
+}
+
+.timeline-content {
+    width: 630px !important;
+    position: relative;
+    font: 500 13px/15px $ddo-profile-font-family !important;
+    left: 0px;
+    right: 20px;
+    color: $ddo-profile-header-color;
+    border-top: 1px solid rgba(226, 225, 225, 0.48) !important;
+    white-space: normal;
+    overflow: hidden;
+    padding: 6px;
+    text-align: justify;
+    word-break: break-word;
+    line-height: 20px !important;
+}
+
+.timeline-image img {
+    border: 0;
+    height: 45px;
+    width: 45px;
+    @include border-radius(5px);
+    margin-top: 12px;
+    margin-left: 4px;
+    @include opacity(0.4);
+}
+
+.timeline-image img:hover {
+    @include opacity(1.0);
+}
+
+.timeline-title {
+    width: 95% !important;
+    white-space: normal;
+    font-weight: $ddo-profile-header-font-weight;
+    margin-bottom: 11px;
+    float: left;
+    color: $ddo-profile-header-color;
+    font-size: $ddo-profile-timeline-title-font-size;
+    font-family: $ddo-profile-font-family;
+}
+
+.appreciated-author-cls{
+    color: $ddo-profile-timeline-title-appreciatdby-textcolor; 
+    cursor:pointer !important;   
+}
+
+
+.timeline-badge {
+    float: right;
+    margin-top: -8px;
+    margin-right: 15px;
+    height: 36px;
+}
+
+
+/* for hiding gridpanel border of employeenotification */
+
+.timeline-items-wrap .x-grid-with-row-lines .x-grid-item {
+    background: #F5F6F8 !important;
+    border: none !important;
+}
+
+
+/*css for pointer*/
+
+.timeline-item .timeline-box:after {
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid #fff;
+    margin: 15px 0 0 -8px;
+}
+
+
+/*.timeline-item .timeline-box:before {
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid #ddd;
+    margin: 16px 0 0 -9px;
+}*/
+
+.timeline-attach img {
+    float: left;
+}
+
+.timeline-attach {
+    padding: 10px;
+}
+
+.timeline-attachedData {
+    font: 500 13px/15px $ddo-profile-font-family !important;
+    margin-left: 28px;
+}
+
+
+/*.timeline-item .timeline-box:before, .timeline-item .timeline-box:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    left: 0px;
+    margin-top: 16px;
+    float: left;
+}*/
+
+.timelinebutton.x-btn-default-toolbar-small {
+    background-color: #FAC500 !important;
+    @include border-radius(6px);
+}
+
+.detailsbutton.x-btn-default-toolbar-small {
+    background-color: $color-black !important;
+    @include border-radius(6px);
+}
+
+.timelinebutton .x-btn-inner-default-toolbar-small,
+.detailsbutton .x-btn-inner-default-toolbar-small {
+    color: white;
+    font-weight: 700;
+}
+
+.timeline-emptytext{
+    background:#f6f6f6;
+    height:280px;
+    width:100%;
+}
+.timeline-left-image{
+   dispay:block;
+   float:left; 
+    margin-right: -75px;
+    margin-left: 57px;
+    margin-top: 65px;  
+}
+.timeline-left-image img{
+    width: 150px;
+    height: 150px;
+}
+.timeline-icon-3 img {
+    margin-left: 220px;
+
+}
+.timeline-icon-2 .icon-2 {
+        margin-left: 95px;
+}
+.timeline-icon-2 .icon-4 {
+    margin-left: 180px;
+}
+
+  .timeline-icon-6 img{
+     margin-left: 378px;
+
+  }
+  .timeline-icon-text .timeline-text {
+    float: left;
+    width: 290px;
+    left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-text: center;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-left: 126px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.timeline-emptytext-box {
+    /* float: right; */
+    width: 820px;
+    //margin-left: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+
+    @include border-radius(5px);
+    background-color: white !important;
+    position: relative;
+    @include box-shadow($ddo-profile-timeline-box-box-shadow);
+    margin-bottom: 15px;
+}
+
+.timeline-items-wrap .x-grid-empty{
+ background:#f6f6f6;
+ }
+
+ .userprofile-tbar {
+   // border-bottom: 1px solid #EAEAEA !important;
+}
+
+.categoryname-cls{
+    color: $ddo-profile-timeline-title-appreciatdby-textcolor;
+    float: right;
+}
+

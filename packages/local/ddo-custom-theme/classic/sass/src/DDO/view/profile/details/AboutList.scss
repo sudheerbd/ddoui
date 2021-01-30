@@ -1,0 +1,53 @@
+.ddo-aboutlist-box {
+    height: auto;
+    @include box-shadow($ddo-profile-box-shadow);
+    padding: 27px;
+    background-color: $color-white;
+    @include border-radius($ddo-profile-border-radius);
+}
+
+.ddo-aboutlist-header,
+.ddo-aboutlist-name,
+.ddo-aboutlist-detail {
+    font-family: $ddo-profile-font-family;
+}
+
+.ddo-aboutlist-header {
+    color: $ddo-profile-header-color;
+    font-size: $header-font-size !important;
+    font-weight: $ddo-profile-header-font-weight;
+    padding: 0 0px 14px 0px;
+    border-bottom: 1px solid $ddo-profile-header-border-color;
+}
+
+.ddo-aboutlist-name {
+    color: $ddo-profile-sub-header-color;
+    padding: 21px 0 0;
+    line-height: 25px;
+    font-size: $name-font-size !important;
+    font-weight: $ddo-profile-sub-header-font-weight;
+}
+
+.ddo-aboutlist-fa-wrapper {
+    width: 13px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    display: inline-block;
+    // i {
+    //     width: 18px;
+    //     float: left;
+    //     text-align: center;
+    //     font-size: 15px !important;
+    // }
+}
+
+.ddo-aboutlist-detail {
+    color: $ddo-profile-content-color;
+    margin-top: 0px;
+    font-size: $text-font-size !important;
+    margin-left: 30px;
+    line-height: 25px;
+    font-weight: $ddo-profile-content-font-weight;
+}

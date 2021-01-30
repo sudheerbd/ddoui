@@ -1,0 +1,103 @@
+$ddo-theme-font-family: 'Roboto,Regular';
+$ddo-theme-yellow-text-color: #fab82e; // rgb(250, 184, 46)
+$ddo-theme-gray-text-color: #9a9a9a; // rgb(154, 154, 154)
+$ddo-theme-container-bg-color: #f5f6f8;
+
+$panel-navigation-background-color: #ffffff; //#32404e;
+//$panel-navigation-item-line-height: 46px; //Changed from 64 to 46 12th April Nagender
+$panel-navigation-item-line-height: 40px;
+$panel-navigation-item-text-color: #808080;
+
+$ddo-designation-font-size:12px;
+// treelist vars
+$ddo-treelist-text-color: #808080;
+$ddo-treelist-header-border-color: #d0d0d0;
+
+$base-color:#35baf6;
+$circle-border-radius:10%;
+$base-border-color: #ddd;
+$lightest-color:#fff;
+$font-weight: normal;
+
+$name-font-size: 14px;
+$text-font-size: 12px;
+$header-font-size: 16px;
+
+$accordion-header-background-color: $lightest-color;
+$accordion-header-color: #333;
+
+$social-facebook-btn-background: #167abc;
+$social-twitter-btn-background: #03b4d5;
+$social-google-plus-btn-background: #e44959;
+$social-envelope-btn-background: #7754aa; 
+
+$button-toolbar-background-color: transparent;
+$button-toolbar-border-color: transparent;
+$button-toolbar-hover-background-color: #efefef;
+
+
+
+//Form and Toolbar Button UI colors
+
+$color-blue: #167abc;
+$color-soft-cyan: #03b4d5;
+$color-soft-blue: #2eadf5;
+$color-soft-green: #9cc96b;
+$color-soft-red: #e44959;
+$color-soft-purple: #925e8b;
+$color-gray: #949495;
+$color-green: #16b603;
+$color-white: #ffffff;
+$color-red: #ff0000;
+$color-black: #000000;
+$color-lightgray: #d3d3d3;
+
+$color-white-gray:#D5DBDB;
+
+
+$button-blue:#0277A3;
+$text-color-white:#FFFFFF;
+$karma-score-title-color:#4E4F52;
+$font-fourteen:14px;
+$font-twelve:12px;
+//
+// Mixins
+//
+
+//shorthand background mixin
+// @param $color -> css background-color
+// @param $imgpath -> Path of an image
+// @param $repeat -> css background-repeat
+// @param $position -> css background-position
+// @param $size -> css background-size
+// @param $important -> true to make it important
+@mixin bgImgShorthand($imgpath, $color: transparent, $repeat: no-repeat, $position: 0 0, $size: auto, $important: false) {
+    @if $important == true {
+        background: $color url(#{$imgpath}) $repeat $position !important;
+        background-size: $size !important;
+    } @else {
+        background: $color url(#{$imgpath}) $repeat $position;
+        background-size: $size;
+    }
+}
+
+$empnames-color:#46955A;    
+
+
+
+$button-blue:#0277A3;
+$text-color-white:#FFFFFF;
+$karma-score-title-color:#4E4F52;
+$font-fourteen:14px;
+$font-twelve:12px;
+$font-family-roboto:'Roboto';
+$border-color:#A0A1A6;
+$color-karmaBgcolor:#E7E9EE;
+$font-roboto-regular-url:'/resources/fonts/roboto/Roboto-Regular.ttf';
+$font-roboto-bold-url:'/resources/fonts/roboto/Roboto-Bold.ttf';
+$btn-boxshadow:0px 3px 6px rgba(0,0,0,0.3);
+$onmouse-hover:rgba(73, 135, 197, 0.1);
+$borderRadius : 5px;
+$border-color-like:#EEE;
+$border-color-menu:#d0d0d0;
+$post-comment-color: #A0A1A6

@@ -1,0 +1,500 @@
+/* http://localhost:1841/packages/local/redeem/sass/src/category/CategoryView.scss:1 */
+.redeem-category-view {
+    background-color: #fff !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/category/CategoryView.scss:5 */
+.redeem-category-view .redeem-category-field .x-form-display-field-default {
+    color: #404040;
+    text-align: center;
+    font-weight: bold;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/category/CategoryView.scss:12 */
+.redeem-category-view .category-grid .x-grid-item {
+    background-color: #fff !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/category/CategoryView.scss:16 */
+.redeem-category-view .category-grid .x-grid-dirty-cell > .x-grid-cell-inner:after {
+    content: "";
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/category/CategoryView.scss:24 */
+.x-grid-item-focused .x-grid-cell-inner {
+    z-index: 0 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/attributevalue/AttributeValueWindow.scss:1 */
+.attributevalue-win-cls.x-window-default {
+    border: none !important;
+    background: #000 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:5 */
+.product-main-cls {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:10 */
+.product-main-cls div.ddo-product-icon-delete {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    display: inline-block;
+    right: -7px;
+    top: -4px;
+    cursor: pointer;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:19 */
+.product-main-cls.ddo-product-over div.ddo-product-icon-delete {
+    display: inline-block;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:23 */
+.ddo-product-emptytext {
+    padding: 33px 0px 0px 0px;
+    color: rgba(174, 174, 174, 0.51);
+    font: normal 20px "Aileron", "Open Sans";
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:29 */
+.ddo-product-uploadicon {
+    background: #fff;
+    text-align: center;
+    padding-top: 10%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 2px 0px #c9c7c8;
+    -moz-box-shadow: 2px 2px 2px 0px #c9c7c8;
+    box-shadow: 2px 2px 2px 0px #c9c7c8;
+    width: 75px;
+    height: 75px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:38 */
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');
+    font-style: normal;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:44 */
+.ddo-product-icon-delete {
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:49 */
+.ddo-product-icon-delete:before {
+    content: '\006D' !important;
+    font-size: 30px;
+    position: relative;
+    font-weight: 500;
+    top: 23px;
+    text-shadow: 1px 1px 2px #b0b0b0;
+    color: #575757 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:58 */
+.ddo-product-icon {
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 2px 0px #c9c7c8;
+    -moz-box-shadow: 2px 2px 2px 0px #c9c7c8;
+    box-shadow: 2px 2px 2px 0px #c9c7c8;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:65 */
+.product-nonselec-cls {
+    background-image: url(/resources/images/todo/check.png);
+    background-size: cover;
+    width: 18px !important;
+    height: 18px;
+    font: 18px/1 ExtJS;
+    color: #919191;
+    display: inline-block;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/order/product/SetProductImages.scss:75 */
+.imgselected-cls .product-nonselec-cls {
+    background-image: url(/resources/images/todo/Checked.png) !important;
+    background-size: cover;
+    width: 18px !important;
+    height: 18px;
+    font: 18px/1 ExtJS;
+    color: #919191;
+    display: inline-block;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:2 */
+.redeem-checkout .checkout-wrap {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-top: 1px solid #dcd3d3;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:183 */
+.redeem-checkout .div-one {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+    height: 100%;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:190 */
+.redeem-checkout .div-one .checkout-image {
+    width: 130px;
+    height: 95px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:195 */
+.redeem-checkout .div-two {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    font-weight: 500;
+    vertical-align: middle;
+    width: 17%;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:203 */
+.redeem-checkout .div-three {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:210 */
+.redeem-checkout .div-four {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:217 */
+.redeem-checkout .div-five {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 125px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:223 */
+.redeem-checkout .div-five .x-fa {
+    color: brown;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:226 */
+.redeem-checkout .div-five .delete {
+    margin-left: 10px;
+    cursor: pointer !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:231 */
+.redeem-checkout .txtField {
+    width: 50px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Checkout.scss:235 */
+.redeem-checkout .div-four .x-form-item {
+    border: 1px solid !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:8 */
+.checkoutwindow .x-toolbar-default {
+    border-style: solid;
+    border-color: #d0d0d0;
+    border-width: 1px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:13 */
+.checkoutwindow .x-window-default {
+    border: 0px solid #000 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:16 */
+.checkoutwindow .lbl-checkout {
+    font-weight: 500;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:19 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom {
+    padding: 0px 0px 10px 0;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:21 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom .x-btn-default-toolbar-small {
+    border-radius: 0;
+    border-color: none !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:26 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom .btn-confirm {
+    margin-left: 0px !important;
+    background-color: #fcba1a !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:32 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom .btn-cancel {
+    background-color: #000 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:35 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom .lbl-redeemed {
+    color: orange;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:38 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom .lbl-available {
+    color: #20e255;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:41 */
+.checkoutwindow .x-toolbar-default.x-docked-bottom .x-btn-inner-default-toolbar-small {
+    color: #fff;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:46 */
+.checkoutwindow .x-toolbar-default.x-docked-top .lbl-redeemed {
+    color: orange;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:49 */
+.checkoutwindow .x-toolbar-default.x-docked-top .lbl-available {
+    color: #20e255;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:55 */
+.checkoutwindow.x-window-default {
+    border: 0px solid #000 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:59 */
+.checkoutwindow.x-box-inner {
+    width: '100%';
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:87 */
+.exactPointPCls {
+    float: left;
+    font-weight: bold;
+    margin-left: 22px;
+    background-color: orange;
+    width: 19px;
+    height: 19px;
+    border: 1px solid orange;
+    border-radius: 9px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/CheckoutWindow.scss:98 */
+.exactPointsCls {
+    font-weight: bold;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:2 */
+.redeem-product .product-wrap {
+    /*width  : 300px;
+		height : 400px;
+		margin : 15px;
+		float  : left;
+		background-color : #FFFFFF;
+		text-align : center;
+		padding-top : 3px;*/
+    /*width  : 300px;
+		height : 400px;
+		margin : 15px;
+		float  : left;
+		background-color : #FFFFFF;
+		text-align : center;
+		padding-top : 3px;*/
+    width: 230px;
+    /*width  : 300px;
+		height : 400px;
+		margin : 15px;
+		float  : left;
+		background-color : #FFFFFF;
+		text-align : center;
+		padding-top : 3px;*/
+    height: 392px;
+    margin: 11px;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:22 */
+.redeem-product .product-name {
+    /*.product-image {
+		float  : left;
+		min-height: 70%;
+		max-height: 70%;
+	}*/
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:30 */
+.redeem-product .product-img {
+    max-width: 100%;
+    max-height: 62%;
+    min-height: 62%;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:35 */
+.redeem-product .product-color {
+    width: 100%;
+    height: 5%;
+    border-bottom: 1px solid #dcd3d3;
+    text-align: right;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:40 */
+.redeem-product .product-color .color {
+    width: 6px;
+    height: 6px;
+    margin: 2px;
+    right: 0px;
+    display: inline-block;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:50 */
+.redeem-product .product-color .color.selected {
+    border-width: 8px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:55 */
+.redeem-product .product-size {
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid #dcd3d3;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:59 */
+.redeem-product .product-size .size {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px;
+    margin-top: 8px;
+    padding-top: 10px;
+    background-color: #e2dede;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:82 */
+.redeem-product .product-size .size.selected {
+    /*
+					width         : 40px;
+					height        : 40px;
+					border-radius : 50%;
+					display       : inline-block;
+					margin 		  : 9px;
+					padding-top   : 10px;
+					background-color: #E2DEDE;
+					font-weight   : bold;
+					cursor        : pointer;
+			    */
+    background-color: #000;
+    color: #fff;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:86 */
+.redeem-product .product-size .size.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:92 */
+.redeem-product .product-value {
+    width: 100%;
+    height: 9%;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:95 */
+.redeem-product .product-value .value {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 5px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:101 */
+.redeem-product .product-value .pointscls {
+    float: left;
+    font-weight: bold;
+    margin-left: 22px;
+    background-color: orange;
+    width: 19px;
+    height: 19px;
+    border: 1px solid orange;
+    border-radius: 9px;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/Product.scss:111 */
+.redeem-product .product-value .buy-btn {
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-top: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:3 */
+.redeem-product-view .x-toolbar-default {
+    background-color: #d0d0d0 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:6 */
+.redeem-product-view .x-panel-body-default {
+    background-color: #d0d0d0 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:10 */
+.redeem-product-view .redeem-wallet .x-btn-icon-el-default-toolbar-small {
+    color: #fff;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:13 */
+.redeem-product-view .redeem-wallet .x-btn-inner-default-toolbar-small {
+    color: #fff;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:16 */
+.redeem-product-view .redeem-wallet.x-btn-default-toolbar-small {
+    border-radius: 10%;
+    background-color: orange;
+    border-color: orange;
+    opacity: 1 !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:24 */
+.redeem-product-view .redeem-checkout .x-btn-icon-el-default-toolbar-small {
+    color: #fff;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:27 */
+.redeem-product-view .redeem-checkout .x-btn-inner-default-toolbar-small {
+    color: #fff;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:30 */
+.redeem-product-view .redeem-checkout.x-btn-default-toolbar-small {
+    border-radius: 5px;
+    background-color: #ff2916;
+    border-color: #ff2916;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:36 */
+.redeem-product-view .btn-badge {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    color: #ff2916;
+    padding-top: 1px;
+    text-align: center;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:48 */
+.x-grid-checkcolumn.x-grid-checkcolumn-checked:before {
+    content: "\f0c8" !important;
+    color: orange !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/product/ProductView.scss:52 */
+.x-grid-checkcolumn:before {
+    content: "\f096" !important;
+    color: #000 !important;
+    font: 16px/1 fontawesome !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/view/RedeemView.scss:2 */
+.redeem-view.x-window-default {
+    border: 0px solid #fff !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/view/RedeemView.scss:5 */
+.redeem-view .x-window-header {
+    background: #fff !important;
+    border: 0px solid #fff !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/view/RedeemView.scss:9 */
+.redeem-view .x-tool-close:before {
+    color: #000;
+    bottom: 3px;
+    font-size: 20px;
+    background: #fff;
+    position: relative;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/view/RedeemView.scss:17 */
+.x-grid-item-focused .x-grid-cell-inner:before {
+    border: 0px !important;
+}
+/* http://localhost:1841/packages/local/redeem/sass/src/view/RedeemView.scss:20 */
+.x-window-focused {
+    border: 0px !important;
+}

@@ -1,0 +1,8 @@
+{
+	"filterbyStatus":[
+		{ "name": "All"},
+	    { "name": "Approved"},
+	    { "name": "Drafted"},
+	    { "name": "Rejected"}
+	]
+}

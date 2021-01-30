@@ -1,0 +1,173 @@
+
+
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+
+/* KarmaScoreSearch styles */
+
+.ddo-karma-search-container {
+    border-color: $color-black;
+    @include border-radius(7px);
+    + .x-mask {
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+    
+    .x-field.x-tbar-page-number {
+        border: 1px solid #eee;
+    }
+    .ddo-karma-search-form.x-panel {
+        padding: 10px;
+        @include box-shadow(0px 2px 5px rgba(0, 0, 0, 0.2));
+        .x-form-type-text {
+            border: 1px solid #eee;
+            margin: 0 10px;
+        }
+        .x-btn-default-small {
+            background-color: $color-black;
+            border-color: $color-black;
+        }
+        .ddo-filter-by-label {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .ddo-karma-range-slider {
+            border: none !important;
+        }
+    }
+}
+
+
+/* KarmaScoreSearchView styles */
+
+.ddo-karma-search-view {
+    padding: 10px 20px;
+    //width: 100% !important;
+    height: 100% !important;
+    .x-dataview-item {
+        display: inline-block;
+        cursor: pointer;
+        vertical-align: top;
+        margin: 13px;
+        @include border-radius(5px);
+        @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24));
+        @include transition(all 0.3s cubic-bezier(.25, .8, .25, 1));
+        &:hover {
+            @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23));
+        }
+    }
+    .ddo-karma-search-item {
+        //width: 30%;
+        display: table;
+    }
+    .profile-img-wrap {
+        float: left;
+        display: table-cell;
+        vertical-align: middle;
+        .profileImage-cls {
+            float: left;
+            height: 70px;
+            width: 70px;
+            @include border-radius(50%);
+            @include box-shadow(none);
+        }
+    }
+    .name-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+        padding: 0 15px;
+        .scorerName-cls,
+        .profession-cls {
+            padding-left: 0;
+        }
+    }
+    .score-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        .score-cls {
+            height: 50px;
+            width: 50px;
+            float: right;
+            top: 0;
+            right: 0;
+            padding-top: 16px;
+            color: $color-black;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            background: -webkit-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: -moz-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: -ms-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: -o-linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            background: linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+            @include border-radius(50%);
+        }
+    }
+}
+
+.ddo-karma-search-empty {
+    text-align:center;
+    color:#aeaeae;
+    font-size:21px;
+}
+.ddo-karma-search-view .x-dataview-item{
+    width: 31%;
+}
+
+.ddo-karma-search-form .ddo-karma-range-slider {
+    overflow: hidden;
+    .x-slider-thumb {
+        border-radius: 50% !important;
+        z-index: 1000 !important;
+        background-color: #45B745;
+        border: 1px solid #45B745;
+
+        &.x-slider-thumb-over {
+            background-color: #45B745;
+            border-color: #45B745;
+            &:after {
+                background-color: #45B745 !important;
+            }
+        }
+        &.x-slider-thumb-drag {
+            background-color: #45B745;
+            border-color: #45B745;
+            &:after {
+                background-color: #45B745 !important;
+            }
+        }
+    }
+    .x-slider-focus .x-slider-thumb {
+        border-color: grey;
+    }
+    .x-slider-horz .x-slider-thumb:before {
+        content: "";
+        padding-bottom: 4px;
+        color: grey;
+    }
+    .x-slider:before {
+        background-color: #eee;
+        border-radius: 0;
+        // border-radius: 7px;
+    }
+
+    .x-slider-thumb:after {
+        content: '';
+        position: absolute;
+        right: 18px;
+        width: 300px;
+        height: 10px;
+        top: 4px;
+        z-index: -1;
+        background-color: #45B745 !important;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 0;
+    }
+   
+  }

@@ -1,0 +1,133 @@
+.appwindow-cls {
+    &.x-window-default {
+        border: none !important;
+    }
+    .x-window-body-default {
+        &::-webkit-scrollbar {
+            width: 0px;
+        }
+    }
+    .requestAppIcon{
+        top: 5px;
+        border: 1px solid #ddd;
+        left: 21%;
+        @include border-radius(10px);
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+    }
+    .appIcon {
+        top: 5px;
+        border: 1px solid #ddd;
+        left: 21%;
+        border-radius: 10px 10px 0px 0px;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+    }
+    .app-window-fields .x-form-text-default {
+        border: 1px solid #919191 !important;
+        height: 10px !important;
+        border-radius: 3px;
+    }
+    .app-window-tagfields .x-tagfield .x-tagfield-list {
+        height: 33px;
+        padding: 4px;
+        border: 1px solid #919191 !important;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    .app-window-tagfields .x-form-empty-field{
+        padding: 5px 10px 4px !important; 
+    }
+    .app-window-cancel-btn {
+        background-color: #E94435 !important;
+        border: none !important;
+        border-radius: 4px !important;
+        padding: 10px;
+        width: 20%;
+        position: relative;
+        left: 28% !important;
+
+        .x-btn-inner-default-toolbar-small{
+            color:#fff;
+        }
+    }
+
+    .app-window-save-btn {
+        border: none !important;
+        background-color: #34A751 !important;
+        border-radius: 4px !important;
+        width: 20%;
+        padding: 10px;
+        position: relative;
+        left: 50% !important;
+
+        .x-btn-inner-default-toolbar-small{
+            color:#fff;
+        }
+    }
+    .appImageUpload .x-btn-default-small {
+        left: -10px;
+        width: 73px;
+        margin-top: -9px;
+        height: 25px;
+        background-color: rgba(0, 0, 0, 0.18) !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+        border-radius: 0px 0px 6px 6px !important;
+    }
+    .activeaccess-display {
+        margin: 10px 45px;
+        .x-form-text-default {
+            border: 1px solid #919191 !important;
+            min-height: 45px;
+            border-radius: 3px;
+            height: 46px;
+            font-size: 20px;
+            text-align: center;
+            color: gray;
+        }
+    },
+    .profile-img-view{
+        background: #fff;
+        max-height: 120px;
+        overflow-y: scroll;
+    }
+    .profile-div{
+        border: 1px solid #dcdcdc;
+    }
+    .profile-img-wrap{
+        padding: 7px 5px 0px 5px;
+        position: relative;
+        display: inline-block;
+    }
+    .profile-thumb-img {
+        left: 9px;
+        width:75px;
+        height:70px;
+        border: 1px solid #dcdcdc;
+        border-radius:10px;
+        box-shadow: 1px 3px 7px 3px #dfdfe0;
+    }
+    .app-profile-img-dash-non-img-cls{
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        margin: 5px;
+        box-shadow: 1px 3px 7px 3px #dfdfe0;
+        font-size: 25px;
+        font-weight: 600;
+        position: relative;
+        left: 9px;
+        width: 75px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .profile-img-first-letter-cls{
+        top: 25px;
+        position: relative;
+    }
+    .mandatory-astric-cls{
+        color: red;
+        font-size: 16px;
+        font-weight: 800;
+    }
+}

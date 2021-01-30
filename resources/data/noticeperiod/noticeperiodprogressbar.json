@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "view_name":"Dull",
+            "view_value":"with_hr",
+            "view_title":"HR" ,
+            "view_title_cls":"title-align-clss"
+        },
+         {
+           "view_name":"Dull",
+            "view_value":"with_project",
+            "view_title":"Projects",
+            "view_title_cls":"title-leftAlign-clss"
+        },
+         {
+            "view_name":"Dull",
+            "view_value":"with_asset",
+            "view_title":"Assets",
+            "view_title_cls":"title-align-clsss"
+        }, {
+            "view_name":"Dull",
+            "view_value":"final_hr",
+            "view_title":"HR",
+            "view_title_cls":"title-leftAlign-clsss"
+        }
+    ]
+}

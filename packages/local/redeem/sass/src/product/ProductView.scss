@@ -1,0 +1,56 @@
+.redeem-product-view {
+	//height:100%;
+	.x-toolbar-default {
+		background-color : #d0d0d0 !important;
+	}
+	.x-panel-body-default{
+		background-color : #d0d0d0 !important;
+	}
+	.redeem-wallet {
+		.x-btn-icon-el-default-toolbar-small {
+			color: #FFFFFF;
+		}
+		.x-btn-inner-default-toolbar-small {
+	    	color: #FFFFFF;
+		}
+		&.x-btn-default-toolbar-small {
+	    	border-radius: 10%;
+		    background-color: orange;
+		    border-color: orange;
+		    opacity: 1 !important;
+		}
+    }
+    .redeem-checkout{
+    	.x-btn-icon-el-default-toolbar-small {
+			color: #FFFFFF;
+		}
+    	.x-btn-inner-default-toolbar-small {
+	    	color: #FFFFFF;
+		}
+    	&.x-btn-default-toolbar-small {
+	    	border-radius: 5px;
+		    background-color: #ff2916;
+		    border-color: #ff2916;
+		}
+	}
+	.btn-badge {
+		width            : 16px;
+		height           : 16px;
+		border-radius    : 50%;
+		display          : inline-block;
+    	background-color : #fff;
+    	color            : #ff2916;
+    	padding-top      : 1px;
+    	text-align       : center;
+	}
+	
+}
+.x-grid-checkcolumn.x-grid-checkcolumn-checked:before {
+    content: "\f0c8" !important;
+    color  : orange !important;
+}
+.x-grid-checkcolumn:before {
+    content : "\f096" !important;
+    color   : #000 !important;
+    font    : 16px/1 fontawesome !important;
+}

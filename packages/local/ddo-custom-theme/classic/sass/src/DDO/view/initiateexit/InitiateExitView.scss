@@ -1,0 +1,68 @@
+.submitbtn-cls{
+  width:75px !important;
+  height:34px !important;
+  margin-left: 350px !important;
+ margin-top: 5px !important;
+ 
+}
+.employeeexitcombo-cls{
+  .x-form-text-field-body{
+    height: 10px !important;
+   // border-radius:5px !important;
+    border: 1px solid grey !important;
+  }
+
+}
+.employeetext-cls{
+ 
+    .x-form-text-field-body{
+       // border: 1px solid !important;
+        min-width: 275px !important;
+      //  border-radius:5px;
+      border: 1px solid grey !important;
+      
+        }
+       
+
+}
+
+.initiateForm-cls{
+  text-align: left;
+  border-radius: 5px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.initiateView-cls{
+  .x-panel-header-default {
+    background: #000 !important;
+  }
+  .x-form-trigger-default {
+    vertical-align: text-top !important;
+    border-bottom: 1px solid #dcdcdc !important;
+  }
+  .x-form-text-default {
+    border-bottom: 1px solid #dcdcdc !important;
+  }
+  .x-form-empty-field-default {
+    border-bottom: 1px solid #dcdcdc !important;
+  }
+  .x-form-item-label-inner {
+    font-weight: 500;
+  }
+  .x-panel-header-title-default > .x-title-text-default{
+    text-align: center !important;
+  }
+
+
+ 
+
+}
+
+.fileUploadBtn {
+  //width:500px !important;
+  .x-form-file-wrap .x-form-trigger-wrap .x-form-text {
+    border: 1px solid grey !important;
+    height: 33px !important;
+    
+  }
+}

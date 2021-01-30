@@ -1,0 +1,246 @@
+.window-submit-cls {
+    &.x-btn-default-small {
+      border-color: $color-black !important;
+      background-color: $color-black !important;
+      @include border-radius(0px 0px 6px 0px !important);
+      float: right;
+      width: 20%; 
+      bottom: 23px;
+      height: 52px;
+    }
+    .x-btn-inner-default-small {
+        font-size:18px;
+    } 
+}
+.combo-container {
+    width: 700px;
+    height: 47px;
+    margin-top: 11px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18) !important;
+    .x-box-inner {
+        height: 33px !important;
+    }
+}
+.close-cls {
+    &.fa-times:before {
+        color: $color-black;
+    }
+}
+.note-delete-btn-cls  {
+    .x-btn-inner-default-small {
+        font-weight: 600;
+        color: $color-black !important;
+        font-size: 21px !important;
+    }
+    &.x-btn-default-small {
+        left: 88% !important;
+        position: absolute !important;
+        border-color: $color-white !important;
+        background: #ea4536 !important;
+        @include border-radius(4px !important);
+    }
+}
+.note-edit-btn-cls {
+    .x-btn-inner-default-small {
+        font-weight: 600;
+        color: $color-black !important;
+        font-size: 21px !important;
+    }
+    &.x-btn-default-small {
+        left: 82% !important;
+        position: absolute !important;
+        background: #34a751 !important;
+        border-color: $color-white !important;
+        @include border-radius(4px !important);
+    }
+}
+.note-window-close {
+    .x-btn-inner-default-small {
+        font-weight: 600;
+        color: $color-black !important;
+        font-size: 21px !important;
+    }
+    &.x-btn-default-small {
+        z-index: 1;
+        padding: 0px;
+        top: 6px !important;
+        left: 94% !important;
+        position: absolute !important;
+        border-color: $color-white !important;
+        background-color: $color-white !important;
+        @include border-radius(50% !important);
+    }
+}
+.note-title-cls {
+    .x-form-text{
+        font-size: 13px !important;
+        padding-top: 8px !important;
+        color: #404040 !important
+    }
+}
+.noteditor-cls {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    @include opacity(0.5);
+    .x-html-editor-container{
+        margin-top: -26px;
+        border:none !important;
+    }
+    .x-html-editor-tb.x-toolbar-default {
+        border-top: 1px solid rgba(0, 0, 0, 0.18) !important;
+    }
+}
+.notestatus-list-cls {
+    .x-boundlist-selected{
+       color:$color-black !important;
+       border-color:$color-white !important;
+       background-color:$color-white !important;
+    }
+}
+.note-list-cls {
+    .x-boundlist-selected{
+       color:$color-black !important;
+       border-color:$color-white !important;
+       background-color:$color-white !important;
+    }
+}
+.notewindow-cls {
+    .x-window-body-default {
+        border: none !important;
+        background: #504F4F !important;
+        border-color: transparent !important;
+    }
+    &.x-window-default {   
+        border: none !important;
+    }
+}
+.feed-title-cls {
+    top: 5px !important;
+    left: 10px !important;
+    font-size: 18px !important;
+}
+.project-name-cls {
+    top: 6px !important;
+    left: 114px !important;
+    margin: 0px !important;
+    font-size: 18px !important;
+}
+.feededitor-cls {
+    .x-html-editor-input {
+        top: 18px !important;
+        left: 43px !important;
+        width: 608px !important;
+        height: 307px !important;
+        @include border-radius(10px);
+        border: 2px solid rgba(29, 28, 28, 0.19);
+    }
+    .x-html-editor-tb {
+        display: none !important;
+    }
+    .x-htmleditor-iframe {
+        @include border-radius(10px);
+    }
+    .x-html-editor-container {   
+        border-top: none !important;
+        margin-top: -14px !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+}
+.feedwindow-submit-cls {
+    .x-btn-inner-default-small{
+        font-size:18px;
+    }
+    &.x-btn-default-small {
+        width: 20% !important;
+        float: right !important;
+        bottom: 17px !important;
+        height: 60px !important;
+        border-color: $color-black !important;
+        background-color: $color-black !important;
+        @include border-radius(0px 0px 6px 0px !important);
+    }
+}
+.feedwindow-cls {
+    .x-window-header {
+        height: 55px !important;
+        border-top: none !important;
+        background: rgba(0, 0, 0, 0);
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    }
+    .x-title-text-default {
+        color: #101010 !important;
+        font-size: 18px !important;
+    }
+    .x-tool-close:before {   
+        color: #0a0a0a !important;
+    }
+    .x-window-header-default {
+        .x-tool-img {    
+            background: transparent !important;
+        }
+    }
+    .x-window-header-title-default{
+        top: 5px;
+    }
+    .x-window-body-default {
+       border: none !important;
+       background: #020202  !important;
+       border-color: transparent !important;
+    }
+    &.x-window-default {   
+        border: none !important;
+    }
+}
+.feedcombo-cls {
+    padding-top: 18px;
+    padding-left: 5px;
+}
+.ddo-feedback-round {
+   width: 25px;
+   height: 26px;
+   font-weight: 800;
+   float: right !important;
+   margin: 0px 6px 0px 0px;    
+   padding: 0px 3px 0px 3px;
+   background: $color-black;
+   color: $color-white !important;
+   @include border-radius(50% !important);
+}
+.feedback-list-cls {
+   width:190px !important;
+   .x-boundlist-selected{
+       font-weight: bold;
+       color:$color-black !important;
+       border-color:$color-white !important;
+       background-color:$color-white !important;
+    }
+}
+.feed-score {
+    font-size: 10px;
+    margin-top: -2px;
+    font-weight: 500;
+    text-align: center;   
+}
+
+.note-body-cls {
+    color:#404040;
+    height: 140px;
+    line-height:1.5;
+    word-break: break-all;
+    margin: 7px 8px 13px 10px;
+    word-wrap: break-word !important;  
+}
+.note-heading-cls {
+    font-weight: 500;
+    color: #404040 !important;
+    font-size: 13px !important;
+    padding: 10px 10px 10px 16px;
+    border-bottom: 1px solid #d0d0d0;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    max-width:204px !important;
+}

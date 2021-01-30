@@ -1,0 +1,221 @@
+.DDO-filterForm-cls {
+    .x-form-trigger-wrap-default {
+        border: 1px solid #808080 !important;
+    }
+}
+
+.ddo-toggle-button.x-btn-default-small {
+    background: #7d7474 !important;
+    border-color: #7d7474 !important;
+    border-radius: 0px !important;
+}
+
+.ratingDiv-cls {
+    top: 9px;
+    background: #fff;
+    position: relative;
+    border-radius: 27px;
+    padding: 5px 7px 1px 10px;
+}
+
+.ratingImg-cls {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+}
+
+.ddo-redeem-rating-image {
+    text-align: center;
+}
+
+.ddo-legend {
+    height: 5px;
+}
+
+.ddo-filter-window {
+    border: 2px solid #000 !important;
+}
+
+.ddo-toggle-button.x-btn.x-btn-pressed.x-btn-default-small {
+    background: #000 !important;
+    border-color: #000 !important;
+}
+
+.ddo-toggle-button.x-btn-over.x-btn-default-small {
+    background: #000;
+    border-color: #000;
+}
+
+/* nominate view icons sass file */
+
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transition";
+.nominateviewicon-scroll {
+    width: 500px !important;
+    height: 100px !important;
+    overflow-y: scroll !important;
+}
+
+.nominateviewicon {
+    width: 500px !important;
+    height: 100px !important;
+}
+
+.nominatesetup-main-cls {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.ddo-nominatesetup-uploadicon {
+    width: 75px;
+    height: 75px;
+    padding-top: 10%;
+    background: #fff;
+    text-align: center;
+}
+
+.ddo-nominatesetup-over {
+    color: #000 !important;
+}
+
+.ddo-nominatesetup-name {
+    width: 75px;
+    border: none;
+    color: #c6c6c6;
+    text-align: center;
+    background: transparent;
+    padding: 10px 0px 2px 0px;
+}
+
+.ddo-nominatesetup-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    opacity: 0.5 !important;
+    &.x-view-item-focused{
+      opacity:1 !important;
+    }
+}
+
+.ddo-nominatesetup-icon.x-item-selected {
+    opacity: 1 !important;
+}
+
+.nominatesetup-feed-form .x-panel-body-default {
+    background: transparent !important;
+}
+
+
+/* circle button */
+
+.nominate-circle-btn {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ecb116;
+    @include border-radius(50%);
+    div {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 36%;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+
+
+/* nominate button */
+
+.nominate-cls {
+    @include bgImgShorthand($imgpath: '/resources/images/Nomiante.png', $size: cover);
+    width: 13px !important;
+    height: 16px !important;
+    color: #fff !important;
+}
+
+.nominatebutton {
+    & .x-btn-inner-default-toolbar-small {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+    &.x-btn-default-toolbar-small {
+        @include border-radius(6px);
+        background-color: #31a950 !important;
+    }
+    &.x-btn-text.x-btn-icon-left > .x-btn-icon-el-default-toolbar-small {
+        background-color: #31a950 !important;
+    }
+}
+
+.ddo-filter-window {
+    .x-window-body-default {
+        border: none !important;
+        background: #fff !important;
+        border-color: transparent !important;
+    }
+    .x-window-header {
+        border: none !important;
+        //border-bottom: 1px solid #dcdcdc !important;
+        background-color: transparent !important;
+    }
+    .x-window-header-title-default > .x-title-text-default {
+        text-align: center;
+        color: #000 !important;
+    }
+    &.x-window-default {
+        border: 0px solid transparent !important;
+    }
+    .x-header > .x-box-inner {
+        border-bottom: 1px solid #dcdcdc !important;
+        padding: 15px;
+    }
+}
+
+
+/* nominate karma categories combobox */
+
+.nominatecombocontainer {
+    .x-box-item {
+        &:first-child {
+            left: 0px !important;
+        }
+    }
+}
+
+// .nom-toolbar-cls {
+//     padding: 0px !important;
+//     border-top: 1px solid #dcdcdc !important;
+// }
+
+.nom-submit-cls {
+    &.x-btn-default-toolbar-small {
+        @include border-radius(0px !important);
+        background-color: #000 !important;
+        border-color: #000 !important;
+    }
+    .x-btn-inner-default-toolbar-small {
+        color: #f0f0f0;
+        padding: 0 5px;
+        max-width: 100%;
+        font-size: 16px !important;
+    }
+}
+
+.nom-name-cls {
+    color: #f0bb1f;
+}
+
+.ddo-filter-window.x-window-header{
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.ddo-filter-window.x-window-default{
+    border: none !important;
+}
+

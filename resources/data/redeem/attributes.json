@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "name":"Size",
+      "value":"size"
+    },{
+     "name":"Color",
+     "value":"color"
+    }
+  ]
+}
+

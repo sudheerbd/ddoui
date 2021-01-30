@@ -1,0 +1,32 @@
+.tagfield-scroll{
+   .x-tagfield-list{
+      max-height: 50px !important;
+   }
+}
+
+.DDO-ratingForm-cls .ddo-adddetails-combo .x-form-trigger-wrap.x-form-trigger-wrap-default{
+    color: #000000;
+    padding: 0px 9px 4px;
+    background-color: #fff;
+    font: normal 14px/23px Open Sans;
+    min-height: 32px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.DDO-ratingForm-cls .nom-datefiled-cls {
+    position: absolute !important;
+    left:20px !important;
+    margin-top:10px !important;
+
+}
+
+.self-nominate-comment-cls{
+    .x-grid-cell-inner {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

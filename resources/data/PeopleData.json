@@ -1,0 +1,135 @@
+{
+"data":[{
+		"cbpId": "1001142",
+		"empFullName": "Devika Sinha",
+		"empDesignation": "HR Generalist",
+		"profilePic": "",
+		"employeeCode": "15070129",
+		"projectRole": "Customer",
+		"projectId": 1000009,
+		"allocationPerct": "54%",
+		"empEmailId": "devika.sinha@walkingtree.in"
+	}, {
+		"cbpId": "1001064",
+		"empFullName": "Venu Gopal Reddy",
+		"empDesignation": "Quality Analyst",
+		"profilePic": "",
+		"employeeCode": "15070129",
+		"projectRole": "Stake Holder",
+		"projectId": 1000009,
+		"allocationPerct": "45%",
+		"empEmailId": "venugopal.vellepu@walkingtree.in"
+	},{
+		"cbpid": "1001027",
+		"empFullName": "Venu Gopal Reddy",
+		"empDesignation": "Quality Analyst",
+		"profilePic": "",
+		"employeecode": "15070129",
+		"projectRole": "Project Manager",
+		"projectId": 1000009,
+		"allocationPerct": "25%",
+		"empEmailId": "venugopal.vellepu@walkingtree.in"
+		},{
+
+		"cbpId": "1001027",
+		"empFullName": "Apoorva Gupta",
+		"empDesignation": "HR Generalist",		
+		"profilePic": "",
+		"employeeCode": "14030076",
+		"projectRole":"Architect",
+		"projectId": 1000009,				
+		"allocationPerct":"15%",
+		"empEmailId": "apoorva@walkingtree.in",
+	},{
+
+		"cbpId": "1000873",
+		"empFullName": "Ravindar Thummarajula",
+		"empDesignation": "Quality Analyst",		
+		"profilePic": "",
+		"employeeCode": "10060010",
+		"projectRole":"Lead",
+		"projectId": 1000009,	
+		"allocationPerct":"50%",
+		"empEmailId": "ravindar.thummarajula@walkingtree.in",
+	},{
+
+		"cbpId": "1001047",
+		"empFullName": "Monica Singh",
+		"empDesignation": "HR Generalist",		
+		"profilePic": "",
+		"employeeCode": "14060086",
+		"projectRole":"Developers",
+		"projectId": 1000009,			
+		"allocationPerct":"35%",
+		"empEmailId": "monica.singh@walkingtree.in",
+	},{
+		"cbpid": "1001128",
+		"empFullName": "Jay Ahuja",
+		"empDesignation": "Software Engineer",
+		"profilePic": "",
+		"employeecode": "15040120",
+		"projectRole": "QA Lead",
+		"projectId": 1000009,
+		"allocationPerct": "53%",
+		"empEmailId": "jay.ahuja@walkingtree.in"
+		},{
+
+		"cbpid": "1001102",
+		"empFullName": "Stevenson Nelli",
+		"empDesignation": "Associate Software Engineer",
+		"profilePic": "",
+		"employeecode": "15010122",
+		"projectRole": "Tester",
+		"projectId": 1000009,
+		"allocationPerct": "10%",
+		"empEmailId": "stevenson.nelli@walkingtree.in"
+		},
+		{
+
+		"cbpid": "1001144",
+		"empFullName": "Vinay Kumar Raju Nadimpalli",
+		"empDesignation": "Recruitment Lead (Talent Acquisition)",
+		"profilePic": "",
+		"employeecode": "15070131",
+		"projectRole": "Architect",
+		"projectId": 1000009,
+		"allocationPerct": "80%",
+		"empEmailId": "vinay.kumar@walkingtree.in"
+		},{
+
+		"cbpid": "1000993",
+		"empFullName": "Prerana Sharma",
+		"empDesignation": "Senior Quality Analyst",
+		"profilePic": "",
+		"employeecode": "13110067",
+		"projectRole": "UX Designer",
+		"projectId": 1000009,
+		"allocationPerct": "80%",
+		"empEmailId": "prerana.sharma@walkingtree.in"
+
+		},{
+
+		"cbpid": "1001163",
+		"empFullName": "Ramesh Arigela",
+		"empDesignation": "Software Engineer",
+		"profilePic": "",
+		"employeecode": "15100143",
+		"projectRole": "Architect",
+		"projectId": 1000009,
+		"allocationPerct": "80%",
+		"empEmailId": "ramesh.arigela@walkingtree.in"
+		},
+		{
+
+		"cbpid": "1001107",
+		"empFullName": "Prasad Khandagle",
+		"empDesignation": "Associate Software Engineer",
+		"profilePic": "",
+		"employeecode": "15010123",
+		"projectRole": "Customer",
+		"projectId": 1000009,
+		"allocationPerct": "80%",
+		"empEmailId": "prasad.khandagale@walkingtree.in"
+		},
+		]
+}

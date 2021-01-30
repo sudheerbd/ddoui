@@ -1,0 +1,95 @@
+{
+  "success": true,
+  "data": [
+    {
+      "c_bpartner_id": "1001135",
+      "employee_code": "15060139",
+      "employee": "Surya Devi",
+      "karmapoints": "30",
+      "c_year_id": "1000005",
+      "designation": "Associate QA",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000993",
+      "employee_code": "13110067",
+      "employee": "Prerana Sharma",
+      "karmapoints": "20",
+      "c_year_id": "1000005",
+      "designation": "Software Developer",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000996",
+      "employee_code": "13120075",
+      "employee": "Divya Aasireddy ",
+      "karmapoints": "10",
+      "c_year_id": "1000005",
+      "designation": "Associate QA",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000868",
+      "employee_code": "09070001",
+      "employee": "Alok Ranjan",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "COO",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000869",
+      "employee_code": "09110003",
+      "employee": "Ajit Kumar",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "CTO",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000870",
+      "employee_code": "10010005",
+      "employee": "Pradeep Lavania",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "Senior QA",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000871",
+      "employee_code": "10010006",
+      "employee": "Suman Ravuri",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "V P technology",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000872",
+      "employee_code": "10060008",
+      "employee": "Ranjit Battewad",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "Senior Developer",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000873",
+      "employee_code": "10060010",
+      "employee": "Ravindar Thummarajula",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "Senior Developer",
+      "image": "resources/images/deb1.png"
+    },
+    {
+      "c_bpartner_id": "1000874",
+      "employee_code": "10060011",
+      "employee": "Phani Kiran Gutha",
+      "karmapoints": "0",
+      "c_year_id": "1000005",
+      "designation": "Team Lead",
+      "image": "resources/images/deb1.png"
+    }
+  ]
+}

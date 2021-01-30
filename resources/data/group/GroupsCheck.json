@@ -1,0 +1,63 @@
+{
+"Emp_data": [
+{
+        "c_bpartner_id": "1001081",
+        "email": "gajendra.kushwah@walkingtree.in",
+        "group_author": "Gajendra Kushwah",
+        "hr_designation": "Associate Software Engineer",
+        "user_profile_pic_url": ""
+},
+{
+"c_bpartner_id": "1001070",
+        "c_year_id": "1000006",
+        "email": "srinivas.nadendla@walkingtree.in",
+        "group_author": "Srinivas Nadendla",
+        "employee_code": "14090106",
+        "hr_designation": "Associate Software Engineer",
+        "hr_designation_id": "1000250", 
+        "id":"DDO.model.groups.EmpGroupsModel-25",
+        "karmapoints":"1075",
+        "totalcount":"227",  
+        "user_profile_pic_url": "",
+         "checked": false
+},
+{
+"c_bpartner_id": "1001064",
+        "c_year_id": "1000006",
+        "email": "venugopal.vellepu@walkingtree.in",
+        "group_author": "Venu Gopal Reddy",
+        "employee_code": "14080089",        
+        "hr_designation": "Quality Analyst",
+        "hr_designation_id": "1000265",
+        "user_profile_pic_url": "",
+         "checked": false
+}, {
+"c_bpartner_id":"1000996",
+        "c_year_id":"1000006",
+        "email":"divya.aasireddy@walkingtree.in",
+        "group_author":"Divya Aasireddy ",
+        "employee_code":"13120075",
+        "hr_designation":"Quality Analyst",
+        "hr_designation_id":"1000265",
+        "id":"DDO.model.groups.EmpGroupsModel-9",
+        "karmapoints":"3222",
+        "totalcount":"227",         
+        "user_profile_pic_url":"",
+        "checked": false
+},
+{
+    "c_bpartner_id":"1001047",
+        "c_year_id":"1000006",
+        "email":"monica.singh@walkingtree.in",
+        "group_author":"Monica Singh",
+        "employee_code":"14060086",
+        "hr_designation":"Associate Software Engineer",
+        "hr_designation_id":"1000250",
+        "id":"DDO.model.groups.EmpGroupsModel-11",
+        "karmapoints":"2635",
+        "totalcount":"227",
+        "user_profile_pic_url":"",
+        "checked": false
+ }
+]
+}

@@ -1,0 +1,316 @@
+@import 'compass/css3/transition';
+.ddo-education-header-label {
+    color: $ddo-theme-yellow-color;
+    font-size: $ddo-profile-header-font-size;
+    text-align: center;
+    font-weight: $ddo-profile-header-font-weight;
+    margin: 0% 38%;
+}
+
+
+.ddo-onaddeducation {
+    background-color: transparent !important;
+    border: none;
+}
+
+.ddo-onaddeducation .x-button-icon {
+    color: $ddo-black-color;
+    font-size: 15px !important;
+}
+
+.ddo-education-header-toolbar {
+     border: none;
+    //border-radius:10px 10px 0px 0px !important;
+     @include border-radius(10px 10px 10px 10px);
+}
+
+// .ddo-education-header-toolbar .x-toolbar-inner{
+//     border-bottom: $ddo-border;
+// }
+
+// .expandcollapse-btn{
+// border-top:1px solid #dcdcdc !important;
+// }
+
+.ddo-dataview-div-line .x-toolbar-inner{
+    border:none;
+}
+
+.ddo-dataview-div-line {
+    margin: 0px 15px;
+    border-top: $ddo-border;
+}
+
+.ddo-education-div {
+    background: $ddo-white-color;
+    padding: 0.5em 1em;
+    font-family: $ddo-profile-font-family;
+    &:first-child {
+        border-top: 0px solid;
+    }
+}
+
+.ddo-school-name {
+    margin: 6px 0px;
+    color: $ddo-profile-header-color;
+    font-size: $ddo-profile-content-font-size;
+    font-weight: $ddo-profile-sub-header-font-weight;
+    word-wrap: break-word !important;
+    width: 90%;
+    display: block;
+    float: left;
+}
+
+.ddo-edit-view {
+    float: right;
+    padding-top: 0.5em;
+}
+
+.ddo-edit-img {
+    width: 19px;
+    height: 19px;
+    padding: 0px;
+}
+
+.ddo-education-view-text, 
+.ddo-education-view-course-text {
+    margin: 6px 0px;
+    font-weight: 400;
+    color: $ddo-profile-content-color;
+    font-size: $ddo-profile-content-font-size;
+}
+
+.ddo-education-view-text {
+    word-break: break-word !important;
+}
+
+.educationdata .x-dataview-item ~ .x-dataview-item {
+    display: none;
+}
+
+.expandcollapse-btn {
+    background-color: transparent;
+    border: none;
+   // border-top: 1px solid #dcdcdc;
+    margin: 0% 5%;
+}
+
+.ddo-emptytext {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    color: $ddo-profile-header-border-color;
+    text-align: center;
+    font: normal 20px "Aileron", "Open Sans";
+}
+.ddo-addeducation-toolbar .x-title{
+    color:$ddo-white-color;
+}
+.ddo-addeducation-toolbar{
+    background:$ddo-black-color;
+}
+.ddo-addeducation-backbtn{
+    border: 0px transparent !important; 
+    background: $ddo-black-color;
+}
+.ddo-addeducation-backbtn.x-button.x-button-pressing, 
+.ddo-addeducation-backbtn.x-button.x-button-pressed {
+    background: $ddo-black-color !important;
+    border: 0px transparent !important;
+}
+.ddo-addeducation-backbtn .x-button-icon{
+    color:$ddo-white-color;
+}
+.ddo-addeducation-savebtn{
+    background: $ddo-black-color;
+    border: 0px transparent !important;
+    color: $ddo-theme-yellow-color;
+}
+.ddo-theme-dropdown-combo {
+    border: none !important;
+    -webkit-box-shadow: 0px 0px 7px 3px #e6e3e6;
+    -moz-box-shadow: 0px 0px 7px 3px #e6e3e6;
+    box-shadow: 0px 0px 7px 3px #e6e3e6;
+}
+.ddo-theme-dropdown-combo .x-boundlist-selected {
+    border: none !important;
+    font-weight: 700;
+    color: $ddo-theme-yellow-color;
+    background: $ddo-white-color;
+}
+.ddo-theme-dropdown-combo .x-boundlist-selected.x-boundlist-item-over {
+    border: none !important;
+    font-weight: 700;
+    color: $ddo-theme-yellow-color;
+    background: $ddo-white-color;
+}
+.ddo-theme-dropdown-combo .x-boundlist-item-over {
+    border: none !important;
+    color: $ddo-white-color;
+    background: $ddo-black-color;
+}
+.ddo-theme-dropdown-combo .x-boundlist-item {
+    padding: 0px 27px !important;
+}
+.ddo-adddetail-combo .x-form-trigger-wrap.x-form-trigger-wrap-default {
+    @include border-radius(6px);
+    padding: 0px 3px;
+    border: 1px solid #000;
+}
+.ddo-adddetails-fieldcontainer {
+    padding-top: 20px !important;
+}
+.ddo-edit-img.x-view-item-focused {
+    outline: 0 !important;
+}
+
+
+.ddo-addeducation-details {
+    padding: 9px 0px 0px;
+    .x-toolbar-footer {
+        background-color: $ddo-white-color;
+    }
+}
+.addeducationdetails-cls .x-form-inner{
+    background: $ddo-white-color;
+}
+.ddo-adddetail-txtfield, .ddo-education-course-combo {
+    //width: 90% !important;
+    //margin: 0.5em 1em;
+    border: none;
+    //border-bottom: $ddo-border;
+    font: 500 16px/21px $ddo-profile-font-family;
+}
+
+.ddo-education-course-combo .x-form-label {
+    background: none;
+    //font: 600 16px/21px $ddo-profile-font-family;
+}
+
+.ddo-education-label {
+    width: 90% !important;
+    margin: 0em 1em;
+    font: 600 16px/21px $ddo-profile-font-family;
+}
+
+.ddo-profile-education-container {
+    background:$ddo-white-color;
+    @include border-radius($ddo-profile-border-radius);
+    //margin:2% 1%;
+    //width:98% !important;
+}
+
+.ddo-addeducation-savebtn .x-fa:before{
+    color:white !important;
+}
+.ddo-jobs-form{
+    border:none !important;
+}
+.addeducationdetails-cls{
+ margin: 0 !important;    
+ border:none !important;   
+}
+.educationdata{
+   padding:4px 5px 0px 0px !important;
+    
+}
+
+//new changes for form fields.
+
+// .ddo-addjob-txtfield .x-form-field::-webkit-input-placeholder {
+//     font-size: 14px;
+//     border-bottom:1px solid #d3d3d3
+// }
+
+//.ddo-addjob-txtfield .x-form-field:-moz-placeholder { /* Firefox 18- */
+//     font-size: 14px;  
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-addjob-txtfield .x-form-field::-moz-placeholder {  /* Firefox 19+ */
+//     font-size: 14px;
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-addjob-txtfield .x-form-field:-ms-input-placeholder {  
+//     font-size: 14px; 
+//     border-bottom:1px solid #d3d3d3 
+// }
+// .ddo-startdate-datepickerfield .x-form-field::-webkit-input-placeholder {
+//     font-size: 14px;
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-startdate-datepickerfield .x-form-field:-moz-placeholder { /* Firefox 18- */
+//     font-size: 14px;  
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-startdate-datepickerfield .x-form-field::-moz-placeholder {  /* Firefox 19+ */
+//     font-size: 14px;
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-startdate-datepickerfield .x-form-field:-ms-input-placeholder {  
+//     font-size: 14px; 
+//     border-bottom:1px solid #d3d3d3 
+// }
+// .ddo-enddate-datepickerfield .x-form-field::-webkit-input-placeholder {
+//     font-size: 14px;
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-enddate-datepickerfield .x-form-field:-moz-placeholder { /* Firefox 18- */
+//     font-size: 14px;  
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-enddate-datepickerfield .x-form-field::-moz-placeholder {  /* Firefox 19+ */
+//     font-size: 14px;
+//     border-bottom:1px solid #d3d3d3
+// }
+
+// .ddo-enddate-datepickerfield .x-form-field:-ms-input-placeholder {  
+//     font-size: 14px; 
+//     border-bottom:1px solid #d3d3d3 
+// }
+.x-msgbox .x-field,
+.x-panel.x-floating .x-field,
+.x-form.x-floating .x-field {
+    /* margin-top: 0.3em; */
+    margin-top: 0px !important;
+}
+.ddo-startdate-datepickerfield.x-field-select .x-field-mask:after {
+    content: '';
+}
+.ddo-enddate-datepickerfield.x-field-select .x-field-mask:after {
+    content: '';
+}
+.ddo-jobs-form .x-form-inner {
+    background: #fff;
+}
+.ddo-skills-form .x-form-inner {
+    background: #fff;
+}
+.ddo-addjobscontainer-backbtn .x-button-icon {
+    background-size: 90% 90%;
+}
+.ddo-addeducation-toolbar .x-button-icon {
+    background-size: 90% 90%;
+}
+
+//.ddo-education-course-combo.x-field-select .x-field-mask:after {
+//    content: '';
+//}
+.ddo-adddetail-txtfield .x-component-outer .x-unsized.x-field-input .x-input-el.x-form-field.x-input-text {
+    width: 100% !important;
+}
+
+.ddo-mobile-textfield-cls .x-field-input{
+   border-bottom: 1px solid #d3d3d3 !important;
+}
+
+.ddo-mobile-textfield-cls .x-input-el {
+   padding: 0.625em 0.4em 0em 0em !important;
+   line-height: 1.375em;
+}

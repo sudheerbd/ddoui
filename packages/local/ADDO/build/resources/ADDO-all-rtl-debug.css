@@ -1,0 +1,379 @@
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:6 */
+.ticket-htmleditor-cls .x-form-item-label {
+    color: #9a9a9a;
+    font-size: 14px !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:11 */
+.ticket-htmleditor-cls {
+    padding-top: 20px !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:15 */
+.ticket-htmleditor-cls .x-html-editor-input {
+    border: 0px !important;
+    border-top: 1px solid #ccc !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:20 */
+.ticket-htmleditor-cls .x-html-editor-container {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:24 */
+.ticket-htmleditor-cls .x-toolbar {
+    left: 7px !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:28 */
+.ticket-htmleditor-cls .x-font-select {
+    background-color: #fff;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/newticket/NewTicketWindow.scss:31 */
+.newticket-textfield-cls .x-form-trigger-wrap-default {
+    border: 1px solid #ccc !important;
+    padding: 0px 3px 0px 3px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:2 */
+.commentsgrid .comments-data {
+    background-color: #ececec;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:6 */
+.commentsgrid .comments-picture {
+    width: 35px;
+    height: 35px;
+    background-color: #ececec;
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:14 */
+.commentsgrid .comments-picture img {
+    width: 35px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:18 */
+.commentsgrid .comments-icon {
+    margin-left: 50px;
+    font-size: 12px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:21 */
+.commentsgrid .comments-icon img {
+    width: 12px;
+    height: 12px;
+    margin: 3px 5px 0 5px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:27 */
+.commentsgrid .x-grid-item-focused .comments-content {
+    background-color: #fff;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:30 */
+.commentsgrid .x-grid-item-focused .comments-content .anchor {
+    border-right-color: #fff;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:34 */
+.commentsgrid .comments-content {
+    background-color: #ced8e1;
+    margin-left: 50px;
+    font-size: 12px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:42 */
+.commentsgrid .comments-content .comments-author {
+    color: blue;
+    font-size: 14px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:46 */
+.commentsgrid .comments-content .anchor {
+    width: 10px;
+    height: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: #ced8e1;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-left: -30px;
+    float: left;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:59 */
+.commentsgrid .x-grid-item {
+    background-color: #ececec !important;
+    color: #0c0c0c !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:63 */
+.commentsgrid .x-grid-with-row-lines .x-grid-item {
+    border-width: 0px !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/CommentsGrid.scss:66 */
+.commentsgrid .x-grid-item-focused .x-grid-cell-inner::before {
+    border-width: 0px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:2 */
+.threadpanel .x-grid-body {
+    background: #fff;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:5 */
+.threadpanel .x-toolbar-default {
+    background: #fff;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:8 */
+.threadpanel .x-grid-view::-webkit-scrollbar {
+    width: 0px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:11 */
+.threadpanel .ticket-subject {
+    font-size: 14px;
+    font-weight: 600;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:15 */
+.threadpanel .ticket-description {
+    font-size: 12px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:18 */
+.threadpanel .ticket-reply {
+    font-family: fontawesome;
+    font-size: 17px;
+    border: 1px solid #d2d5d7;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.5;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:28 */
+.threadpanel .thread-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #3e4752;
+    margin-bottom: 5px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:35 */
+.threadpanel .thread-small {
+    font-size: 10px;
+    color: #878ea2;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:39 */
+.threadpanel .thread-small img {
+    vertical-align: top;
+    margin: 3px 5px 0 10px;
+    height: 12px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:46 */
+.threadpanel .text-wrapper {
+    position: relative;
+    overflow: visible;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:57 */
+.threadpanel .text-wrapper .thread-data {
+    /* CSS3 */
+    /*white-space: -moz-pre-wrap; /* Firefox */
+    /*white-space: -pre-wrap;     /* Opera <7 */
+    /*white-space: -o-pre-wrap;   /* Opera 7 */
+    /*word-wrap: break-word;      /* IE */
+    background-color: #fff;
+    padding: 15px 15px 0px 15px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:62 */
+.threadpanel .text-wrapper .thread-content {
+    margin-left: 50px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:66 */
+.threadpanel .text-wrapper .thread-author {
+    text-transform: uppercase;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:70 */
+.threadpanel .text-wrapper .thread-paragraph {
+    background-color: #fff;
+    min-height: 20px;
+    overflow: hidden;
+    font-weight: 400;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:77 */
+.threadpanel .text-wrapper .thread-picture {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:85 */
+.threadpanel .text-wrapper .thread-picture img {
+    width: 35px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:90 */
+.threadpanel .text-wrapper .thread-toggle {
+    text-align: right;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:92 */
+.threadpanel .text-wrapper .thread-toggle span {
+    color: #2e6eaf;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:102 */
+.threadpanel .text-wrapper .thread-toggle img {
+    height: 14px;
+    vertical-align: middle;
+    margin: 3px 5px 0 5px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:109 */
+.threadpanel .x-grid-cell-inner {
+    padding: 0px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:112 */
+.threadpanel .x-grid-item {
+    border: 0px !important;
+    border-bottom: 0px;
+    background-color: transparent;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:117 */
+.threadpanel .x-grid-rowbody {
+    padding: 0px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:119 */
+.threadpanel .x-grid-rowbody .thread-data {
+    padding-top: 0px;
+    margin-bottom: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/ThreadPanel.scss:125 */
+.threadpanel .x-grid-rowbody .thread-paragraph {
+    margin-left: 50px;
+    margin-top: 0;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/thread/TicketsThreadView.scss:1 */
+.noscrollbar::-webkit-scrollbar {
+    width: 0px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:1 */
+.ticketLink {
+    color: #005bab;
+    text-decoration: none;
+    line-height: 16px;
+    font-size: 14px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:7 */
+a:hover {
+    color: #5daef5!important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:10 */
+a:visited {
+    color: #005bab!important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:13 */
+.grayText .fa {
+    color: #aaa;
+    font-size: 9px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:17 */
+.grayText {
+    color: #8e8e8e;
+    font-size: 9px !important;
+    line-height: 12px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:22 */
+.x-panel-header-default,
+.x-window-header-default {
+    background-color: #3e4752;
+    border-color: #3e4752;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:26 */
+.x-window-header-default .x-tool-img {
+    background-color: #3e4752;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:29 */
+.x-window-default {
+    border: none;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:36 */
+.ticket-toolbar-cls {
+    /*.x-grid-item-over,.x-grid-item-selected{
+	background-color : white;
+}*/
+    background: transparent;
+    text-align: center;
+    left: 0px !important;
+    padding: 10px 0px 10px 10px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:44 */
+.ticket-btn.x-btn-default-toolbar-small {
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+    border-radius: 6px !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+    width: 110px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:50 */
+.ticket-btn .x-btn-inner-default-toolbar-small {
+    font-size: 12px !important;
+    color: #f0f0f0;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:56 */
+.ticket-grid-cls .x-column-header {
+    border-right: 0px !important;
+    color: #fff;
+    outline: 0;
+    background-color: #000;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:62 */
+.ticket-grid-cls .x-grid-header-ct {
+    background-color: #000 !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:65 */
+.ticket-grid-cls .x-grid-cell {
+    position: relative;
+    padding: 3px;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:69 */
+.ticket-grid-cls .x-column-header-over {
+    color: #fff !important;
+    background-color: #000 !important;
+    border: none;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:74 */
+.ticket-grid-cls .x-column-header .x-column-header-open {
+    background-color: #000 !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:77 */
+.ticket-grid-cls .x-column-header-trigger {
+    background: none;
+    background-color: #000 !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:81 */
+.ticket-grid-cls .x-column-header-align-left {
+    text-align: center !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:85 */
+.ticket-grid-cls .x-grid-item-focused .x-grid-cell-inner:before {
+    border: none !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:89 */
+.ticket-grid-cls .x-grid-row .x-grid-cell {
+    border-bottom: none !important;
+    border-top: none !important;
+    border-right: 1px solid rgba(115, 109, 109, 0.09);
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:94 */
+.ticket-grid-cls .x-grid-with-row-lines .x-grid-item {
+    border-width: 0px !important;
+}
+/* /var/www/html/DDOChirag/ddoproduction/ddo/views/packages/local/ADDO/sass/src/ticketadmin/TicketAdminGrid.scss:97 */
+.ticket-grid-cls .x-grid-dirty-cell > .x-grid-cell-inner:after {
+    content: "" !important;
+}

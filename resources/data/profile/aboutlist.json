@@ -1,0 +1,11 @@
+{
+	"Data": [{
+		"about_name": "Vivek Kumar",
+		"about_designation": "Graphic Designer",
+		"about_homeaddress": "Hyderabad, Telangana, India",
+		"about_offcaddress": "Bangalore, Karnataka, India",
+		"about_qualification": "B.Sc - Visual Communication & Vfx, Mahatma Gandhi University",
+		"about_primaryskill": "Sencha",
+		"about_otherskills": ["PHP", "Java", "Javascript", "CSS3", "HTML5"]
+	}]
+}

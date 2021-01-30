@@ -1,0 +1,56 @@
+[
+  {
+    "user": {
+      "__v": 0,
+      "user_full_name": "Rahul Yadav",
+      "user_id": 1,
+      "_id": "56ebdad91d7f3c940ac77bc2",
+      "user_designation": "Software Engineer",
+      "user_profile_pic_url": "http://www.walkingtree.in/images/wtclogo.png"
+    },
+    "_id": "56eab4604d73b068254d90d5",
+    "post_id": 1,
+    "post_author": 1,
+    "post_content": "This is a test post",
+    "post_title": "This is a simple title",
+    "comment_status": true,
+    "__v": 4,
+    "post_meta": [],
+    "comments": [
+      {
+        "user": {
+          "__v": 0,
+          "user_full_name": "Sandeeep Ranga",
+          "user_id": 2,
+          "_id": "56ebdad91d7f3c940ac77bc3",
+          "user_designation": "Software Engineer",
+          "user_profile_pic_url": "http://www.walkingtree.in/images/wtclogo.png"
+        },
+        "comment_id": 3,
+        "comment_author": 2,
+        "comment_content": "This is a sample test comment",
+        "_id": "56efdcbee59903001a7caf23",
+        "comment_meta": [],
+        "comment_attachments": [],
+        "comment_like_users": [],
+        "comment_unlike_count": 0,
+        "comment_like_count": 0,
+        "comment_parent": -1,
+        "comment_type": "text",
+        "comment_date_gmt": "2016-03-21T11:36:30.954Z",
+        "comment_date": "2016-03-21T11:36:30.954Z"
+      }
+    ],
+    "post_attachments": [],
+    "post_shared_count": 0,
+    "post_like_users": [],
+    "post_unlike_count": 1,
+    "post_like_count": 1,
+    "comment_count": 0,
+    "post_type": "standard",
+    "post_modified_date_gmt": "2016-03-17T13:42:56.596Z",
+    "post_modified_date": "2016-03-17T13:42:56.596Z",
+    "post_date_gmt": "2016-03-17T13:42:56.596Z",
+    "post_date": "2016-03-17T13:42:56.596Z"
+  }
+]

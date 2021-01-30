@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "view_name":"Dull",
+            "view_value":0,
+            "view_title":"Wallet" ,
+            "view_title_cls":"title-align-cls"
+        },
+         {
+           "view_name":"Dull",
+            "view_value":1,
+            "view_title":"Karma Rating",
+            "view_title_cls":"title-leftAlign-cls"
+        },
+         {
+            "view_name":"Dull",
+            "view_value":2,
+            "view_title":"Karma Rule",
+            "view_title_cls":"title-align-cls"
+        }, {
+            "view_name":"Dull",
+            "view_value":3,
+            "view_title":"Karma Categories",
+            "view_title_cls":"title-leftAlign-cls"
+        },
+         {
+            "view_name":"Dull",
+            "view_value":4,
+            "view_title":"Karma",
+            "view_title_cls":"title-align-cls"
+        },{
+            "view_name":"Dull",
+            "view_value":5,
+            "view_title":"Karma Access",
+            "view_title_cls":"title-leftAlign-cls"
+        }
+    ]
+}

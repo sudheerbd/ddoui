@@ -1,0 +1,102 @@
+
+@media only screen and (max-width :1365px) and (max-height:656px){
+    .landing-main-container {
+         overflow: scroll;
+    }
+  }
+
+.landingContainer{
+    bottom: 90px;
+    overflow: visible !important;
+    .x-box-inner{
+        height: 100% !important;
+        overflow: visible !important;
+    }
+.img-cls{
+    top: 168px !important;
+    left: 725px !important;
+}
+
+.createaccount{
+        top:281px !important;
+        left:87px !important;
+        height: 487px !important;
+        .x-panel-body-default{
+            background: none !important;
+        }
+            
+            .createaccountbtn{
+                width: 200px !important;
+                height: 50px !important;
+                background: #32A851 0% 0% no-repeat padding-box !important;
+                border-radius: 4px !important;
+                opacity: 1;
+                float: left;
+                border-color: #32A851 !important;
+            }
+           
+            .labeltext{
+                // top: 0px;
+                // left: 87px;
+                width: 402px;
+                height: 45px;
+                text-align: left;
+                font: normal normal 600 32px/69px Poppins;
+                letter-spacing: 0.32px;
+                color: #000000;
+                opacity: 1;
+            }
+            .extra-text{
+                // top: 329px;
+                // left: 87px;
+                width: 401px;
+                height: 23px;
+                text-align: left;
+                letter-spacing: -0.02px;
+                color: #8D8D8D;
+                font-size: 14px;
+                opacity: 1;
+            }
+
+            .loginbtn{
+                width: 166px !important;
+                height: 50px !important;
+                border: 1px solid #32A851 !important;
+                border-radius: 4px !important;
+                background: none !important;
+                opacity: 1;
+                left: 235px !important;
+            }
+
+            .createaccountbtn .x-btn-inner{
+                width: 126px;
+                height: 70px;
+                left:62px;
+                text-align: left;
+                font: normal normal normal 16px/69px Poppins;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+    
+            .loginbtn .x-btn-inner {
+                width: 52px;
+                height: 70px;
+                text-align: left;
+                left:62px;
+                font: normal normal normal 16px/69px Poppins;
+                letter-spacing: 0px;
+                color: #353535;
+                opacity: 1;
+            }
+    }
+    .btns-container{
+        height: 100%;
+        top: 50px;
+    }
+
+      
+}
+
+
+

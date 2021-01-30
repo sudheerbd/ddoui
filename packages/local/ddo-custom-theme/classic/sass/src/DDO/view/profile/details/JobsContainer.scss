@@ -1,0 +1,199 @@
+.ddo-jobscontainer-toolbar {
+    border-bottom: 1px solid $ddo-profile-header-border-color !important;
+    .x-box-inner {
+        height: 42px !important;
+    }
+}
+
+.ddo-adddetails-label {
+    font-size: $ddo-profile-content-font-size;
+    font-weight: $ddo-profile-content-font-weight;
+    color: #181A19;
+    text-align: center;
+    top: 10px !important;
+}
+
+.ddo-adddetails-textbox .x-form-trigger-wrap-default {
+    @include border-radius($ddo-profile-addjobform-border-radius);
+    padding: 0px 3px 0px 3px;
+    border: 1px solid $color-black;
+}
+
+.ddo-adddetails-formpanel .x-box-inner {
+    font-family: $ddo-profile-font-family;
+}
+
+.x-form-display-field-default {
+    font-family: $ddo-profile-font-family;
+}
+
+.ddo-edit-img {
+    float: right;
+    cursor: pointer;
+}
+
+.designation {
+    margin: 0;
+    color: $ddo-profile-sub-header-color;
+    font-size: $name-font-size !important;
+    font-family: $ddo-profile-font-family;
+    font-weight: $ddo-profile-header-font-weight;
+    word-wrap: break-word !important;
+    width: 90%;
+    display: block;
+    float: left;
+}
+
+.ddo-title-wrap + * {
+    clear: both;
+}
+
+.ddo-adddetails-combo .x-form-trigger-wrap.x-form-trigger-wrap-default {
+    @include border-radius($ddo-profile-addjobform-border-radius);
+    padding: 0px 3px 0px 3px;
+    border: 1px solid black;
+}
+
+.ddo-adddetails-combo .x-form-trigger-default:before {
+    color: black;
+}
+
+.employee:first-child .line {
+    border-top: 0px solid $color-black !important;
+}
+
+.line {
+    margin: 0px 15px;
+    padding: 0px 0px 20px 0px;
+    border-top: 1px solid $ddo-profile-header-border-color;
+}
+
+.employee {
+    padding: 0 0 15px;
+    font-family: $ddo-profile-font-family;
+    line-height: 25px;
+    color: $ddo-profile-content-color;
+    font-size: $text-font-size !important;
+    font-weight: $ddo-profile-content-font-weight;
+}
+
+.employee p {
+    margin: 0;
+    font-size: $text-font-size !important;
+    word-wrap: break-word !important;
+    overflow:hidden !important;
+   line-height: 2.3em;
+}
+
+.employee li {
+    font-size: $text-font-size !important;
+}
+
+.ddo-adddetails-txtfield.x-field-focus label,
+.ddo-adddetails-txtfield.x-form-dirty label {
+    left: 5px;
+    top: -24px;
+    font-size: 13px;
+}
+
+.ddo-adddetails-txtfield .x-form-trigger-wrap.x-form-trigger-wrap-default {
+    border: none;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.ddo-adddetails-txtfield .x-form-trigger-wrap.x-form-trigger-wrap-default:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    right: 50%;
+    background: $color-black;
+    height: 1px;
+    @include transition(left 0.3s, right 0.3s ease-out);
+}
+
+.ddo-adddetails-txtfield .x-form-trigger-wrap.x-form-trigger-wrap-focus:before {
+    left: 0;
+    right: 0;
+}
+
+.ddo-adddetails-txtfield label {
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 18px;
+    @include transition(0.4 ease-all);
+}
+
+.timefieldset .x-tool .x-fieldset-header-tool-default .x-tool-default .x-tool-img .x-tool-toggle .x-tool-img-x-tool-toggle {
+    display: none;
+}
+
+.ddo-adddetails-txtfield .x-form-text-default {
+    font: 500 16px/21px $ddo-profile-font-family;
+    padding: 0px !important;
+}
+
+.ddo-adddetails-checkboxfield {
+    position: relative !important;
+    left: 50% !important;
+    color: $ddo-profile-content-color;
+    padding-top: 10px !important;
+    font-size: 14px !important;
+}
+
+.employeedetailsview-cls {
+    background-color: white;
+}
+
+.ddo-adddetails-formpanel {
+    padding-top: 15px !important;
+}
+
+.ddo-adddetails-txtfield {
+    margin-top: -3px !important;
+}
+
+.ddo-adddetails-timeperiod {
+    color: $ddo-profile-content-color;
+    font-size: 14px !important;
+    margin-top: 10px !important;
+}
+
+.ddo-adddetails-htmleditor .x-form-item-label {
+    color: $ddo-profile-content-color;
+    font-size: 14px !important;
+}
+
+.ddo-adddetails-fieldcontainer {
+    padding-top: 20px !important;
+}
+
+.ddo-adddetails-htmleditor .x-html-editor-input {
+    border: 0px !important;
+    border-top: 1px solid #ccc !important;
+}
+
+.ddo-adddetails-htmleditor .x-html-editor-container {
+    @include border-radius($ddo-profile-addjobform-border-radius);
+}
+
+.ddo-adddetails-htmleditor .x-toolbar {
+    left: 7px !important;
+}
+
+.ddo-adddetails-htmleditor .x-font-select {
+    background-color: #fff;
+}
+
+
+/*.ddo-adddetails-textbox .x-form-text-field-body-default {
+    width: inherit !important;
+}*/
+
+.ddo-project-combo .x-form-trigger-wrap.x-form-trigger-wrap-default{
+    @include border-radius($ddo-profile-addjobform-border-radius);
+    // padding: 0px 3px 0px 3px;
+    border: 1px solid gray;
+}

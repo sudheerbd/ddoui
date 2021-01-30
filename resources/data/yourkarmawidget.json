@@ -1,0 +1,80 @@
+// Show all
+// {
+//     "bcbpid": "1001058",
+//     "cbpid": "1001190",
+//     "employeeNameLeft": "Sandeep Ranga",
+//     "employeeNameRight": "Mahender Nakkolla",
+//     "karmapointsCenter": "1039",
+//     "karmapointsCenterEmail": "anil.sandrapati@walkingtree.tech",
+//     "karmapointsLeft": "1030",
+//     "karmapointsLeftEmail": "sandeep.ranga@walkingtree.tech",
+//     "karmapointsRight": "1052",
+//     "karmapointsRightEmail": "mahender.nakkolla@walkingtree.tech",
+//     "profileImgCenter": null,
+//     "profileImgLeft": null,
+//     "profileImgRight": null,
+//     "ucbpid": "1001114"
+// }
+
+//Center only
+// {
+//     "bcbpid": null,//"1001058",
+//     "cbpid": "1001190",
+//     "employeeNameLeft": null,//"Sandeep Ranga",
+//     "employeeNameRight": null,//"Mahender Nakkolla",
+//     "karmapointsCenter": "1039",
+//     "karmapointsCenterEmail": "anil.sandrapati@walkingtree.tech",
+//     "karmapointsLeft": null,//"1030",
+//     "karmapointsLeftEmail": null,//"sandeep.ranga@walkingtree.tech",
+//     "karmapointsRight": null,//"1052",
+//     "karmapointsRightEmail": null,//"mahender.nakkolla@walkingtree.tech",
+//     "profileImgCenter": null,
+//     "profileImgLeft": null,
+//     "profileImgRight": null,
+//     "ucbpid": null,//"1001114"
+// }
+
+
+//Left only
+// {
+//     "bcbpid": "1001058",
+//     "cbpid": "1001190",
+//     "employeeNameLeft": "Sandeep Ranga",
+//     "employeeNameRight": null,//"Mahender Nakkolla",
+//     "karmapointsCenter": "1039",
+//     "karmapointsCenterEmail": "anil.sandrapati@walkingtree.tech",
+//     "karmapointsLeft": "1030",
+//     "karmapointsLeftEmail": "sandeep.ranga@walkingtree.tech",
+//     "karmapointsRight": null,//"1052",
+//     "karmapointsRightEmail": null,//"mahender.nakkolla@walkingtree.tech",
+//     "profileImgCenter": null,
+//     "profileImgLeft": null,
+//     "profileImgRight": null,
+//     "ucbpid": null,//"1001114"
+// }
+
+
+// Right only
+{
+    "bcbpid": null,//"1001058",
+    "cbpid": "1001190",
+    "employeeNameLeft": null,//"Sandeep Ranga",
+    "employeeNameRight": "Mahender Nakkolla",
+    "karmapointsCenter": "1039",
+    "karmapointsCenterEmail": "anil.sandrapati@walkingtree.tech",
+    "karmapointsLeft": null,//"1030",
+    "karmapointsLeftEmail": null,//"sandeep.ranga@walkingtree.tech",
+    "karmapointsRight": null, //"1052",
+    "karmapointsRightEmail": "mahender.nakkolla@walkingtree.tech",
+    "profileImgCenter": null,
+    "profileImgLeft": null,
+    "profileImgRight": null,
+    "ucbpid": "1001114"
+}
+
+
+
+
+
+
+

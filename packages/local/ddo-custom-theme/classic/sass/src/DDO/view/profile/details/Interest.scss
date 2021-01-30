@@ -1,0 +1,74 @@
+.ddo-interest-textfield {
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 8px;
+    border: 1px solid;
+    padding: 1px !important;
+    border-radius: 6px !important;
+}
+
+.ddo-interest-over {
+    color: $color-red !important;
+}
+
+.ddo-interesttpl {
+    display: inline-block;
+    position: relative;
+    margin: 6px;
+    div.ddo-interests-delete {
+        width: 16px;
+        height: 16px;
+        //background-image: url("/resources/images/icons/round_delete.png");
+        position: absolute;
+        display: none;
+        //right: -7px;
+        //top: -4px;
+        top:40px;
+        right:178px;
+
+
+        cursor: pointer;
+    }
+    &.ddo-interest-over div.ddo-interests-delete {
+        display: inline-block;
+    }
+}
+
+.ddo-interestsadded {
+    // padding: 15px 30px;
+    //padding: 13px 25px;
+    width: 129px;
+    height: 40px;
+    padding:11px 20px;
+    font-size: $text-font-size !important;
+    color: $color-white;
+    display: inline-block;
+    font-weight: $ddo-profile-sub-header-font-weight;
+    text-align: center;
+    border-radius: 6px;
+   // word-wrap: break-word;
+    background-color: $ddo-profile-button-yellow-color;
+}
+
+/* .ddo-interests-list {
+    text-align: center;
+} */
+
+@font-face {
+    font-family: 'WtcFontResource';
+    src: url('/resources/fonts/ddo/WTC_DDO.ttf') format('truetype');    
+    font-style: normal;
+}
+.ddo-interests-delete{
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+}
+.ddo-interests-delete:before {
+    content: '\006D' !important;     
+    font-size: 23px;
+    position:relative;
+    font-weight: 500;
+    right:4px;
+    bottom:5px;
+    color:#000 !important;
+}

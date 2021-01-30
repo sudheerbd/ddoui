@@ -1,0 +1,31 @@
+{
+   
+children: [
+            {
+                text:   'Dashboard',
+                view:   'dashboard.Dashboard',
+                iconCls: 'x-fa fa-desktop',
+                routeId: 'dashboard',
+                expanded: false,
+                selectable: false,
+                children: [
+                    {
+                        text: 'Availability Sheet',
+                        view: 'pages.BlankPage',
+                        leaf: true,
+                        iconCls: 'x-fa fa-user',
+                        routeId:'dashboard.resourceavailability'
+                    }
+                    
+                ]
+            },
+            
+            {
+                text: 'Charts',
+                view: 'charts.Charts',
+                iconCls: 'x-fa fa-pie-chart',
+                leaf:   true,
+                routeId:'charts'
+            }
+        ]
+  }

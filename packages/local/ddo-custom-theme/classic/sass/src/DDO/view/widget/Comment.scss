@@ -1,0 +1,30 @@
+.comments{
+	padding    : 5px;
+	left: 40% !important;
+    position: relative !important;
+    display: inline-block;
+	// top        : 4px !important;
+	// margin-right: 10px !important;
+}
+.comment-count-cls {
+	margin-left: 2px;
+}
+.comment-cls {
+    margin-left: 14px;
+}
+.comment-icon-cls{
+	// background-image: url('/resources/images/comment.svg');
+	// background-size: cover;
+	// height: 20px;
+	// width: 20px;
+	position: absolute;
+    background: url('/resources/images/comment.svg');
+    // background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 16px;
+	width: 16px;
+	margin-top:4px;
+    // left: -14%;
+    // top: 5%;
+}

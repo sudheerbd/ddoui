@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "Probation"
+    },
+    {
+      "name": "Confirmed"
+    },
+    {
+      "name": "Notice"
+    },
+    {
+      "name": "Loss of Pay"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url($font-roboto-regular-url);
+    font-style: normal;
+    
+}
+
+.ddo-addfilter-btn{
+    width: 80px ;
+    height: 36px;
+    background: $button-blue;
+    box-shadow:$btn-boxshadow;
+    border-radius: $borderRadius;
+    opacity: 1;
+    border-color: transparent !important;
+    border-style: none;
+    cursor: pointer !important;
+    color: $text-color-white;
+    font-size: $font-fourteen;
+    font-family: 'Roboto-Regular' !important;
+}
+
+.ddo-filter-badge-value {
+    position: relative;
+    right: 12%;
+    bottom: 25px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 800;
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    visibility:hidden;
+    cursor: pointer !important;
+    text-align: center;
+    display: inline-block;
+}
+.ddo-filter-badge-cancel{
+	font-family: 'FontAwesome' !important;
+	float:right !important;
+	cursor: pointer !important;
+	position: relative;
+    right: 4px;
+    visibility: hidden;
+}
+.ddo-filter-badge-cancel:before{
+    content: "\f00d" !important;
+    color:red !important;
+}

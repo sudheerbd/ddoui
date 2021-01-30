@@ -1,0 +1,19 @@
+{
+ "data": [
+   {
+     "feedback_name":"No Escalation",
+     "feedback_id":"1",
+     "score":"10"
+   },
+   {
+    "feedback_name":"Appreciation",
+     "feedback_id":"2",
+     "score":"20"
+   },
+   {
+    "feedback_name":"Best Economic value",
+     "feedback_id":"3",
+     "score":"30"
+   }   
+ ]
+}

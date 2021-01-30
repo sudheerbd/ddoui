@@ -1,0 +1,320 @@
+.DDO-formPanel-cls .x-form-inner {
+    background-color: transparent !important;
+}
+
+.DDO-formPanel-cls {
+    margin: 0px 20px 0px 20px;
+}
+
+.DDO-formPanel-cls .x-form-field {
+    font-family: sans-serif;
+}
+
+.DDO-formPanel-cls .DDO-loginBtn-cls {
+    border-radius: 7px;
+    color: black;
+}
+
+.logoContainer-cls {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.DDO-loginTitle-cls .x-panel-header {
+    background-color: black;
+}
+
+.DDO-loginTitle-cls .x-panel-title {
+    text-align: center;
+}
+
+.DDO-loginTitle-cls .x-panel-title-text {
+    font-family: sans-serif;
+}
+
+.DDO-formPanel-cls .x-form-inner .x-container .x-component-outer .x-form-field {
+    border-radius: 7px !important;
+}
+
+.DDO-formPanel-cls .x-form-inner .x-container {
+    border-radius: 7px !important;
+}
+
+.DDO-formPanel-cls .x-form-inner .DDO-loginBtn-cls {
+    //margin: 0% 23% 0% 23% !important;
+    height: 20%;
+    width: 50%;
+    margin: 0px 0px 0px 25%;
+}
+
+.DDO-loginBtn-cls .x-button-label {
+    // margin: -5% 0px 0px 0px !important;
+}
+
+.DDO-loginBtn-cls .x-button-label {
+    // margin: -5% 0px 0px 0px !important;
+}
+
+.x-toast .x-innerhtml {
+    color: white;
+}
+
+.x-field-revealable .x-reveal-icon {
+    display: block;
+    position: absolute;
+    width: 29px;
+    height: 50px;
+    top: 54%;
+    left: 90%;
+    right: 0.2em;
+    color: #919191;
+    margin-top: -0.7em;
+    font: 1.23em/1 FontAwesome;
+    background: url('/resources/images/eye_icon.jpg')!important;
+    background-size: 22px 22px !important;
+    background-repeat: no-repeat !important;
+}
+
+.x-revealed .x-reveal-icon {
+    display: block;
+    position: absolute;
+    width: 29px;
+    height: 50px;
+    top: 54%;
+    left: 90%;
+    right: 0.2em;
+    color: #919191;
+    margin-top: -0.7em;
+    font: 1.23em/1 FontAwesome;
+    background: url('/resources/images/eye_icon_closed.png')!important;
+    background-size: 22px 22px !important;
+    background-repeat: no-repeat !important;
+}
+
+.login-userId-cls .x-clear-icon {
+    color: transparent !important;
+    background: url('/resources/images/correct_icon.png')!important;
+    background-size: 20px 18px !important;
+    background-repeat: no-repeat !important;
+    top: 54% !important;
+    right: 2% !important;
+}
+
+.DDO-login-carousel .x-carousel-indicator-horizontal {
+    position: absolute !important;
+    bottom: 55px !important;
+    height: 1.5em !important;
+    font-size: 20px !important;
+}
+
+.x-carousel-indicator-active {
+    background: #FFFFFF !important;
+}
+
+.login-userId-clear,
+.login-password-clear {
+    position: relative !important;
+    right: 10% !important;
+}
+
+.cross-icon-cls {
+    float: right !important;
+    margin: 11px 0px 0px 3px !important
+}
+
+.DDO-forgotPwd-cls {
+    color: white;
+    margin-bottom: 5%;
+    font-weight: 600;
+    font-size: 15px !important;
+}
+
+.forgotPwdToolbar-cls {
+    background-color: black;
+    font-size: 14px !important;
+}
+
+.forgotLbl-cls {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.appLoadingIndicator.x-mask {
+    opacity: 1 !important;
+    height: 100%;
+    width: 100%;
+    @include bgImgShorthand($imgpath: '/resources/images/apploadingindicator.png', $size: cover, $important: true);
+}
+
+.x-mask-inner {
+    display: none !important;
+}
+
+.x-carousel-indicator span {
+    background: #D3D3D3 !important;
+}
+
+.x-carousel-indicator span.x-carousel-indicator-active {
+    background: #7E7E7E !important;
+}
+
+.login-headerdetails {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 2em !important;
+}
+
+.login-headertext {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 1.5em 0px 0px 0px;
+}
+
+
+/*Animation*/
+
+.animation {
+    -webkit-transition: 1.0s !important;
+    -webkit-transform-style: preserve-3d !important;
+    -ms-transition: 1.0s !important;
+    -moz-transition: 1.0s !important;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1.0s !important;
+    transform-style: preserve-3d !important;
+    -webkit-transition: all 1.0s ease-in-out !important;
+    -moz-transition: all 1.0s ease-in-out !important;
+    -o-transition: all 1.0s ease-in-out !important;
+}
+
+
+/*.DDO-loginheader-image, .DDO-login-carousel {
+    position: relative;
+    -webkit-transition: 0.50s linear !important;
+    -moz-transition: 0.50s linear !important;
+    -o-transition: 0.50s linear !important;
+    transition: 0.50s linear !important;
+    animation: fadein 1s !important;
+    -moz-animation: fadein 1s !important;
+    -webkit-animation: fadein 1s !important;
+    -o-animation: fadein 1s !important;
+}*/
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        bottom: 120px;
+    }
+    25% {
+        pacity: 0.2;
+        bottom: 120px;
+    }
+    50% {
+        opacity: 0.5;
+        bottom: 0;
+    }
+    75% {
+        opacity: 0.8;
+        bottom: 9px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+        bottom: 120px;
+    }
+    25% {
+        pacity: 0.2;
+        bottom: 120px;
+    }
+    50% {
+        opacity: 0.5;
+        bottom: 0;
+    }
+    75% {
+        opacity: 0.8;
+        bottom: 9px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+        bottom: 120px;
+    }
+    25% {
+        pacity: 0.2;
+        bottom: 120px;
+    }
+    50% {
+        opacity: 0.5;
+        bottom: 0;
+    }
+    75% {
+        opacity: 0.8;
+        bottom: 9px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@-ms-keyframes fadein {
+    0% {
+        opacity: 0;
+        bottom: 120px;
+    }
+    25% {
+        pacity: 0.2;
+        bottom: 120px;
+    }
+    50% {
+        opacity: 0.5;
+        bottom: 0;
+    }
+    75% {
+        opacity: 0.8;
+        bottom: 9px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@-o-keyframes fadein {
+    0% {
+        opacity: 0;
+        bottom: 120px;
+    }
+    25% {
+        pacity: 0.2;
+        bottom: 120px;
+    }
+    50% {
+        opacity: 0.5;
+        bottom: 0;
+    }
+    75% {
+        opacity: 0.8;
+        bottom: 9px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}

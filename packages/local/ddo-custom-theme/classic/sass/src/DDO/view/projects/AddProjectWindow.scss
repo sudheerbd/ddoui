@@ -1,0 +1,53 @@
+.project-img-cls {
+    border: 1px solid #dcdcdc;
+}
+.project-url-path-cls {
+    position: absolute;
+    right: 52px;
+    top: 2px;
+    .x-form-trigger-default {
+        border: 0px !important;
+    }
+    .x-form-file-btn {
+        top: 0px;
+        width: 40px;
+        height: 23px;
+        font-size: 35px;
+        position: relative;
+        border-color: transparent !important;
+        font-family: 'WtcFontResource' !important;
+        background-color: transparent !important;
+        &:before {
+            content: '\0059' !important;
+            font-size: 31px;
+            position: absolute;
+            font-weight: 500;
+            bottom: -4px;
+            right: -3px;
+        }
+    }
+}
+
+.project-save-btn {
+    border: none !important;
+    background-color: #fcba1a !important;
+    border-radius: 0px !important;
+    padding: 10px;
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+.project-cancel-btn {
+    background-color: #000 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 10px;
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+.imgupload-label-cls {
+    display: block;
+    width: 70%;
+    font-size: 12px;
+}

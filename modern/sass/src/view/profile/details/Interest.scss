@@ -1,0 +1,153 @@
+.ddo-profileinterests-maincontainer {
+    background: $ddo-white-color;
+    @include border-radius($ddo-profile-border-radius);
+    //margin: 2% 1%;
+    margin: 5px 0px;
+}
+
+.ddo-interesttpl {
+    display: inline-block;
+    position: relative;
+    margin: 6px;
+}
+
+.ddo-interestsadded {
+    width: 7em;
+    //height: 40px;
+    padding: 0.6em;
+    font-size: $ddo-profile-content-font-size;
+    color: white;
+    display: inline-block;
+    font-weight: $ddo-profile-header-font-weight;
+    text-align: center;
+    @include border-radius($ddo-profile-addjobform-border-radius);
+    // word-wrap: break-word;
+    background-color: $ddo-theme-yellow-color;
+}
+
+.addBtn-cls {
+    background: transparent;
+    border-width: 0px;
+    padding-top: 0.0em;
+}
+
+.addContainer-cls {
+    margin: 3% 4%;
+    border-bottom: 2px solid #ada9a9;
+}
+
+.interestToolbar-cls {
+    background-color: $ddo-black-color;
+}
+
+.addInterestLbl-cls {
+    margin: 0% 25%;
+    font-size: 1.5em;
+    font-weight: $ddo-profile-content-font-weight;
+    color: $ddo-white-color;
+}
+
+.saveTxt-cls {
+    background-color: transparent !important;
+    border: none;
+    font-size: 1.2em !important;
+    font-weight: $ddo-profile-header-font-weight;
+    color: $ddo-theme-yellow-color;
+}
+
+.ddo-interestsadded-cls {
+    margin: 0% 2%;
+}
+
+.ddo-interest-header-toolbar {
+    border: none;
+    @include border-radius($ddo-profile-border-radius);
+}
+
+.ddo-interest-header-toolbar .x-toolbar-inner {
+    // border-bottom: $ddo-border;
+}
+
+.ddo-interest-form-list {
+    border-top: 0px !important;
+}
+
+.ddo-interests-list .x-dataview-container {
+    border-top: $ddo-border;
+}
+
+.ddo-interesttpl {
+    display: inline-block;
+    position: relative;
+    margin: 6px;
+    span.ddo-interests-delete {
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        right: 8px;
+        top: 10.9px;
+        cursor: pointer;
+        color: black;
+        background-image: url("/resources/images/icons/delete.png");
+    }
+}
+
+.interestEdit-cls {
+    height: 1.6em;
+    width: 1.6em;
+    position: absolute;
+    top: 5em;
+    right: 1em;
+}
+
+.ddo-interest-header-label {
+    color: $ddo-theme-yellow-color;
+    font-size: $ddo-profile-header-font-size;
+    text-align: center;
+    font-weight: $ddo-profile-header-font-weight;
+    margin: 0% 40%;
+}
+
+.ddo-interest-textbox {
+    border-bottom: $ddo-border;
+    margin: 10px;
+}
+
+.ddo-interest-textbutton {
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 32px;
+}
+
+.ddo-interest-textbutton .fa-plus:before {
+   color: $ddo-black-color;
+}
+
+.ddo-onaddeducation {
+   font-size: $ddo-profile-sub-header-font-size;
+}
+.ddo-onaddinterestbutton {
+   background-color: transparent !important;
+   border: none;   
+}
+
+.ddo-onaddinterestbutton .x-button-icon {
+   color: $ddo-black-color;
+   font-size: 15px !important;
+}
+.ddo-addinterestform-cls {
+   border-bottom: $ddo-border;
+   width: 90% !important;
+   margin-left: 5%;
+   padding: 0px;
+   margin-right: 5%;
+   height: 43px !important;
+}
+
+.ddo-interest-container {
+   margin-left: 20px !important;
+   margin-top: 12px !important;
+}

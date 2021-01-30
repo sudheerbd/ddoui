@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "color":"#e94435",
+            "startRange":"0",
+            "endRange":"600"            
+        },
+        {
+            "color":"#ef786d",
+            "startRange":"601",
+            "endRange":"2000"
+        },
+        {
+            "color":"#f28f86",
+            "startRange":"2001",
+            "endRange":"3000"
+        },
+        {
+            "color":"#6bbf80",
+            "startRange":"3001",
+            "endRange":"4500"
+        },
+        {
+            "color":"#34a751",
+            "startRange":"4501",
+            "endRange":"6000"
+        }
+    ]
+}

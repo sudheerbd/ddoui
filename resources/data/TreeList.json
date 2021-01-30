@@ -1,0 +1,31 @@
+{
+   
+children: [ {
+                text:   'Home',
+                view:   'home.Home',
+                iconCls: 'x-fa fa-home ',
+                leaf:   true,
+                routeId: 'home'
+
+            },     
+            {
+                text:   'Dashboard',
+                view:   'dashboard.Dashboard',
+                iconCls: 'x-fa fa-desktop',
+                routeId: 'dashboard',
+                expanded: false,
+                selectable: false,
+                children: [
+                    {
+                        text: 'Availability Sheet',
+                        view: 'dashboard.availibilitysheet.BorderContainer',
+                        leaf: true,
+                        iconCls: 'x-fa fa-user',
+                        routeId:'resourceavailability'
+                    }
+                    
+                ]
+            }
+            
+        ]
+  }

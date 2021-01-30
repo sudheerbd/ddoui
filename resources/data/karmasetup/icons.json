@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "icon_name":"Dull",
+            "icon_path":"/resources/images/feeds/likes/Dull.png",      
+        },
+         {
+            "icon_name":"Lazy",
+            "icon_path":"/resources/images/feeds/likes/lazy.png",      
+        },
+         {
+            "icon_name":"Good",
+            "icon_path":"/resources/images/feeds/likes/Good.png",      
+        }, {
+            "icon_name":"Superb",
+            "icon_path":"/resources/images/feeds/likes/Superb.png",      
+        },
+         {
+            "icon_name":"Amaizing",
+            "icon_path":"/resources/images/feeds/likes/Amaizing.png",      
+        }
+    ]
+}

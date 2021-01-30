@@ -1,0 +1,117 @@
+.help-title {
+    color: orange !important;
+    font-weight: bold !important;
+    font-size:16px;
+    text-decoration: underline !important;
+    
+}
+.help-toolbar-cls{
+    text-align:center;
+    font-size: 15px;
+    font-weight: bold;
+     background:transparent!important;
+    padding: 25px 0px 5px 5px;
+}
+.help-subtitle {
+	 color: #404040 !important;
+    font-weight: bold !important;
+    // text-decoration: underline !important;
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+}
+.help-panel-cls .x-panel-header-default-horizontal.x-header-noborder {
+    padding: 5px 16px 0px 16px !important;
+     background: transparent !important;
+}
+.help-panel-cls .x-panel-header-title-default > .x-title-text-default{
+    text-transform: none;
+    padding: 0;
+    color: #FFF !important;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orange !important;
+    height:40px;
+    padding: 0 0 0 30px;
+    border-radius: 4px 0 0 0;
+}
+.help-panel-cls .x-panel-body-default {
+    background: transparent !important;
+    width: 995px !important;
+}
+.help-panel-cls .x-autocontainer-innerCt {
+    margin : 30px 0 0 0;
+    background-color:#FFF;
+    padding-left:0px;
+}
+
+.help-page {
+
+    margin:10px 0 0 10px;
+
+}
+
+.help-content {
+    margin: 15px 0 0 50px;
+}
+
+.content-bottom-cls{ 
+    margin:40px 45px 20px;
+    opacity: 0.4;
+}
+
+.extra-content-cls {
+    margin: 0 40px 0 30px;
+   
+}
+
+
+.first-content {
+    margin: 15px 0 25px 15px;
+}
+
+.last-content {
+    margin: 25px 0 25px 15px;
+   
+    padding : 0 0 0 15px !important;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+}
+.manager-cls {
+    margin-left: 18px;
+}
+.remove-border-cls {
+    border-bottom:none !important;
+    border:0  !important;
+}
+
+.last-item-cls{
+    box-shadow: 0 3px 6px lightgrey;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.manager-cls{
+    color: #fff;
+    background-color: orange;
+    height: 40px;
+    width: 100% !important;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.help-last {
+    margin: 20px 0 0px 20px !important;
+}
+
+.last-manager-content {
+    padding-bottom: 20px;
+    margin: 15px 0 0px 40px;
+}
+.pad-cls{
+ padding-bottom: 15px !important;
+}

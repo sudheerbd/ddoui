@@ -1,0 +1,78 @@
+.header-fields {
+    margin-left: 20px;
+     .x-form-trigger-wrap-default {
+        border-width: 1px !important;
+        border-color: #CFCDCF !important;
+        border-style: solid;
+        /* border-radius: 5px !important; */
+    }
+    .x-form-date-trigger:before {
+        color: black;
+    }
+    .x-form-date-trigger {
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+.header-fields-design {
+    .x-form-text-default {
+        border-color: #CFCDCF;
+        border-style: solid;
+        border-width: 1px;
+        //border-radius: 5px;
+        color: #000 !important;
+        height: 100% !important;
+    }
+}
+
+.header-combo-fields-design {
+    .x-form-trigger-wrap-default {
+        border-width: 1px !important;
+        border-color: #CFCDCF !important;
+        border-style: solid;
+        /* border-radius: 5px !important; */
+    }
+     .x-form-trigger-default {
+        background: #000;
+        width: 34px !important;
+        //border-radius: 5px;
+        //content: "\f107";
+    }
+
+    .ddo-trigger-clear{
+        background-color:#FFF;
+    }
+}
+
+.header-combo-fields-design .x-form-trigger-default{
+    font-family: 'Awesome' !important;
+    font-size: 35px;
+    color:#CFCDCF !important;
+}
+
+.header-combo-fields-design .x-form-trigger-default:before {
+    content: '\0047' !important;
+    font-size: 24px;
+    position: relative;
+    bottom:2px !important;
+}
+
+.header-combo-fields-design .x-form-clear-trigger{
+    font-family: 'WtcFontResource' !important;
+    font-size: 35px;
+    color:#CFCDCF !important;
+}
+
+.header-combo-fields-design .x-form-clear-trigger:before {
+    content: '\0066' !important;
+    font-size: 24px;
+    position: relative;
+    bottom:2px !important;
+}
+
+
+@include extjs-progress-ui ( $ui: 'goalprogressbar', $ui-background-color: #C2C2C2, $ui-bar-background-color: #72B984, $ui-height: 10px, $ui-border-radius: 5px, $ui-text-font-size: 0px);
+.progress-header.x-box-item {
+    top: -4px !important;
+    left: 238px !important;
+}

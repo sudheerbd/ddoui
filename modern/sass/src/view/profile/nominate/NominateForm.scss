@@ -1,0 +1,131 @@
+.progressbar-cls{
+	height:240px !important;
+}
+.ddo-mobile-nominate-submit{
+	margin:20px;
+	background: #31a950;
+    color: #fff;
+    border-radius: 5px;
+}
+/* .ddo-mobile-nominate-cancel{
+	margin:20px;
+} */
+
+.ddo-legend {
+	height: 5px;
+}
+
+.wtc-canvas-el {
+}
+.wtc-progress-bar-canvas-wrap {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.wtc-canvas-el-concentric,
+.wtc-progress-bar-icon-el,
+.wtc-progress-canvas-label-el {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wtc-progress-canvas-label-el {
+	font-size: 16px;
+}
+
+/* Circular Progress Bar */
+.wtc-canvas-footer-text{
+	text-align: center;
+	color: #666;
+}
+
+.ddo-nominate-toolbar{
+	background: #000 !important;
+}
+
+.ddo-nominate-toolbar .x-title {
+    color: #fff !important;
+}
+
+.ddo-mobile-toggle-button {
+	color: #fff;
+    border: none;
+	background: #7d7474;
+	font-size: 13px !important;
+}
+
+.ddo-activity-press-cls{
+	color: #fff !important;
+	background: #000 !important;
+}
+
+.ddo-mobile-rating-form{
+    height: 103%;
+    margin: 0px !important;
+    border: none !important;
+    overflow-y: scroll !important;
+}
+
+.ddo-mobile-rating-form .x-form-inner {
+    background: #fff !important;
+}
+
+.ddo-mobile-nominate-comment{
+	//height:120px;
+}
+.ddo-nominate-name{
+    color: #000;
+    margin: 10px;
+    font-weight: bold;
+	text-align: center;
+    font-size: 20px !important;
+}
+.ddo-mobile-rating-window{
+	height:90% !important;
+}
+
+.ddo-nominate-toolbar .x-title .x-innerhtml {
+    /* width: 75%;
+    left: 21px;
+    font-size: 14px;
+    position: relative; */
+    /* width: 92%;
+    left: 10%; */
+    font-size: 14px;
+    /* position: relative; */
+    text-overflow: ellipsis;
+}
+
+.ddo-label-points {
+    font-size: 14px;
+}
+
+.ddo-nominate-form-backbtn {
+    border: 0px transparent !important;
+    background: $ddo-black-color;
+}
+
+.ddo-nominate-form-backbtn .x-button-icon {
+    color: $ddo-white-color;
+}
+
+.rating-combo-cls .x-form-field::-webkit-input-placeholder {
+ 	-webkit-text-fill-color: #a9a9a9 !important;
+}
+
+.rating-combo-cls .x-form-field::-moz-placeholder {
+ 	-webkit-text-fill-color: #a9a9a9 !important;
+}
+
+.rating-combo-cls .x-form-field::-ms-input-placeholder {
+ 	-webkit-text-fill-color: #a9a9a9 !important;
+}
+
+.rating-combo-cls.x-field .x-field-input {
+    border: 1px solid #e8e2e2;
+}
+
+.ddo-mobile-nominate-comment.x-field .x-field-input {
+    border: 1px solid #e8e2e2;
+}

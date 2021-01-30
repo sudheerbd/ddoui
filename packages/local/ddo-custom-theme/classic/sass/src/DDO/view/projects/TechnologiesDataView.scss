@@ -1,0 +1,55 @@
+.technologies-dashboard-cls{
+    margin: 10px;
+    width: 30%;
+    color: #8c8b8b;
+    cursor: pointer;
+    background: #fff;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 3px 3px 7px 1px #d4d4d4;
+    -moz-box-shadow: 3px 3px 7px 1px #d4d4d4;
+    box-shadow: 3px 3px 7px 1px #d4d4d4;
+}
+.technology-non-img-cls{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    float: left;
+    margin: 10px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+.technology-dash-img-cls {
+	width: 40px;
+	height: 40px;
+	margin: 10px 10px;
+	@include border-radius(10px);
+}
+.technology-name-cls{
+    color: #131313;
+    text-align: left;
+    width: 161px;
+    margin-top: 21px;
+    font-size: 14px;
+}
+.first-letter-tech-cls{
+    top: 11px;
+	text-align:center; 
+	position: relative; 
+}
+.deleteicon-div{
+    margin-top: -16px;
+    float: right;
+    margin-right: 20px;
+}
+.tech-window-submit-cls {
+    top: 55px;
+}

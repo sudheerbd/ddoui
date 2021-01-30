@@ -1,0 +1,248 @@
+.DDO-linkendinCls{
+    background: url('/resources/images/Signin_With-Linkedin.png') 0 0 !important;
+    background-size: cover !important;
+    border-color: transparent !important;
+}
+
+.or-outer-div {
+    width: 100%;
+    text-align: center;
+}
+
+.or-seperator {
+    text-align: center;
+    color: #fff;
+    // font-family: "Open Sans";
+    display: inline-block;
+    background: transparent;
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    z-index: 1;
+    padding: 0 8px;
+}
+
+.or-outer-div:before {
+    content: " ";
+    width: 40%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+.or-outer-div:after {
+    content: " ";
+    width: 40%;
+    height: 2px;
+    font-weight: 800;
+    background-color: #fff;
+    position: absolute;
+    left: 60% ;
+    top: 9px;
+}
+
+.DDO-orStatement {
+  margin: 21px 0px 0px 0px;
+}
+
+.DDO-txtbx {
+    width: 320px;
+    
+    input {
+        padding: 12px 20px 7px 20px;
+        background: transparent;
+        font-size: 15px;
+        font-weight: 500;
+        // font-family: sans-serif;
+        color: #fff;
+    }
+
+    .x-form-trigger-wrap-default{  
+        border-bottom: 2px solid #fff !important;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    :-moz-placeholder { 
+        color: #fff;
+        font-weight: 400;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: #fff;
+        font-weight: 400;
+    }
+
+    :-ms-input-placeholder {  
+        color: #fff;
+        font-weight: 100;
+    }
+}
+
+.loginView-cls {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 1%;
+}
+
+.DDO-forgotContent {
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.DDO-loginFormCls {
+    border-left: 3px solid #fff !important;
+    height:30%;
+    .x-panel-body-default{
+        background: transparent !important;
+    }
+}
+
+@media (max-width: 810px) {
+    .DDO-loginFormCls {
+        border-left: none !important;
+    }
+}
+
+.DDO-forgotPasswordTitle {
+   color:#FFFFFF;
+   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+   font:600 16px/23px $ddo-theme-font-family;
+   text-align: center;
+}
+
+.DDO-forgot {
+    color: #fff;
+    font-weight: 800;
+    margin: 21px 0px 10px 0px;
+    overflow: visible !important;
+}
+
+.DDO-forgot .x-panel-body-default {
+   overflow: visible !important;
+}
+
+// .DDO-loginBtnCls {
+//     margin-top: 1px !important;
+//     // margin-bottom: 10px !important;
+//     margin-left: 39px !important;
+//     // left: 60px !important;
+//     background-color: #fff !important;
+//     @include border-radius(4px);
+//     border: 1px solid #32A851;
+//     .x-btn-inner-default-small {
+//         color: #000 !important;
+//         padding: 3px !important;
+//         font-weight: 600;
+//         font-size: 15px;
+//     }
+//     .x-btn-inner {
+//         overflow: visible;
+//     }
+//     &:active {
+//         background-color: #ddd !important;
+//         border-color: #ddd !important;
+//     }
+// }
+
+
+.logoContainer-cls {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.quote {
+  color: #fff;
+  float: right;
+  position: relative;
+  max-width: 75%;
+//   height: 10%;
+// 	width: 95%;
+  right: 5%;
+//   left: 2%;
+
+  h1 {
+   font-size: 35px !important;
+   line-height: 35px !important;
+ }    
+
+  h2 {
+    line-height: 30px;
+  }
+
+  h3 {
+    font-weight: 400;
+    text-align: right;
+    position: relative;
+    right: 14%;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+    .quote {
+        h1 {
+            font-size: 240% !important;
+            line-height: 35% !important;
+        }   
+        h2 {
+            font-size: 140%;
+            margin-top: 30px;
+            // text-align: center;
+        }
+
+        h3 {
+            font-size: 140%;
+            margin-top: 12%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1149px) {
+    .quote {
+        h1 {
+            font-size: 220% !important;
+            line-height: 35% !important;
+        }    
+
+        h2 {
+            font-size: 123%;
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 130%;
+            margin-top: 12%;
+        }
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .quote {
+        h1 {
+            font-size: 180% !important;
+            line-height: 35% !important;
+        }    
+
+        h2 {
+            font-size: 120%;
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 120%;
+            margin-top: 12%;
+        }
+    }
+}
+
+.DDO-thoughtProto .x-panel-body {
+  background-color: transparent !important;
+}
+

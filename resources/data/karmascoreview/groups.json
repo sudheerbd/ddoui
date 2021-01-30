@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "group_name":"None",
+      "group_value":0
+    },{
+     "group_name":"Designation",
+     "group_value":1  
+    },{
+      "group_name":"Supervisor",
+     "group_value":2 
+    }
+  ]
+}
+

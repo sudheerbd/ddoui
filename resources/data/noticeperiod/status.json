@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "status_id":"0",
+            "status":"Exit Process"
+        }, {
+            "status_id":"1",
+            "status":"Separated"
+        }
+    ]
+}

@@ -1,0 +1,480 @@
+@-moz-keyframes "fadeOut" {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes "fadeOut" {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@keyframes "fadeOut" {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-moz-keyframes "flip-up-down" {
+	from {
+		position: relative;
+		bottom: 23px;
+	}
+	to {
+		position: relative;
+		bottom: 0px;
+	}
+}
+@-webkit-keyframes "flip-up-down" {
+	from {
+		position: relative;
+		bottom: 23px;
+	}
+	to {
+		position: relative;
+		bottom: 0px;
+	}
+}
+@keyframes "flip-up-down" {
+	from {
+		position: relative;
+		bottom: 23px;
+	}
+	to {
+		position: relative;
+		bottom: 0px;
+	}
+}
+@-moz-keyframes "fade-in" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes "fade-in" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes "fade-in" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-moz-keyframes "fadeIn" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes "fadeIn" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes "fadeIn" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.ddo-hyd-btn.x-btn-default-small, .ddo-ban-btn.x-btn-default-small, 
+.ddo-us-btn.x-btn-default-small {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    @include border-radius(50% !important);
+    border: none !important;
+}
+.ddo-hyd-btn {
+	@include bgImgShorthand($imgpath: '/resources/images/hyd.png', $size: cover, $important: true);
+}
+.ddo-ban-btn {
+	@include bgImgShorthand($imgpath: '/resources/images/ban.png', $size: cover, $important: true);
+}
+.ddo-us-btn {
+	@include bgImgShorthand($imgpath: '/resources/images/us.png', $size: cover, $important: true);
+}
+
+.ddo-hyd-btn.x-btn-pressed.x-btn-default-small,
+.ddo-ban-btn.x-btn-pressed.x-btn-default-small,
+ .ddo-us-btn.x-btn-pressed.x-btn-default-small {
+	@include box-shadow(1px 3px 7px 3px #dfdfe0 !important);
+}
+
+.ddo-empty-child-rec {
+	top: 60px;
+	color: #919191;
+	font-size: 30px;
+	font-weight: 500;
+	position: relative;
+}
+.ddo-root-orgchart-profile-image {
+	padding: 0px 27px 0px 27px;
+}
+.org-chart-child-view {
+	text-align: center;
+}
+.rootImg-cls {
+	padding: 10px;
+	cursor: pointer;
+	border: 3px solid #fff;
+	width: 90px !important;
+	height: 90px !important;
+	@include border-radius(50% !important);
+	@include box-shadow(1px 3px 7px 3px #dfdfe0 !important);
+}
+.profileImg-cls {
+	width: 81px;
+	height: 81px;
+	cursor: pointer;
+	border: 3px solid #fff;
+	@include border-radius(50% !important);
+	@include box-shadow(1px 3px 7px 3px #dfdfe0 !important);
+}
+.org-profileView-cls {
+	width: 25%;
+	padding: 21px;
+	position:relative;
+}
+.ddo-data-subchild-item {
+	width: 180px;
+	text-align: center;
+	display: inline-block;
+}
+.ddo-profile-img-highlight {
+	border: 3px solid #90EE90 !important;
+	@include box-shadow(1px 3px 7px 3px #dfdfe0 !important);
+}
+.org-child-profileImage-cls {
+	width: 69px;
+	height: 69px;
+	right: 34.5px;
+	cursor: pointer;
+	position: absolute;
+	margin: -12px 0px 0px 0px;
+	@include border-radius(50% !important);
+	@include box-shadow(1px 3px 7px 3px #dfdfe0 !important);
+	transition: all 0.5s, width: 0.5s, height 0.5s;
+	&:hover {
+		right: 30px;
+		z-index: 1;
+		width: 75px;
+		height: 75px;
+		opacity: 0.9;
+	}
+}
+.org-emp-name-cls {
+	color: #919191;
+	display: block;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: 500;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.org-emp-designation-cls {
+	color: #9a9a9a;
+	display: block;
+	font-size: 12px;
+	overflow: hidden;
+	margin-top: -15px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.ddo-lastchild-image-wrap {
+	position: relative;
+	height: 75px;
+}
+.ddo-child-anim {
+	-moz-animation: fadeOut 3s;
+	-webkit-animation: fadeOut 3s;
+	animation: fadeOut 3s;
+}
+.ddo-root-child-anim {
+	-moz-animation: flip-up-down 3s;
+	-webkit-animation: flip-up-down 3s;
+	animation: flip-up-down 3s;
+}
+.ddo-firstchild {
+	-moz-animation: fade-in 2s;
+	-webkit-animation: fade-in 2s;
+	animation: fade-in 2s;
+}
+.ddo-lastchild {
+	-moz-animation: fadeIn 7s;
+	-webkit-animation: fadeIn 7s;
+	animation: fadeIn 7s;
+}
+.ddo-loc-cls {
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	transform: translate(-27px, 51px);
+}
+.ddo-subchild-loc-cls {
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	transform: translate(-63px, -42px);
+}
+.ddo-in-combo-loc {
+	position: relative;
+	top: 6px;
+}
+.ddo-combo-loc-trigger:before {
+	font-size: 19px;
+}
+.ddo-org-combo {
+	@include box-shadow(0px 0px 7px 3px #e6e3e6 !important);
+	border-radius:6px !important;
+    border:1px solid #000 !important;
+    .x-form-text-default {
+    	background-color: #f6f6f6;
+        border-radius:6px !important;
+    }
+    .x-form-trigger-default{
+    	background-color: #f6f6f6;
+        border-radius:6px !important;
+    }
+}
+.ddo-org-combo-bound {
+	border: none !important;
+	@include box-shadow(2px 2px 3px 2px rgba(154, 154, 154, 0.37) !important);
+	.x-boundlist-selected {
+		color: #fac500;
+		background: #fff;
+		font-weight: 600;
+		border: 0px solid #d0d0d0 !important;
+	}
+	.x-boundlist-selected.x-boundlist-item-over {
+		color: #fac500;
+		background: #fff;
+		font-weight: 600;
+		border-bottom: 1px solid rgba(208, 208, 208, 0.42) !important;
+	}
+	.x-boundlist-item-over {
+		color: #fff;
+		background: #000;
+		border: 0px solid #d0d0d0 !important;
+	}
+}
+.loc-marker.x-btn-default-small {
+	z-index: 1;
+	width: 27px;
+	height: 27px;
+	background: #f6f6f6 !important;
+	border-radius: 50% !important;
+	transform: translate(28px, 3px);
+	border: 1px solid #f6f6f6 !important;
+}
+.loc-marker {
+	&:before {
+		left: 1px;
+		bottom: 2px;
+		font-size: 18px;
+		position: relative;
+		content: "\f041" !important;
+	}
+}
+.loc-marker-hyd.x-btn-default-small,
+.loc-marker-ban.x-btn-default-small,
+.loc-marker-usa.x-btn-default-small,
+.loc-marker-che.x-btn-default-small,
+.loc-marker-pun.x-btn-default-small {
+	z-index: 1;
+	width: 23px;
+	height: 23px;
+	border-radius: 50% !important;
+	transform: translate(31px, 5px);
+	border: 1px solid #fff !important;
+}
+.loc-marker-hyd.x-btn-default-small {
+	background: #000 !important;
+}
+.loc-marker-ban.x-btn-default-small {
+	background: #f9bc15 !important;
+}
+.loc-marker-usa.x-btn-default-small {
+	background: #34a851 !important;
+}
+.loc-marker-che.x-btn-default-small {
+	background: #2c67ed !important;
+}
+.loc-marker-pun.x-btn-default-small {
+	background: #ff0000 !important;
+}
+.loc-marker-hyd {
+	.x-btn-inner-default-small {
+		bottom: 5px;
+		font-size: 10px;
+		font-weight: 800;
+		position: relative;
+		padding: 0px !important;
+	}
+}
+.loc-marker-ban {
+	.x-btn-inner-default-small {
+		bottom: 5px;
+		font-size: 10px;
+		font-weight: 800;
+		position: relative;
+		padding: 0px !important;
+	}
+}
+.loc-marker-usa {
+	.x-btn-inner-default-small {
+		bottom: 5px;
+		font-size: 10px;
+		font-weight: 800;
+		position: relative;
+		padding: 0px !important;
+	}
+}
+.loc-marker-che {
+	.x-btn-inner-default-small {
+		bottom: 5px;
+		font-size: 10px;
+		font-weight: 800;
+		position: relative;
+		padding: 0px !important;
+	}
+}
+.loc-marker-pun {
+	.x-btn-inner-default-small {
+		bottom: 5px;
+		font-size: 10px;
+		font-weight: 800;
+		position: relative;
+		padding: 0px !important;
+	}
+}
+.ddo-org-loc-combo {
+	border: 1px solid #000 !important;
+    border-radius: 6px !important;
+    .x-form-text-default {
+    	background-color: #f6f6f6;
+        border-radius: 6px !important;
+        padding: 5px 37px 4px !important;
+    }
+    .x-form-trigger-default{
+    	background-color: #f6f6f6;
+        border-radius:6px !important;
+    }
+}
+.ddo-org-combo-bound-loc {
+	.x-boundlist-item {
+		border-bottom: 1px solid rgba(208, 208, 208, 0.42) !important;
+		&:last-child {
+			border-bottom: 0px solid !important;
+		}
+	}
+	.x-boundlist-selected.x-boundlist-item-over {
+		border-bottom: 1px solid rgba(208, 208, 208, 0.42) !important;
+	}
+}
+.org-profile-img-wrap-div {
+	margin: 0px 0px 10px 0px !important;
+}
+
+.badge-text {
+		top: 0px;
+		right: 32px;
+  }
+	.badge-text-root {
+		top: -13px;
+		right: 440px !important;
+	}
+	.badge-text-second-node{
+		top: 12px;
+		right: 30px;
+	}
+
+	.badge-text-root-thirdtree {
+		top: 16px;
+		right: 27px !important;
+	}
+	.badge-text-comon{
+		position: absolute;
+		background-color: #31a950 !important;;
+		color: white;
+		border-radius: 50%;
+		width:30px;
+		line-height:30px;
+	}
+.ddo-org-chart-search .x-box-inner {
+	padding: 21px;
+}
+.ddo-loc-round-hyd {
+	padding: 3px 7px;
+	font-weight: 800;
+	background: #000;
+	color: #fff !important;
+	margin: 0px 6px 0px 0px;
+	border-radius: 50% !important;
+}
+.ddo-loc-round-ban {
+	padding: 3px 7px;
+	font-weight: 800;
+	background: #f9bc15;
+	color: #fff !important;
+	margin: 0px 6px 0px 0px;
+	border-radius: 50% !important;
+}
+.ddo-loc-round-usa {
+	padding: 3px 7px;
+	font-weight: 800;
+	background: #34a851;
+	color: #fff !important;
+	margin: 0px 6px 0px 0px;
+	border-radius: 50% !important;
+}
+.ddo-loc-round-che {
+	padding: 3px 7px;
+	font-weight: 800;
+	background: #2c67ed;
+	color: #fff !important;
+	margin: 0px 6px 0px 0px;
+	border-radius: 50% !important;
+}
+.ddo-loc-round-pun {
+	padding: 3px 7px;
+	font-weight: 800;
+	background: #f00733;
+	color: #fff !important;
+	margin: 0px 6px 0px 0px;
+	border-radius: 50% !important;
+}
+.ddo-loc-log {
+	position: absolute;
+	transform: translate(-58px, -45px);
+}
+.ddo-loc-log-child {
+	position: absolute;
+	transform: translate(-66px, -45px);
+}
+.ddo-org-combo-bound .x-boundlist-list-ct.x-unselectable::-webkit-scrollbar {
+    width: 0% !important;
+}

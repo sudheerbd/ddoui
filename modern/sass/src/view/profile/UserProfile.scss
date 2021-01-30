@@ -1,0 +1,32 @@
+.#{$appprefix}detailed-timeline-card-container {
+    background-color: #EAEAEA;
+}
+
+.#{$appprefix}detailedbutton {
+    color: #C8C1C1;
+    background: #fff;
+    border: 0px !important;
+    margin-right: 0px !important;
+    border-right: 1px solid #EAEAEA !important;
+}
+
+.#{$appprefix}timelinebutton {
+    color: #C8C1C1;
+    background: #fff;
+    border: 0px !important;
+}
+
+.#{$appprefix}detailedbutton.x-item-disabled,
+.#{$appprefix}timelinebutton.x-item-disabled  {
+    opacity: 1;
+    color: rgb(4, 4, 4) !important;    
+    //font-weight: $ddo-todo-form-text-font-weight;
+}
+
+.#{$appprefix}timelinebutton.x-button.x-button-pressing,
+.#{$appprefix}detailedbutton.x-button.x-button-pressing,
+.#{$appprefix}timelinebutton.x-button.x-button-pressed,
+.#{$appprefix}detailedbutton.x-button.x-button-pressed {
+    color: #c8c1c1;
+    background: transparent;
+}

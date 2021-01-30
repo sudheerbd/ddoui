@@ -1,0 +1,156 @@
+.toDoListPanel .x-panel-inner {
+    background: #f6f6f6;
+}
+
+.toDoList .x-dataview-item {
+    //margin: 5px 15px;
+    background: #fff;
+    border-bottom: 1px solid #f6f6f6 !important;
+}
+
+.toDoList {
+    background: #fff !important;
+    border-top: 3px solid #f6f6f6 !important;
+}
+
+.toDoListTask {
+    overflow: hidden;
+    word-break: break-word;
+    color: #000;
+    font-weight: 600;
+    //padding: 5px;
+    padding: 30px 5px 30px 20px;
+    width: 90% !important;
+}
+
+.toDoListTime {
+    overflow: hidden;
+    color: #000;
+    font-weight: 700;
+    font-size: 0.7em;
+    padding: 0px 20px 0px 0px;
+    opacity: .5;
+}
+
+.addButton {
+    margin: 0% 43%;
+    bottom: 3.5em !important;
+    background: transparent;
+    background-color: #31a850;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    position: fixed !important;
+    top: 84.2% !important;
+    left: 0% !important;
+}
+
+.addButton .x-button-icon {
+    color: white;
+}
+
+.doneBtn-cls {
+    border-radius: 10px;
+    background: transparent;
+    border: 0;
+    color: white;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.toDoListTaskDone {
+    background: #31A850;
+    // border-radius: 1em 0 0 1em;
+    padding: 0px 35px 0px 35px;
+}
+
+.toDoListTaskEdit {
+    background: #f8bb15;
+    //border-radius: 0 1em 1em 0;   
+    padding: 0px 35px 0px 35px;
+}
+
+.createLbl-cls {
+    margin: 0% 17% !important;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.backBtn-cls {
+    background: transparent;
+    border-width: 0px;
+}
+
+.createOrEditList-cls .x-panel-inner {
+    background-color: #7C7C7C;
+}
+
+.calenderContainer-cls {
+    width:96% !important;
+    margin: 2% 2%;
+    margin-bottom: 0%;
+
+    background: white;
+    padding: 9% 7% 0% 7%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.calenderContainer-cls .x-form-inner {
+    background-color: transparent;
+}
+
+.taskName-cls textarea {
+    background-color: #EAEAEA;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 0.9em;
+    margin-top: 2em;
+    padding: 16px !important;
+    font-weight: 400;
+}
+
+.taskName-cls textarea.x-input-el {
+    width: 88% !important;
+}
+
+.createBtn-cls {
+    background-color: #31A950;
+    color: white;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 3.1em;
+    margin-top: 8%;
+}
+
+.taskToolbar-cls {
+    background: #000 !important;
+}
+
+.taskToolbar-cls .x-title {
+    color: #fff !important;
+}
+
+.taskToolbar-cls .x-title {
+    color: #000;
+}
+
+.datePicker-cls {
+    margin-top: 5% !important;
+    width: 88%;
+    margin-left: 5%;
+    margin-right: 6%;
+    border: 2px solid #EAEAEA;
+}
+.create0rEditList-cls {
+    border: none !important;
+    margin: 0px !important;
+}
+.taskName-cls {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

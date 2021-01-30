@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "name":"My Goals",
+      "key":"Personal",
+      "value":0
+    },{
+     "name":"All Goals",
+     "key":"All",
+     "value":1  
+    },{
+     "name":"Team Goals",
+     "key":"Team",
+     "value":2
+    },{
+      "name":"Shared Goals",
+     "key":"Shared",
+     "value":3
+    },
+  ]
+}

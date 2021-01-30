@@ -1,0 +1,56 @@
+.ddo-aboutlist-header,
+.ddo-aboutlist-name,
+.ddo-aboutlist-detail {
+    font-family: $ddo-profile-font-family;
+}
+
+.ddo-aboutlist-header {
+    color: $ddo-theme-yellow-color;
+    font-size: $ddo-profile-header-font-size;
+    text-align: center;
+    font-weight: $ddo-profile-header-font-weight;
+    padding: 0 0px 3% 0px;
+    border-bottom: $ddo-border;
+}
+
+.ddo-aboutlist-name {
+    color: $ddo-theme-yellow-color;
+    padding: 3% 0 0;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: $ddo-profile-header-font-weight;
+}
+
+.ddo-aboutlist-fa-wrapper {
+    width: 6%;
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.ddo-aboutlist-detail {
+    color: $ddo-profile-content-color;
+    margin-top: 0px;
+    font-size: $ddo-profile-content-font-size;
+    margin-left: 7%;
+    line-height: 25px;
+    font-weight: $ddo-profile-content-font-weight;
+}
+
+.ddo-aboutlist-box {
+    height: auto;
+    @include box-shadow($ddo-profile-box-shadow);
+    padding: 6%;
+    background-color: $ddo-white-color;
+    @include border-radius($ddo-profile-border-radius);
+}
+
+.role-cls {
+    margin-top: 3% !important;
+}
+
+.role-img-cls {
+    margin-top: 4% !important;
+}

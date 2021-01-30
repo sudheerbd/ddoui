@@ -1,0 +1,110 @@
+.app-search-icon.x-btn-default-small:before {
+    content: '\0041' !important;
+    font-size: 90%;
+    position: relative;
+    font-weight: 500;
+    right: 8px;
+    bottom: 4px;
+}
+.app-search-icon.x-btn-default-small {
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+}
+.app-search-icon.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 8px !important;
+    left: 30% !important;
+    width: 21px !important;
+    height: 21px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+}
+.findappview-cls{
+    background: #fff;
+}
+.findappcnt-cls .verifybtn-cls{
+    left:318px !important;
+}
+// .findappcnt-cls .x-form-item-body{
+//   opacity:0.5;
+// }
+
+.findappcnt-cls .x-panel-header-title{
+    left:12px !important;
+}
+.findappcnt-cls{
+    .x-panel-header-title-default {
+        text-transform: none;
+        padding: 0;
+        text-align: center;
+    }  
+    .x-panel-header-default {
+        background: transparent;
+    } 
+
+    li.x-tagfield-item {
+        background: #FFCB69 !important;
+        border-radius: 4px !important;
+    }
+
+    .x-form-item-body {
+        vertical-align: middle;
+        height: 100%;
+        border-radius: 4px;
+        /* border: 1px solid #dedede;*/
+    }
+
+    .x-form-text-field-body-default {
+         border: 1px solid #acaaaa  !important;
+    }
+
+    .x-form-text-default{
+        padding: 0px 31px 0px !important;
+    }
+
+    .x-panel-header-title-default > .x-title-text-default {
+        color: #818181 !important;
+        font-weight: 500 !important;
+        /* font-size: 16px; */
+    }
+
+    .ta-mandatory-field-cls {
+    color: red;
+    vertical-align: super;
+    }
+
+    .x-form-item-label-default {
+        color: #919191 !important;
+       
+    }
+    .x-grid-cell-inner {
+        text-align: center !important;
+    }
+
+}
+.searchverifybtn-cls{
+    top: 1px !important;
+    padding:0px !important;
+    height: 32px !important;
+    border-radius: 3px !important;
+    background-color: #31a950 !important;
+    border-color: #31a950 !important;
+    left: 64% !important;
+}
+.mobiletextfield-cls{
+    left:29% !important;
+}
+.msglabelnodata-cls{
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 185px;
+    font-size: 14px;
+    color: red;
+    bottom: 20px;
+    left: 10%;
+}
+.labelcnt-cls{
+    padding-top: 40px !important;
+    border-top: 2px solid #f9f8f8;
+}

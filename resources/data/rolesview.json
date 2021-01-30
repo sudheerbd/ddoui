@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "viewId": "1",
+      "viewName": "Home"
+    },
+    {
+      "viewId": "2",
+      "viewName": "Execute Dashboard"
+    },
+    {
+      "viewId": "3",
+      "viewName": "Finance"
+    },
+    {
+      "viewId": "4",
+      "viewName": "Sales"
+    },
+    {
+      "viewId": "5",
+      "viewName": "HR"
+    },
+    {
+      "viewId": "6",
+      "viewName": "Business Workflow"
+    },
+    {
+      "viewId": "7",
+      "viewName": "Job Applicants"
+    },
+    {
+      "viewId": "8",
+      "viewName": "Projects"
+    },
+    {
+      "viewId": "9",
+      "viewName": "Availability Sheet"
+    },
+    {
+      "viewId": "10",
+      "viewName": "Employee Dashboard"
+    },
+    {
+      "viewId": "11",
+      "viewName": "Org Chart"
+    },
+    {
+      "viewId": "12",
+      "viewName": "Job Openings"
+    },
+    {
+      "viewId": "13",
+      "viewName": "Groups"
+    },
+    {
+      "viewId": "14",
+      "viewName": "Performance"
+    },
+    {
+      "viewId": "15",
+      "viewName": "Roles & Security"
+    },
+    {
+      "viewId": "16",
+      "viewName": "Help"
+    },{
+      "viewId": "17",
+      "viewName": "Karmascore"
+    },{
+     "viewId": "18",
+     "viewName": "Karmascore Filters"
+   },{
+    "viewId": "19",
+     "viewName": "Karma Setup"
+    
+   },{
+    "viewId": "20",
+    "viewName": "Karma Approval"
+   },{
+    "viewId": "21",
+    "viewName": "holidays"
+   }
+  ]
+}

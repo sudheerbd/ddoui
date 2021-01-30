@@ -1,0 +1,26 @@
+{
+  "data": [
+   {
+      "id":"1",
+      "department": "Domestic sales",
+    },{
+      "id":"2",
+       "department": "Development",
+    },{
+      "id":"3",
+ 	 "department": "Designer",
+    },{
+      "id":"4",
+      "department": "Networking ",
+    },{
+      "id":"5",
+      "department": "HR Department",
+    },{
+      "id":"6",
+       "department": "Testing",
+    },{
+      "id":"7",
+      "department": "Managing",
+    }          
+  ]
+}

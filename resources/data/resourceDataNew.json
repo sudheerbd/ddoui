@@ -1,0 +1,877 @@
+{
+  "success": true,
+  "data": [
+    {
+      "employee": "Ranjit Battewad",
+      "skills": [
+        "PHP",
+        "Touch",
+        "Sencha"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2010-06-13T18:30:00.000Z",
+      "daysonbench": 11,
+      "employmentstatus": "Internal",
+      "project": "inquest",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Siva Jyothi Sri Pamarthy",
+      "skills": [
+        "ExtJS",
+        "J2EE",
+        "HTML5",
+        "AngularJS",
+        "JavaScript"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-08-10T18:30:00.000Z",
+      "daysonbench": 1,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Jyothi Gudige",
+      "skills": [
+        "J2EE"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2014-06-30T18:30:00.000Z",
+      "daysonbench": 2,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Phani Kiran Gutha",
+      "skills": [
+        "PHP",
+        "J2EE",
+        "ExtJS",
+        "NodeJS"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2010-06-13T18:30:00.000Z",
+      "daysonbench": 3,
+      "employmentstatus": "Internal",
+      "project": "Tercera",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Phani Rahul Sivalenka",
+      "skills": [
+        "ExtJS",
+        "HTML5",
+        "JavaScript"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2015-08-16T18:30:00.000Z",
+      "daysonbench": 6,
+      "employmentstatus": "Internal",
+      "project": null,
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Madhukar Chintoju",
+      "skills": [
+        "NodeJS",
+        "JavaScript",
+        "MongoDB"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": "1",
+      "available": null,
+      "joiningdate": "2015-12-08T18:30:00.000Z",
+      "daysonbench": 9,
+      "employmentstatus": "Internal",
+      "project": "Posh",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Anil Kumar Sandrapati",
+      "skills": [
+        "JavaScript",
+        "HTML5",
+        "ExtJS",
+        "Touch",
+        "J2EE"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": "1",
+      "available": null,
+      "joiningdate": "2015-08-16T18:30:00.000Z",
+      "daysonbench": 79,
+      "employmentstatus": "Internal",
+      "project": null,
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Kishan  Reddy",
+      "skills": [
+        "ExtJS"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "3.6 yrs",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 100,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Jay Ahuja",
+      "skills": [
+        "HTML5",
+        ".Net",
+        "ExtJS"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2015-04-01T18:30:00.000Z",
+      "daysonbench": 67,
+      "employmentstatus": "Internal",
+      "project": "I-slide deck",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Nagasai Nistala",
+      "skills": [
+        "JavaScript",
+        "Touch",
+        "ExtJS",
+        "AngularJS",
+        "HTML5"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2014-12-02T18:30:00.000Z",
+      "daysonbench": 125,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Dinesh Gudikandula",
+      "skills": [
+        "Touch",
+        "ExtJS",
+        "PHP"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": "4",
+      "available": null,
+      "joiningdate": "2012-01-06T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Tibco",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Ashutosh  Mahapatra",
+      "skills": [],
+      "designation": "Technical Manager",
+      "expyear": "11 years",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Abhishek Jena ",
+      "skills": [
+        "ExtJS",
+        "J2EE"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2015-11-15T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Tibco- Pune",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Amita Suri",
+      "skills": [
+        "ExtJS"
+      ],
+      "designation": "Technology Evangelist",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2013-07-31T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Support",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Pranav Kumar",
+      "skills": [
+        "J2EE",
+        "Linux"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": "5",
+      "available": null,
+      "joiningdate": "2015-11-08T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": null,
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Eswar Reddy",
+      "skills": [
+        "Touch",
+        "ExtJS"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2015-01-11T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "inquest",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Kondarao Kurumella",
+      "skills": [
+        "Hadoop",
+        "Pentaho"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2015-07-26T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": null,
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Siva  Syamala Rao",
+      "skills": [
+        "Automation QA"
+      ],
+      "designation": "Quality Analyst",
+      "expyear": "3.7 yrs",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Stephen Abraham P  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "3.8",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Ranjit Patra",
+      "skills": [
+        "ExtJS",
+        "AngularJS"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": "5",
+      "available": null,
+      "joiningdate": "2015-08-05T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Posh",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Nagendar Kumar Bondaladinne",
+      "skills": [
+        "JavaScript",
+        "J2SE",
+        "Linux",
+        "Touch",
+        "J2EE",
+        "HTML5",
+        "ExtJS"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2015-08-16T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Perfios",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Gangeswar Vemula",
+      "skills": [
+        "Linux",
+        "J2EE"
+      ],
+      "designation": "Senior Software Engineer",
+      "expyear": "6",
+      "available": null,
+      "joiningdate": "2014-11-23T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Gajendra Kushwah",
+      "skills": [
+        "Hadoop",
+        "Pentaho"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2014-10-20T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Misc Projects",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Kiran Jampani",
+      "skills": [
+        "Manual Testing",
+        "Automation QA"
+      ],
+      "designation": "Senior Quality Analyst",
+      "expyear": "4",
+      "available": null,
+      "joiningdate": "2012-04-03T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "naga pradeep dhulipalla  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "3",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Sai Babu Repuri",
+      "skills": [
+        "PHP",
+        "J2EE",
+        "ExtJS",
+        "Touch",
+        "Sencha"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-10-05T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "inquest",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Prakash Lavania",
+      "skills": [
+        "Manual Testing"
+      ],
+      "designation": "Quality Consultant",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2011-08-15T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Posh",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Rabindranath  Samal",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "4.8 Yrs",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Ratan Agarwal",
+      "skills": [
+        "Sales"
+      ],
+      "designation": "Business Development Manager",
+      "expyear": "3",
+      "available": null,
+      "joiningdate": "2014-08-31T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Support",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Gaurav Pandey",
+      "skills": [
+        "JavaScript",
+        "Touch",
+        "ExtJS",
+        "J2EE",
+        "PHP"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-07-28T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "inquest",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Ranjan Gajbhiye  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "5.5",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Charu Gupta",
+      "skills": [
+        "ExtJS",
+        "Manual Testing"
+      ],
+      "designation": "Senior Quality Analyst",
+      "expyear": "9",
+      "available": null,
+      "joiningdate": "2012-03-31T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-slide deck",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Vinod Kannekanti",
+      "skills": [
+        "AngularJS",
+        "ExtJS"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2013-08-11T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Stevenson Nelli",
+      "skills": [
+        "JavaScript",
+        "ExtJS",
+        "Touch"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": "1",
+      "available": null,
+      "joiningdate": "2015-01-18T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Arbela",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Mahender Nakkolla",
+      "skills": [
+        "Touch",
+        "ExtJS",
+        "J2EE"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2014-12-02T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Training",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Henish Vilasi  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "7.8",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Prerana Sharma",
+      "skills": [
+        "Manual Testing",
+        "Automation QA"
+      ],
+      "designation": "Senior Quality Analyst",
+      "expyear": "1",
+      "available": null,
+      "joiningdate": "2013-11-24T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Monica Singh",
+      "skills": [
+        "J2EE"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2014-06-22T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-MyEagle",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Vinayak Kandurke",
+      "skills": [
+        "Manual Testing",
+        "Automation QA"
+      ],
+      "designation": "Quality Analyst",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-01-31T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Mayank Kansal  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "3.5",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Ekta Verma  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "3.2",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Gowthami Eeturu",
+      "skills": [
+        "J2EE"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-01-12T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Alliance",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Anusha Muddadi",
+      "skills": [
+        "J2EE"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-09-14T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Sales360-MobileApp",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Apoorva Gupta",
+      "skills": [
+        "Core HR"
+      ],
+      "designation": "HR Generalist",
+      "expyear": "4",
+      "available": null,
+      "joiningdate": "2014-03-19T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Support",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "VENKATARAMANA   MADUGULA",
+      "skills": [],
+      "designation": "Technical Consultant",
+      "expyear": "10 +Yrs",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "DEEPAK  MADDHESHIYA",
+      "skills": [],
+      "designation": "Software Engineer",
+      "expyear": "3 yrs",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Rahul Yadav",
+      "skills": [
+        "AngularJS",
+        "Touch"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2014-12-02T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Training",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Manoj  Kumar  Mishra",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "6.5 yrs",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Srinivasarao Nadendla",
+      "skills": [
+        "Touch",
+        "ExtJS"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2014-08-31T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "ScaleArc",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Chirag Singh",
+      "skills": [
+        "Touch",
+        "ExtJS"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": "1",
+      "available": null,
+      "joiningdate": "2015-02-22T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "CLife",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Rohit Kumar Dwivedi",
+      "skills": [
+        "J2EE"
+      ],
+      "designation": "Associate Software Engineer",
+      "expyear": null,
+      "available": null,
+      "joiningdate": "2013-08-01T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "I-Slide Deck",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Venu Gopal Reddy",
+      "skills": [
+        "Automation QA"
+      ],
+      "designation": "Quality Analyst",
+      "expyear": "4",
+      "available": null,
+      "joiningdate": "2014-08-24T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Bluesage",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Kalidindi Manikanta Varma  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "5.2",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Vamshavardhan G  ",
+      "skills": [],
+      "designation": "Senior Software Engineer",
+      "expyear": "3.9",
+      "available": null,
+      "joiningdate": null,
+      "daysonbench": 0,
+      "employmentstatus": "External",
+      "project": "",
+      "potentialproject": "",
+      "preferredlocation": ""
+    },
+    {
+      "employee": "Narasimhulu Dasari ",
+      "skills": [
+        "ExtJS"
+      ],
+      "designation": "Software Engineer",
+      "expyear": "2",
+      "available": null,
+      "joiningdate": "2015-11-29T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "inquest",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    },
+    {
+      "employee": "Divya Aasireddy ",
+      "skills": [
+        "Manual Testing"
+      ],
+      "designation": "Quality Analyst",
+      "expyear": "3",
+      "available": null,
+      "joiningdate": "2013-12-01T18:30:00.000Z",
+      "daysonbench": 10,
+      "employmentstatus": "Internal",
+      "project": "Bluesage",
+      "potentialproject": "MyEagle",
+      "preferredlocation": "Hyderabad"
+    }
+  ]
+}

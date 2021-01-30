@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "note_status_name":"All",
+      "note_status":"1"
+    },
+    {
+     "note_status_name":"On hold",
+      "note_status":"2"
+      
+    },
+    {
+      "note_status_name":"Progress",
+      "note_status":"3"
+    },
+    {
+      "note_status_name":"Done",
+      "note_status":"4"
+    }
+    
+  ]
+}

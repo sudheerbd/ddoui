@@ -1,0 +1,114 @@
+.myapps-grid .x-column-header-over{
+    background:none !important;
+}
+.myapps-grid .x-column-header-focus .x-column-header-inner:after{
+   border: none !important;
+}
+.myapps-grid .x-grid-empty{
+    margin: 5px 10px 5px 5px !important;
+}
+.myapps-grid .x-column-header-inner .x-column-header-text,.x-grid-cell-inner {
+    white-space: normal;
+}
+.myapps-grid .x-grid-cell{
+    vertical-align: middle;
+}
+.myapps-grid .x-grid-body {
+    border: none !important;
+}
+.myapps-grid{
+    .x-grid-view::-webkit-scrollbar {
+        width: 0px !important;
+    }
+}
+.myapps-grid .myappsgrid-cell{
+    display:table;
+    padding-left : 10px;
+    .applogo,.appnametxt{
+        display:table-cell;
+        vertical-align:middle;
+        border: 0;
+    } 
+    .applogo{
+        @include border-radius(10px);
+        width: 60px;
+        height: 60px;
+    }
+    .appnametxt {
+        color: #f8ba14;
+        font-size: medium;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}
+.myapps-grid .appgrid-details-dash-non-img-cls {
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    display: inline-block;
+    @include border-radius(10px);
+}
+.myapps-grid .appfirst-letter-cls {
+    top: 20px;
+    text-align:center; 
+    position: relative; 
+}
+
+.owner-name-myapps {
+    display : block;
+    color: #000;
+    font-size: medium;
+    font-weight: 600;
+}
+.owner-details-accesscontrol{
+    display : block;
+    color: gray;
+}
+
+.myapps-grid .x-grid-with-row-lines .x-grid-item {
+    margin: 5px 10px 10px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+.x-grid-header-ct{
+    margin: 5px 10px 5px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+
+.myapps-grid .x-grid-item-selected {
+    background-color: white;
+}
+.reason {
+    color: #000;
+    font-size: normal;
+    font-weight: 600;
+}
+
+
+.approved-txt {
+        color: #31a950;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+.rejected-txt {
+        color: #e94435 ;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+.pending-txt {
+        color: #f8ba14;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+.revoked-txt {
+        color: #AF1616;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}

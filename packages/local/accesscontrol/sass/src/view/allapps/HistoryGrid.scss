@@ -1,0 +1,74 @@
+.pending-txt {
+        color: yellow;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+.rejected-txt {
+        color: #EA4536;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+.active-txt {
+        color: green;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+.revoked-txt {
+        color: red;
+        font-size: medium;
+        font-weight: 500;
+        padding-left: 10px;
+}
+
+.app-history-grid .x-column-header-over{
+    background:none !important;
+}
+.app-history-grid .x-column-header-focus .x-column-header-inner:after{
+   border: none !important;
+}
+
+.app-history-grid .x-column-header-inner .x-column-header-text,.x-grid-cell-inner {
+    white-space: normal;
+}
+.app-history-grid .x-grid-cell{
+    vertical-align: middle;
+    padding: 20px;
+}
+.app-history-grid .x-grid-body {
+    border: none !important;
+}
+.app-history-grid{
+    .x-grid-view::-webkit-scrollbar {
+        width: 0px !important;
+    }
+}
+.app-history-grid .x-grid-empty{
+    margin: 5px 10px 5px 5px !important;
+}
+
+.app-history-grid .x-grid-with-row-lines .x-grid-item {
+    margin: 5px 10px 10px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+.x-grid-header-ct{
+    margin: 5px 10px 5px 5px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.1em 1.1em;
+}
+
+.app-history-grid .x-grid-item-selected {
+    background-color: white;
+}
+
+.app-history-grid .x-column-header-text-inner {
+    font-weight: 500;
+}
+
+.apps-history-title .x-toolbar-default .x-toolbar-item {
+    left: 45% !important;
+    font-weight: bold;
+}

@@ -1,0 +1,167 @@
+.applicants-rowexpand-text-cls {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 2px;
+}
+.applicants-rowexpand-cls th{
+	float: left;
+}
+.feedback-cls{
+	width: 27%;
+    padding-left: 3px;
+}
+
+.ddo-applicants-grid .x-column-header{
+ color: #FFFFFF !important;
+ background-color: #000000 !important;
+}
+.ddo-applicants-grid .x-column-header-trigger {
+background-color: #000 !important;
+}
+
+.ddo-applicants-grid .x-column-header-over{
+ color: #FFF !important;
+ background-color: #000 !important;
+ border:none;
+}
+
+.ddo-applicants-grid .x-column-header .x-column-header-open{
+ background-color: #000 !important;
+}
+.ddo-applicants-grid .x-panel-header-default{
+	background-color: #000 !important;
+}
+.ddo-applicants-grid {	
+    position:fixed !important;
+}
+.applicants-disc-cls{
+    border-right: 1px solid rgba(0, 0, 0, 0.11);	
+}
+///NEW FEED CSS
+
+.profileImage{
+width: 60px;
+   height: 60px;
+   background-color: #fff;
+   background-size: cover;
+//    border-radius: 5px;
+   background-repeat: no-repeat;
+   box-shadow: -2px 3px 2px 0px rgba(181, 181, 181, 0.42), 0px 0px 2px 1px rgba(181, 181, 181, 0.42);
+   position: relative;
+//    top: 22px;
+   left: -30px;
+   border: 2px solid #fff;
+}
+/*.profileName{
+    width: 71%;
+    font-size: 16px;
+    color: #fab82e;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: -20px;
+}*/
+.minus-gray {
+   margin: 0px 5px 0px 5px !important;
+   font-size: 16px !important;
+   font-weight: 800;
+   color: #fab82e;
+}
+.designationEl {
+   font-size: 12px !important;
+   color: #9a9a9a;
+   font-weight: 400;
+}
+
+
+
+//GRID CLS
+
+.feedGrid {
+    .x-grid-no-row-lines{
+        background: transparent !important;
+    }
+    .x-grid-item-container {
+        width: 100% !important;
+    }
+    .x-grid-item {
+        padding: 10px 0px 0px;
+        width: 100% !important;
+        margin : 30px 0px 0px 0px;
+        background: transparent !important;
+    }
+    .x-grid-cell-inner{
+        padding: 0px 0px 0px 50px;
+    }
+    .x-grid-item-focused {
+        .x-grid-cell-inner {
+            &:before {
+                border: 0px solid !important;
+            }
+        }
+    }
+    .feedsMainContainer{
+       // margin: 0px 0px 0px 50px;
+        //margin: 0px 0px 0px 0px;
+        border: 1px solid rgba(180, 180, 180, 0.5);
+        border-radius: 4px;
+        background: $comment-area-bg !important;
+        // border: 1px solid $comment-area-bg;
+        // @include border-radius(0px);
+        @include box-shadow($ddo-feeds-box-shadow1, $ddo-feeds-box-shadow2);
+    
+    }
+    .x-grid-item-selected {
+        background: transparent !important;
+    }
+    .x-grid-item-over {
+        background: transparent !important;
+    }
+}
+.commentSubCls{
+   // margin: 0px 0px 0px 25px !important;
+    padding-top: 10px;
+}
+
+.commentspic{
+    //float: right;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    @include border-radius(5px);
+    background-repeat: no-repeat;
+    @include box-shadow(0px 0px 7px 3px #e6e3e6);
+    border: 2px solid #fff;
+    display : inline;
+    float   : left;
+  }
+.commentName{
+  cursor: pointer;
+  font-size: 14px !important;
+  font-weight: 500;
+  color: #fab82e;
+  display : inline;
+      margin-left: 10px;
+}
+.commentCommentCls{
+    margin: 0px 0px 0px 0px;
+    padding: 16px 20px 47px 28px;
+    /* word-wrap: break-word; */
+    font-size: 14px !important;
+    // color: #9a9a9a;
+    color: rgba(100,100,100,1);
+    background-color: #fff;
+    text-align: justify;
+    word-break: break-word;
+    padding: 0px 0px 0px 10px;
+    word-wrap: normal;
+    overflow: hidden;
+    white-space: normal;
+  }
+  .commentUiTag{
+      list-style-type: none !important;
+  }
+.commentMainCls{
+//   margin : 0px 10px;
+
+}

@@ -1,0 +1,53 @@
+.allapps-detail-mainview-cls{
+	margin: 10px;
+}
+
+.allapps-detail-toolbar.x-toolbar-default {
+	background: #F6F6F6 !important;
+    padding-left: 0px !important;
+}
+
+.apps-detail-backbtn-cls {
+    font-family: 'Awesome' !important;
+    font-size: 30px;
+    color:#FFFFFF !important;
+}
+
+.apps-detail-backbtn-cls:before {
+    content: '\0031' !important;
+    font-size: 27px;
+    position: relative;
+}
+
+.allapps-back-btn-cls{
+    background: #000 !important;
+    border-radius: 5px !important;
+    .x-btn-inner-default-toolbar-large {
+    color: white !important;
+    }
+}
+
+.allappsdetail-history-btn.x-btn-default-toolbar-small { 
+    border: none !important;
+    background-color: #f8ba14 !important;
+    border-radius: 4px !important;
+    width: 120px;
+    padding: 9px;
+    
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+
+.allappsdetail-revoke-btn.x-btn-default-toolbar-small { 
+    border: none !important;
+    background-color: #E94435 !important;
+    border-radius: 4px !important;
+    width: 120px;
+    padding: 9px;
+   // color:#fff;
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+
+}

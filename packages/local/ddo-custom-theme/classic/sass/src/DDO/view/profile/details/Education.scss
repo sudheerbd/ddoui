@@ -1,0 +1,167 @@
+@import 'compass/css3/transition';
+.ddo-education-div {
+    background: $color-white;
+    &:first-child {
+        border-top: 0px solid;
+    }
+}
+
+.ddo-edit-view {
+    float: right;
+}
+
+.ddo-education-edit-img {
+    width: 24px;
+    height: 24px;
+    padding: 1px;
+    cursor:pointer;
+}
+
+.ddo-education-edit-img.x-view-item-focused {
+    outline: 0 !important;
+}
+
+.ddo-save-btn {
+    background-color: $color-black !important;
+    border-radius: 6px !important;
+}
+
+.ddo-cancel-btn {
+    background-color: $color-black !important;
+    border-radius: 6px !important;
+}
+
+.ddo-onaddeducation {
+    background-color: $color-black !important;
+    border-radius: 5px;
+    color: $color-white !important;
+    .x-btn-inner-default-toolbar-small {
+        color: $color-white !important;
+    }
+    .x-btn-text.x-btn-icon-left {
+        >.x-btn-icon-el-default-toolbar-small {
+            color: $color-white !important;
+        }
+    }
+}
+
+.ddo-school-name {
+    margin: 6px 0px;
+    color: $ddo-profile-sub-header-color;
+    font-size: $name-font-size !important;
+    font-weight: $ddo-profile-sub-header-font-weight;
+    word-wrap: break-word !important;
+    width: 95%;
+    display: block;
+    float: left;
+}
+
+.ddo-education-view-text {
+    word-wrap: break-word !important;
+    margin: 6px 0px;
+    color: $ddo-profile-content-color;
+    font-size: $text-font-size !important;
+    font-weight: $ddo-profile-content-font-weight;
+}
+
+.ddo-education-view-text li {
+    font-size: $text-font-size !important;
+}
+
+.ddo-addeducation-details {
+    padding: 9px 0px 0px;
+    .x-toolbar-footer {
+        background-color: $color-white !important;
+    }
+}
+
+.ddo-adddetail-txtfield {
+    .x-form-trigger-wrap.x-form-trigger-wrap-default {
+        &:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            margin: 31px 0px 0px 0px;
+            right: 50%;
+            background: $color-black;
+            height: 1px;
+            @include transition(left 0.3s, right 0.3s ease-out);
+        }
+    }
+    .x-form-trigger-wrap.x-form-trigger-wrap-focus {
+        &:before {
+            left: 0;
+            right: 0;
+        }
+    }
+    .x-form-trigger-wrap-default {
+        border: none;
+        border-bottom: 1px solid $ddo-profile-header-border-color;
+    }
+    .x-form-text-default {
+        font: 500 16px/21px $ddo-profile-font-family;
+    }
+}
+
+.ddo-adddetail-combo {
+    .x-form-trigger-wrap.x-form-trigger-wrap-default {
+        border-radius: 6px;
+        padding: 0px 3px;
+        border: 1px solid $color-black;
+    }
+}
+
+.ddo-dataview-div-line {
+    margin: 0px 15px;
+    padding: 0px 0px 25px 0px;
+    border-top: 1px solid $ddo-profile-header-border-color;
+}
+
+.ddo-dataview-div-line:first-child {
+    border-top: 0px solid;
+}
+
+.ddo-education-div {
+    padding: 0 0 15px;
+    font-family: $ddo-profile-font-family;
+}
+
+.ddo-htmleditor-txt .x-font-select {
+    background-color: #fff;
+}
+
+.ddo-htmleditor-txt .x-html-editor-container{
+    border-radius:6px !important;
+}
+
+.ddo-htmleditor-txt .x-html-editor-input{   
+    border:none !important;
+}
+
+
+.ddo-education-course-combo {
+ .x-form-trigger-wrap {
+    &.x-form-trigger-wrap-focus {
+      border: none !important;
+    }
+    &.x-form-trigger-wrap-default {
+      border: none !important;
+      border-bottom: 1px solid #DCDCDC !important;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        margin: 31px 0px 0px 0px;
+        right: 50%;
+        height: 1px;
+        background: $color-black;
+        @include transition(left 0.3s, right 0.3s ease-out); 
+      }
+    }
+    &.x-form-trigger-wrap-focus:before {
+      left: 0;
+      right: 0;
+    }
+  }
+  margin: 0px 10px 0px 0px !important;
+}

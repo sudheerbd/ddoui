@@ -1,0 +1,96 @@
+.goals-headerview-cls{
+	padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #F6F6F6;
+    border-bottom: 1px solid #E6E6E6 !important;
+
+}
+.goals-headerview-cls .x-panel-body-default{
+    	//background: #F6F6F6;
+        background: #F0F0F0;
+    }
+.search-icon:before{
+	content: "\f002" !important;
+	font-family: FontAwesome !important;
+}
+.goals-search-btn-cls{
+	background: #000;
+	width: 40px;
+	height:37px;
+	top:12px !important;
+
+}
+.goals-search-btn-cls.x-btn-default-small{
+	border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+        border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.goals-search-icon.x-btn-default-small{
+	z-index: 1;
+    cursor: initial;
+    top: 16px !important;
+    left: 2% !important;
+    width: 21px !important;
+    height: 21px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+
+}
+.goals-search-icon.x-btn-default-small:before{
+	content: '\0041' !important;
+    font-size: 90%;
+    position: relative;
+    font-weight: 600;
+    right: 10px;
+    bottom: 4px;
+    color: #000;
+}
+.search-field-cls .x-form-text-default {
+    padding: 5px 45px 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.search-field-cls .x-form-text-wrap.x-form-text-wrap-default {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-field-cls .x-form-item-body {
+    height: 40px !important;
+}
+.select-goals-cls{
+	//height:40px !important;
+	width:125px;
+    left: 87% !important;
+}
+.select-goals-cls .x-form-text-wrap.x-form-text-wrap-default{
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.select-goals-cls .x-form-field{
+	background: #000;
+	color: #fff;
+    padding:0px 0px 3px 6px !important;
+}
+
+.select-goals-cls .x-form-trigger{
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #000;
+    color: white;
+}
+
+.select-goals-cls .x-form-trigger-default:before{
+	content: "\f107" !important;
+	font-family: FontAwesome !important;
+}
+.goals-search-btn-icon:before{
+    content: "\f1de" !important;
+    font-family: FontAwesome !important;
+    color:#fff !important;
+}

@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "name":"Temporary",
+            "type_name":"temp"            
+        },
+        {
+            "name":"Permanent",
+            "type_name":"perm"
+        },
+        {
+            "name":"Both",
+            "type_name":"both"
+        }
+    ]
+}

@@ -1,0 +1,750 @@
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:1 */
+.executiveplanview-cls .x-autocontainer-innerCt {
+    background: #f6f6f6 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:5 */
+.goalsgrid-cls .x-column-header {
+    background-color: grey !important;
+    color: white;
+    text-align: center;
+    border: none !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:12 */
+.goalsgrid-cls .x-column-header-over {
+    background-color: grey !important;
+    color: white;
+    text-align: center;
+    border: none !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:19 */
+.goaldatecontainer-cls .x-autocontainer-innerCt {
+    background-color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:23 */
+.goalsdate-cls {
+    border-bottom: 1px solid lightgrey !important;
+    margin-top: 10px;
+    width: 65% !important;
+    /* text-align: center !important; */
+    left: 20%;
+    /* text-align: center !important; */
+    position: relative;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:32 */
+.goalsgrid-cls .x-grid-cell {
+    height: 65px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:36 */
+.goaldatecontainer-cls {
+    width: 193px !important;
+    border-bottom: 1px solid lightgrey !important;
+    margin-left: 13%;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:42 */
+.goalsdateicon-cls {
+    top: 20px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:46 */
+.goalhrscontainer-cls .x-autocontainer-innerCt {
+    background-color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:50 */
+.goalhrscontainer-cls {
+    width: 110px !important;
+    border-bottom: 1px solid lightgrey !important;
+    margin-left: 18%;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:56 */
+.goalshrsicon-cls {
+    left: 92px !important;
+    top: 20px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:61 */
+.goalsaddbtn-cls {
+    left: 45% !important;
+    width: auto;
+    background: #50b150 !important;
+    border-radius: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:67 */
+.goalsaddbtn-cls.x-btn-over {
+    background: #50b150 !important;
+    border-radius: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:72 */
+.goalsaddbtn-cls .x-btn-inner {
+    color: white;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:77 */
+.goalsaddbtn-cls .x-btn-icon-el {
+    color: white;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:82 */
+.hideDisplay {
+    display: none !important;
+    margin: 10px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:86 */
+.showDisplay {
+    margin: 10px !important;
+    display: visible !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:91 */
+.goaldateicon-cls {
+    background-image: url("/resources/images/Delete.png") !important;
+    background-repeat: no-repeat;
+    left: 50%;
+    /* position: relative; */
+    /* float: right; */
+    padding: 0px;
+    /* position: relative; */
+    /* float: right; */
+    background-position: right;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:101 */
+.goalstab-cls .x-tab-bar-default {
+    background-color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:105 */
+.goalstab-cls .x-tab.x-tab-active.x-tab-default {
+    background-color: #fec520 !important;
+    border-color: #fec520 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:110 */
+.goalstab-cls .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:114 */
+.goalstab-cls .x-tab-inner-default {
+    color: black !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:118 */
+.goalstab-cls .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
+    color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:122 */
+.goalstab-cls .x-tab-icon-el-default {
+    color: black !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:126 */
+.goalhtml-updatebtn-cls {
+    height: 50px !important;
+    width: 140px !important;
+    background-color: #f3b919 !important;
+    border-color: #f3b919 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:133 */
+.goalhtml-savebtn-cls {
+    height: 50px !important;
+    width: 140px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:138 */
+.goalshtmleditor-cls .x-box-target {
+    width: 100% !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:142 */
+.goalshtmleditor-cls .x-box-inner {
+    width: 100% !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:146 */
+.goalshtmleditor-cls .x-toolbar-default {
+    width: 100% !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:150 */
+.goalshtmleditor-cls .x-html-editor-input {
+    width: 100% !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:154 */
+.goalshtmleditor-cls .x-html-editor-container {
+    border: none !important;
+    border-top: 1px solid lightgrey !important;
+    border-bottom: 1px solid lightgrey !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:160 */
+.goalratingcontainer-cls .x-autocontainer-innerCt {
+    border-top: 1px solid lightgrey !important;
+    background-color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:165 */
+.sharegoalsform-cls {
+    background-color: white !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:169 */
+.sharegroup-cls {
+    border-bottom: 1px solid lightgrey !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/ExecutivePlanView.scss:173 */
+.goalsearchicon-cls {
+    background-image: url("/resources/images/Delete.png") !important;
+    background-repeat: no-repeat;
+    left: 50%;
+    /* position: relative; */
+    /* float: right; */
+    padding: 0px;
+    /* position: relative; */
+    /* float: right; */
+    background-position: right;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:11 */
+.goals-dashboard-detailview-cls {
+    /*@include extjs-progress-ui(
+    $ui: 'progressui',
+    $ui-border-width: 1px,
+    $ui-text-font-size: 0px,
+    $ui-border-radius: 300px,
+    $ui-border-color: #d3d3d3,
+    $ui-background-color: #cccccc,
+    $ui-bar-background-color: #31a950
+);*/
+    margin: 10px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:15 */
+.goals-back-btn-cls.x-btn-default-small {
+    border-radius: 5px !important;
+    width: 50px;
+    height: 40px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:20 */
+.goals-back-icon:before {
+    content: "\f060" !important;
+    font-family: FontAwesome !important;
+    color: #fff !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:25 */
+.goals-status-button.x-btn-default-small {
+    border-radius: 5px !important;
+    width: 100px;
+    height: 40px;
+    background: #31a950 !important;
+    color: #fff;
+    border: none;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:33 */
+.goals-status-button .x-btn-inner x-btn-inner-default-small {
+    font-size: 16px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:36 */
+.goals-detail-headerview-cls .x-panel-body-default {
+    background: #f6f6f6;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:39 */
+.goals-detail-headerview-cls .goals-details-headerview-top {
+    border-bottom: 1px solid #e6e6e6 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:42 */
+.select-project-cls .x-form-trigger {
+    background: #000;
+    color: white;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/CreateGoalHeader.scss:47 */
+.select-project-cls .x-form-trigger-default:before {
+    content: "\f107" !important;
+    font-family: FontAwesome !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:1 */
+.goals-headerview-cls {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #f6f6f6;
+    border-bottom: 1px solid #e6e6e6 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:9 */
+.goals-headerview-cls .x-panel-body-default {
+    background: #f0f0f0;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:13 */
+.search-icon:before {
+    content: "\f002" !important;
+    font-family: FontAwesome !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:17 */
+.goals-search-btn-cls {
+    background: #000;
+    width: 40px;
+    height: 35px;
+    top: 10px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:24 */
+.goals-search-btn-cls.x-btn-default-small {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:31 */
+.goals-search-icon.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 16px !important;
+    left: 2% !important;
+    width: 21px !important;
+    height: 21px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:44 */
+.goals-search-icon.x-btn-default-small:before {
+    content: '\0041' !important;
+    font-size: 90%;
+    position: relative;
+    font-weight: 600;
+    right: 10px;
+    bottom: 4px;
+    color: #000;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:53 */
+.search-field-cls .x-form-text-default {
+    padding: 5px 45px 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:59 */
+.search-field-cls .x-form-text-wrap.x-form-text-wrap-default {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:63 */
+.search-field-cls .x-form-item-body {
+    height: 40px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:66 */
+.select-goals-cls {
+    width: 120px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:70 */
+.select-goals-cls .x-form-text-wrap.x-form-text-wrap-default {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:74 */
+.select-goals-cls .x-form-field {
+    background: #000;
+    color: #fff;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:79 */
+.select-goals-cls .x-form-trigger {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #000;
+    color: white;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:86 */
+.select-goals-cls .x-form-trigger-default:before {
+    content: "\f107" !important;
+    font-family: FontAwesome !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsHeader.scss:90 */
+.goals-search-btn-icon:before {
+    content: "\f1de" !important;
+    font-family: FontAwesome !important;
+    color: #fff !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:1 */
+.goals-dashboard-cls {
+    position: realtive;
+    margin: 5px;
+    width: 24%;
+    height: 250px;
+    color: #8c8b8b;
+    cursor: pointer;
+    background: #fff;
+    display: inline-table;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:12 */
+.goals-dashboard-cls:hover {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:16 */
+.goals-dashboard-view-cls {
+    text-align: left;
+    background-color: #f2f2f2;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:21 */
+.goals-header-cls {
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px;
+    display: flex;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:28 */
+.goals-dash-img-cls {
+    text-align: center;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:31 */
+.goals-user-name {
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+    color: #fab82e;
+    font-weight: 500;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:38 */
+.goals-dash-user-icon {
+    width: 30px;
+    height: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:42 */
+.create-goal-cls {
+    margin: 5px;
+    width: 24%;
+    height: 250px;
+    color: #8c8b8b;
+    cursor: pointer;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: 13px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:52 */
+.create-goal-cls:hover {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:58 */
+.plus-icon:after {
+    content: '\0058' !important;
+    font-size: 2em !important;
+    color: #191919 !important;
+    font-family: 'WtcFontResource' !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:66 */
+.plus-icon {
+    position: relative;
+    top: 10px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:70 */
+.create-goal-text {
+    color: #65ba80;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 75%;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:77 */
+.create-goal-plus-icon {
+    position: relative;
+    left: 40%;
+    top: 45%;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:86 */
+.goals-target-date-cls {
+    font-size: 9px;
+    font-weight: 500;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:90 */
+.goals-title-cls {
+    padding: 0px 0px 10px 0px;
+    width: 80%;
+    border-bottom: 1px solid #f2f2f2;
+    margin: 10px 0px 0px 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #626262;
+    font-weight: 600;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:100 */
+.goals-status-icon {
+    width: 80px;
+    height: 80px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:104 */
+.goal-status-cls {
+    text-align: center;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:107 */
+.goal-status-text {
+    font-size: 12px;
+    color: #626262;
+    font-weight: 600;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:112 */
+.goals-progress-cls {
+    text-align: center;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:116 */
+.goals-progress-meter-cls {
+    width: 165px;
+    height: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    margin: 10px 0px 0px 0px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:121 */
+.goals-progress-meter-cls::-webkit-meter-bar {
+    background: #ccc;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:126 */
+.goals-progress-meter-cls::-moz-meter-bar {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:130 */
+.goals-progress-meter-cls:-moz-meter-optimum::-moz-meter-bar {
+    background: #ccc;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:134 */
+.goals-progress-meter-cls::-webkit-meter-optimum-value {
+    background: #2fa54d;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:140 */
+.goals-progress-meter-value {
+    font-size: 12px;
+    color: #626262;
+    font-weight: 600;
+    margin: 0px 0px 0px 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:146 */
+.goals-karmascore-cls {
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:150 */
+.goals-kamra-score {
+    font-size: 22px;
+    color: #626262;
+    font-weight: 600;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsView.scss:155 */
+.karma-score-icon:before {
+    content: '\0032' !important;
+    font-family: 'WtcFontResource' !important;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: #626262;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:1 */
+.goals-dashboard-mainview-cls {
+    margin: 10px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:5 */
+.searchgoal-icon-field:hover {
+    color: #000 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:8 */
+.searchgoal-icon-field.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 16px !important;
+    left: 257px !important;
+    width: 28px !important;
+    height: 33px !important;
+    border-color: #000 !important;
+    background-color: #000 !important;
+    border-radius: 0px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:20 */
+.searchgoal-icon-field.x-btn-default-small {
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:24 */
+.searchgoal-icon-field.x-btn-default-small:before {
+    content: '\0069' !important;
+    font-size: 35px;
+    position: relative;
+    font-weight: 500;
+    right: 9px;
+    bottom: 1px;
+    color: #fff;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:33 */
+.searchgoal-selected-icon-field:hover {
+    color: #000 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:36 */
+.searchgoal-selected-icon-field.x-btn-default-small {
+    z-index: 1;
+    cursor: initial;
+    top: 16px !important;
+    left: 257px !important;
+    width: 28px !important;
+    height: 33px !important;
+    border-color: #fab82e !important;
+    background-color: #fab82e !important;
+    border-radius: 0px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:48 */
+.searchgoal-selected-icon-field.x-btn-default-small {
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:52 */
+.searchgoal-selected-icon-field.x-btn-default-small:before {
+    content: '\0069' !important;
+    font-size: 35px;
+    position: relative;
+    font-weight: 500;
+    right: 9px;
+    bottom: 1px;
+    color: #fff;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:61 */
+.search-icon-field.x-btn-default-toolbar-small {
+    z-index: 1;
+    cursor: initial;
+    top: 3px !important;
+    left: 455px !important;
+    width: 28px !important;
+    height: 33px !important;
+    border-color: #fff !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:72 */
+.search-icon-field:hover {
+    color: #000 !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:75 */
+.search-icon-field.x-btn-default-toolbar-small {
+    font-family: 'WtcFontResource' !important;
+    font-size: 30px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:79 */
+.search-icon-field.x-btn-default-toolbar-small:before {
+    content: '\0041' !important;
+    font-size: 27px;
+    position: relative;
+    font-weight: 600;
+    right: 2px;
+    bottom: 1px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:87 */
+.goals-btn-cls.x-btn-default-toolbar-small {
+    color: #fff !important;
+    left: 3px !important;
+    background: #000 !important;
+    border-color: #000 !important;
+    border-radius: 6px !important;
+    -webkit-box-shadow: 2px 2px 2px 0px #aeaeae;
+    -moz-box-shadow: 2px 2px 2px 0px #aeaeae;
+    box-shadow: 2px 2px 2px 0px #aeaeae;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:95 */
+.goals-btn-cls .x-btn-inner-default-toolbar-small {
+    font: 400 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    color: #fff;
+    padding: 0px !important;
+    max-width: 100%;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:117 */
+.goals-selected-btn-cls.x-btn-default-toolbar-small {
+    /*.goals-btn-cls.x-btn-focus {
+    color:#fff !important;
+    left:3px !important;
+    background: #fab82e !important;
+    border-color: #fab82e !important;
+    border-radius: 6px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);   
+}*/
+    /*.x-btn.x-btn-goalschkd-btn-cls{
+    color:#fff !important;
+    left:3px !important;
+    background: #fab82e !important;
+    border-color: #fab82e !important;
+    border-radius: 6px !important;
+    @include box-shadow(2px 2px 2px 0px #aeaeae);  
+}*/
+    color: #fff !important;
+    left: 3px !important;
+    background: #fab82e !important;
+    border-color: #fab82e !important;
+    border-radius: 6px !important;
+    -webkit-box-shadow: 2px 2px 2px 0px #aeaeae;
+    -moz-box-shadow: 2px 2px 2px 0px #aeaeae;
+    box-shadow: 2px 2px 2px 0px #aeaeae;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:125 */
+.goals-selected-btn-cls .x-btn-inner-default-toolbar-small {
+    font: 400 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif !important;
+    color: #fff !important;
+    padding: 0px !important;
+    max-width: 100% !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:132 */
+.btn-grp-cls {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    left: -6px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:138 */
+.goal-dt-label-cls {
+    position: relative;
+    left: 20px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:142 */
+.goal-bbar-cls {
+    padding: 0px !important;
+    border-top: 1px solid #dcdcdc !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:146 */
+.goal-date-cls {
+    margin: 0px;
+    width: 123px !important;
+    right: auto;
+    left: 99px !important;
+    top: 5px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:154 */
+.goal-date-cls .x-form-trigger-wrap-default {
+    border-bottom: 1px solid #d0d0d0;
+    position: relative;
+    bottom: 7px;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:159 */
+.goal-date-cls .x-form-text-default {
+    top: 6px;
+    position: relative;
+    padding: 2px !important;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:164 */
+.goal-date-cls .x-form-date-trigger:before {
+    content: "\f073";
+    font-size: 90%;
+}
+/* C:/xampp/tomcat/webapps/ddomvpbeta/views/packages/local/goals/sass/src/view/goals/GoalsMainView.scss:169 */
+.clearfilter-cls {
+    border-bottom: 1px solid #d0d0d0 !important;
+    left: 295px !important;
+    cursor: pointer;
+}

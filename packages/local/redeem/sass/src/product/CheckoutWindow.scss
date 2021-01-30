@@ -1,0 +1,100 @@
+.checkoutwindow {
+    .x-docked-bottom {
+        //border-top-width: 1px !important;
+    }
+    .x-docked-top {
+        // border-bottom-width: 1px !important;
+    }
+    .x-toolbar-default {
+        border-style: solid;
+        border-color: #d0d0d0;
+        border-width: 1px;
+    }
+    .x-window-default {
+        border: 0px solid #000 !important;
+    }
+    .lbl-checkout {
+        font-weight: 500;
+    }
+    .x-toolbar-default.x-docked-bottom {
+        padding: 0px 0px 10px 0;
+        .x-btn-default-toolbar-small {
+            border-radius: 0;
+            border-color: none !important;
+            ;
+        }
+        .btn-confirm {
+            //left: 615px !important;
+            //float:left;
+            margin-left: 0px !important;
+            background-color: #fcba1a !important;
+        }
+        .btn-cancel {
+            background-color: #000 !important;
+        }
+        .lbl-redeemed {
+            color: orange;
+        }
+        .lbl-available {
+            color: #20e255;
+        }
+        .x-btn-inner-default-toolbar-small {
+            color: #FFF;
+        }
+    }
+    .x-toolbar-default.x-docked-top {
+        .lbl-redeemed {
+            color: orange;
+        }
+        .lbl-available {
+            color: #20e255;
+        }
+    }
+}
+
+.checkoutwindow.x-window-default {
+    border: 0px solid #000 !important;
+}
+
+.checkoutwindow.x-box-inner {
+    width: '100%';
+}
+
+// .exactPointsCls {
+//     /* float: right; */
+//     /* margin-top: 44px; */
+//     margin-right: 12px;
+//     font-weight: bold;
+//     /* font-size: 14px; */
+//     position: relative;
+//     bottom: 40px !important;
+//     position: relative;
+// }
+// .exactPointPCls{
+//    /* float: right; */
+//     margin-top: 42px;
+//     /* margin-right: 52px; */
+//     padding-left: 4px;
+//     font-weight: bold;
+//     background-color: orange;
+//     width: 19px;
+//     height: 19px;
+//     border: 1px solid orange;
+//     border-radius: 8px;
+//     bottom: 40px !important;
+//     position: relative;
+// }
+.exactPointPCls {
+    float: left;
+    font-weight: bold;
+    margin-left: 22px;
+    background-color: orange;
+    width: 19px;
+    height: 19px;
+    border: 1px solid orange;
+    border-radius: 9px;
+}
+
+.exactPointsCls {
+    font-weight: bold;
+}

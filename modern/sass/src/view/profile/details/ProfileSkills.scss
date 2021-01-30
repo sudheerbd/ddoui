@@ -1,0 +1,188 @@
+@import 'compass/css3/transition';
+
+/* main container */
+
+.ddo-profileskills-maincontainer {
+    background: $ddo-white-color;
+    @include border-radius($ddo-profile-border-radius);
+    //margin: 2% 1%;
+    margin: 5px 0px;
+}
+
+
+/* Profileskills view styling */
+
+.ddo-profileskills-emptytext {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    color: $ddo-profile-emptytext-color;
+    text-align: center;
+    font: normal 20px "Aileron", "Open Sans";
+}
+
+
+/*toolbar styling */
+
+.ddo-profileskills-toolbar {
+    border: none;
+    @include border-radius(10px 10px 10px 10px);
+}
+
+.ddo-profileskills-toolbar .x-toolbar-inner {
+    // border-bottom:$ddo-border;
+}
+
+
+/* label cls for header title */
+
+.ddo-profileskills-label {
+    color: $ddo-theme-yellow-color;
+    font-size: $ddo-profile-header-font-size;
+    text-align: center;
+    font-weight: $ddo-profile-header-font-weight;
+    margin: 0% 45%;
+}
+
+
+/*  add skills button cls */
+
+.ddo-profileskils-addbutton {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.ddo-profileskils-addbutton .x-button-icon {
+    color: $ddo-black-color;
+    font-size: 15px !important;
+}
+
+
+/* profile skills form */
+
+.ddo-profileskillsform-toolbar {
+    background: $ddo-black-color;
+    border: none !important;
+}
+
+
+/* form toolbar  */
+
+.ddo-profileskillsform-savebtn {
+    background: transparent !important;
+    border: none !important;
+    color: $ddo-theme-yellow-color;
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+
+/* form addskills text */
+
+.ddo-profileskillsform-addskills {
+    color: $ddo-white-color;
+    font-size: 18px !important;
+    font-weight: 500;
+    padding: 0px 5px 0px 5px, font-family: $ddo-profile-font-family;
+}
+
+
+/*  form back arrow */
+
+.ddo-profileskillsform-backarrow {
+    background: $ddo-black-color;
+    border: none !important;
+}
+
+.ddo-profileskillsform-backarrow .fa-arrow-left:before {
+    color: $ddo-white-color;
+}
+
+
+/* selected field skills */
+
+.ddo-profileskillsform-skillsfield .x-field-mask {
+    border-bottom: $ddo-border;
+}
+
+
+/* all select files */
+
+.ddo-profileskillsform-skillsfield .x-input-text {
+    font-size: 15px!important;
+    font-weight: $ddo-profile-header-font-weight;
+    font-family: $ddo-profile-font-family;
+    margin-top: 0px !important;
+    color: $ddo-profile-header-border-color;
+}
+
+
+/* date label  */
+
+.ddo-profileskillsform-datelabel {
+    color: $ddo-black-color;
+    background: $ddo-white-color;
+    padding: 18px 0px 10px 0px;
+}
+
+
+/* self comments and certification */
+
+.ddo-profileskillsform-selfcomments.x-field-textarea .x-input-el {
+    width: 100% !important;
+    border-bottom: $ddo-border;
+}
+
+.skillsView-cls {
+    padding: 10px;
+}
+
+.skillName-cls {
+    color: $ddo-profile-content-color;
+    font-size: $ddo-profile-content-font-size;
+    font-family: $ddo-profile-font-family;
+    font-weight: $ddo-profile-content-font-weight;
+    //margin:15px;
+}
+
+.rating-cls {
+    float: right;
+    //margin-right: 10px;
+}
+
+.starimage-cls {
+    height: 12px;
+}
+
+.ddo-profileskills-expandcollapse-btn {
+    background-color: transparent;
+    border: none;
+    margin: 0% 5%;
+}
+
+.skill-first-data-cls {
+    border-top: 1px solid #dcdcdc !important;
+}
+
+.ddo-profileskills-template {
+    // border-bottom:$ddo-border;
+    padding: 4px 5px 0px 0px !important;
+    color: $ddo-profile-content-color;
+    margin-top: 0px;
+    font-size: 1.0em;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.ddo-profileskills-template .x-dataview-item ~ .x-dataview-item {
+    display: none;
+}
+
+.ddo-profileskills-template .x-dataview-container {
+    border-top: $ddo-border;
+}
+
+.ddo-skills-form {
+    margin: 0 !important;
+    border: none !important;
+}

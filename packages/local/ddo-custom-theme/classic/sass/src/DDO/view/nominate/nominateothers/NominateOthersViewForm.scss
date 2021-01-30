@@ -1,0 +1,95 @@
+.tagfieldd-scroll{
+    overflow: visible;
+    width: 600px !important;
+    left: 8px !important;
+    top: 38px !important;
+    border-style: solid;
+    border: 1px solid #aeaeae !important;
+    background: border-box;
+   // box-shadow: 1px -1px #aeaeae;
+    border-top-width: 2px !important;
+    border-right-width: 2px !important;
+    .x-box-inner {
+        overflow: visible;
+    }
+    .x-tagfield-list{
+       max-height: 50px !important;
+    }
+ }
+ 
+ .DDO-ratingForm-cls .ddo-adddetails-combo .x-form-trigger-wrap.x-form-trigger-wrap-default{
+     border: 1px solid #aeaeae;
+     border-radius: 0px !important;
+   border-style: solid !important;
+
+  
+  
+ }
+ .nominatecombocontainer{
+ .x-form-text-default{
+    text-decoration-color: black !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+ }
+ }
+//  .nominatecombocontainer{
+   
+//     }
+ 
+ .DDO-ratingForm-cls .nom-datefiled-cls {
+     position: absolute !important;
+     left:10px !important;
+     margin-top:10px !important;
+     height: 65px!important;
+ 
+ }
+ .nom-datefiled-cls{
+    top: 74px  !important; 
+    .x-form-text-default{
+        text-decoration-color: black !important;
+        font-weight: bold !important;
+        font-size: 13px !important;
+     }
+ }
+
+ .self-nominate-comment-cls{
+     .x-grid-cell-inner {
+         text-overflow: ellipsis;
+         white-space: nowrap;
+     }
+ }
+ .html-clss{
+    top: 13.07px !important;
+    left: 7px !important;
+ }
+ .DDO-ratingForm-cls{
+    .nominate-karmascore-cls {
+        //left: 502px !important;
+        top: 24px !important;
+        text-align: center;
+        background: #4caf50 !important;
+        padding: 5% 0% 0% 0%;
+        border-radius: 1px;
+    }
+    .nominate-form-htmleditor-cls .x-html-editor-container{
+       // width: 523px !important;
+     }
+     .nominate-form-htmleditor-cls {
+        width: 600px !important;
+        .x-html-editor-input {
+            border: none;
+            padding: 0px 8px 0px 0px;
+        }
+        .x-html-editor-container {
+            padding: 0px 5px;
+            border-radius: 1px;
+            border: 1px solid #80808028;
+        }
+        .x-form-item-body{
+            border: 1px solid #aeaeae !important;
+        }
+    }
+    .nominatehtmledit-top {
+        top: 346px !important;
+    }
+ }

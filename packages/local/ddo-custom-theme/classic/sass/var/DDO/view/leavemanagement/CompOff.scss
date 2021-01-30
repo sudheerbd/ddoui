@@ -1,0 +1,38 @@
+.compoff-apply-btn {
+    background-color: #000 !important;
+    border: none !important;
+    border-radius: 3px !important;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    left: 34% !important;
+
+    .x-btn-inner-default-toolbar-small{
+        color:#fff;
+    }
+}
+
+.field-styling .x-form-text-field-body-default{
+    border: 1px solid #D1D1D1 !important;
+    border-radius: 3px;
+}
+
+.invalid-field-styling .x-form-text-field-body-default{
+    border: 1px solid red !important;
+    border-radius: 3px;
+}
+
+.date-diff .x-form-text-field-body-default{
+    border: 1px solid #D1D1D1 !important;
+    border-radius: 50%;
+    border-style:none;
+    //padding-left: 11px;
+}
+
+.date-diff-label.x-box-item {
+    background-color: #F4BA18;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 12px;
+}

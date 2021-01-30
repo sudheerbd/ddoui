@@ -1,0 +1,15 @@
+{
+    "data": [{
+        "day": "01",
+        "upcomingholidayname": "Republic Day",
+        "upcomingfulldate": "01-26-2017"
+    }, {
+        "day": "02",
+        "upcomingholidayname": "Shiv Ratri",
+        "upcomingfulldate": "02-24-2017"
+    }, {
+        "day": "03",
+        "upcomingholidayname": "Holi",
+        "upcomingfulldate": "03-23-2017"
+    }]
+}

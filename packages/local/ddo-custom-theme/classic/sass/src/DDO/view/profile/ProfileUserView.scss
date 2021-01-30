@@ -1,0 +1,61 @@
+/* Common Styles */
+
+.ddo-emptytext {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    color: $ddo-profile-emptytext-color;
+    text-align: center;
+    font: normal 20px $ddo-profile-font-family;
+}
+
+.list-box i {
+    width: 18px;
+    float: left;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+
+/* for profile add details whole component, common labels:button:toolbar */
+
+.ddo-profile-header-label {
+    color: $ddo-profile-header-color;
+    font-size: $header-font-size !important;
+    font-weight: $ddo-profile-header-font-weight;
+    font-family: $ddo-profile-font-family;
+    top: 14px !important;
+}
+
+.ddo-profile-header-toolbar .x-box-inner {
+    height: 49px !important;
+    border-top: $ddo-border !important;
+    border-bottom: $ddo-border !important;
+}
+
+.ddo-profile-adddetails-container {
+    @include box-shadow($ddo-profile-box-shadow);
+    background-color: $color-white;
+    padding: 13px 27px 27px;
+    @include border-radius($ddo-profile-border-radius);
+}
+
+.ddo-profile-add-details-container .x-toolbar-default {
+    padding: 0 0 3px !important;
+}
+
+.ddo-user-details-container {
+    margin: 20px 0px 0px;
+}
+
+.ddo-profile-todo.list-container {
+    .x-form-display-field-default {
+        font-weight: $ddo-profile-header-font-weight;
+        font-family: $ddo-profile-font-family;
+        font-size: $ddo-profile-header-font-size;
+        color: $ddo-profile-header-color;
+    }
+    .x-grid-empty {
+        color: rgba(174, 174, 174, 0.51);
+    }
+}

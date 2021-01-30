@@ -1,0 +1,24 @@
+.follow{
+	padding    : 5px;
+	left: 60% !important;
+    position: relative !important;
+    display: inline-block;
+    width: 16%;
+}
+.follow-count-cls {
+	margin-left: 2px;
+}
+.follow-cls {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.follow-icon-cls{
+	position: absolute;
+    background: url('/resources/images/add.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+	width: 18px;
+	// margin-top:1px;
+}

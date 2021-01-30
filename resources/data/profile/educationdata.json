@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "schoolname": "Walking Institute",
+      "course": "IT",
+      "fromyear": "2000",
+      "toyear": "2004",
+      "description": "Conceptualized the logo and framed brand guidelines for walking.in"
+    },
+    {
+      "schoolname": "Tree Institute",
+      "course": "IT Support",
+      "fromyear": "1997",
+      "toyear": "1999",
+      "description": "Conceptualized the logo and framed brand guidelines for tree.in"
+    }
+  ]
+}
